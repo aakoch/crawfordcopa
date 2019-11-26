@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Site News</title>
+    <link rel="STYLESHEET" href="/style.css" type="text/css" />
+	<style type="text/css">
+	body {
+		background-image: url(images/lgrey015.jpg);
+		color: #000000;
+	}
+	P {
+		text-indent:2%;
+		width:95%;
+		margin-left:4%;
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+	:link { color: #0000FF }
+	:visited { color: maroon }
+	:active { color: #FF0000 }
+	div.c7 {font-size:=+1;}
+	span.c6 {color: #ffffff; font-size: 80%}
+	span.c5 {color: maroon}
+	div.c4 {text-align: center}
+	hr.c3 {text-align: center}
+	span.c2 {font-size: 120%}
+	span.c1 {font-size: 144%}
+	</style>
+  </head>
+  <body>
+    <a id="UP" name="UP"></a> 
+    <div class="c4">
+      <h1>Crawford County, Pennsylvania</h1>
+      <br />
+      <span class="c1"><b><i>News</i></b></span><br />
+      <!--a href="#ahnentafels"-->ancestor tables<!--/a-->  &middot;  
+	  <a href="#biography">biography</a>  &middot;  
+	  <a href="#cemetery">cemeteries</a>  &middot;  
+	  <a href="#census">census</a><br />
+      <a href="#court">courthouse</a>  &middot;  
+	  <a href="#history">history</a>  &middot;  
+	  maps  &middot;  
+	  military affairs &middot;  
+	  <a href="#places">places</a><br />
+      <!--a href="#publications"-->published sources<!--/a-->  &middot;
+      <!--a href="#facilities"-->research facilities<!--/a-->  &middot;
+      <a href="#vital">vital records</a> 
+      <hr size="3" width="100%" class="c3" />
+      <span class="c1"><u>In General</u></span>
+    </div>
+    <div class="c7">
+      <p>
+        Please e-mail <a href="<!--#include virtual="/cgi-bin/emailHref.php?email=tom@yoset.org" -->"><span
+        class="c5">Tom Yoset</span></a> if you have comments, requests,
+        specific questions, or suggestions for additions to this site.  Thank
+        you.<br />
+      </p>
+      <br />
+      <a id="biography" name="biography"></a>
+      <div class="c4">
+        <a href="biography.shtml"><span class="c1">Biography</span></a><br />
+        <span class="c6"><i><b>Last revised on 10 April 2000.</b></i></span>
+      </div>
+      <p>
+        An index to biographical sketches appearing in the standard reference
+        works on the county has been completed, and additional works are now
+        being indexed.  The most recent additions are John W. Jordan&#39;s
+        unreliable but nevertheless useful <a
+        href="biography/1915.html">1915</a> compilation of lineages, and a 1903
+        account of the Crawford County bench and bar.  The index contains links
+        to some of the indexed sketches, including all of those from the <a
+        href="biography/1876/people.html">1876</a> atlas.  <a
+        href="contributors.shtml">Kathy Cook</a> is now copying sketches from
+        the 1885 county history; other sketches will be added upon request.
+      </p>
+      <a id="cemetery" name="cemetery"></a>
+      <div class="c4">
+        <a href="cemetery.html"><span class="c1">Cemeteries</span></a><br />
+        <span class="c6"><i><b>Last revised on 1 June 1999.</b></i></span>
+      </div>
+      <p>
+        A rudimentary guide to cemetery locations, indexes, etc., has been
+        started.  Additions and corrections would be welcomed.
+      </p>
+      <br />
+      <a id="census" name="census"></a>
+      <div class="c4">
+        <a href="census.html"><span class="c1">Census</span></a><br />
+        <span class="c6"><b><i>Last revised on 29 April 2001.</i></b></span>
+      </div>
+      <p>
+        The <a href="census/1860US-m.html">1860 U.S. Census mortality
+        schedules</a> have been added, the <a href="census/1850US-m.html">1850
+        U.S. Census mortality schedules</a> have been revised, and a combined
+        <a href="census/mort.html">index</a> prepared.  The index to the <a
+        href="census/1880US-m.html">1880 U.S. Census mortality schedules</a> is
+        being revised.  Posting of the <a href="census/1840US.html">1840 U.S.
+        Census</a>, being copied for this site by <a
+        href="contributors.shtml">Diana L. Watson</a>, has begun with Summerhill
+        Township.
+      </p>
+      <br />
+      <a id="court" name="court"></a>
+      <div class="c4">
+        <a href="court.html"><span class="c1">Courthouse</span></a><br />
+        <span class="c6"><b><i>Last revised on 25 May 1999.</i></b></span>
+      </div>
+      <p>
+        Renamed from &quot;Court Records&quot; and undergoing revision.  The
+        most recent additions are nineteenth century <a
+        href="court/adopt.html">adoptions</a> and <a
+        href="court/unprobated.html">unprobated wills</a>.
+      </p>
+      <br />
+      <a id="history" name="history"></a>
+      <div class="c4">
+        <a href="history.html"><span class="c1">History</span></a><br />
+        <span class="c6"><b><i>Last revised on 24 March 2001.</i></b></span>
+      </div>
+      <p>
+        Alfred Huidekoper&#39;s account of the county published in <a
+        href="history/1850.html">1850</a>, in answer to a questionnaire from
+        the Historical Society of Pennsylvania, has been copied for this site
+        by <a href="contributors.shtml">Robin Brown</a>.*<br />
+        <br />
+        With the addition of chapters covering Sadsbury, South Shenango,
+        Sparta, Spring, Steuben, Summerhill, and Summit Townships, all township
+        and borough sketches published in the <a
+        href="history/1885/townships.html">1885</a> county history are now
+        included at this site.<br />
+        <br />
+        <a href="contributors.shtml">Beverly Hopkins</a> of Erie, PA, has
+        completed copying the township histories found in the <a
+        href="history/1876/townships.html">1876</a> atlas for this site, and
+        has begun to copy those printed in the <a
+        href="history/1874/townships.html">1874</a> gazetteer (Athens is the
+        latest township to be added).*  Every-name indexes to the copied
+        sections of the 1874 gazetteer and the 1876 atlas have also been
+        prepared (and appear nowhere else but at this site).<br />
+        <br />
+        <a href="contributors.shtml">Mary C. Fyda-Mar</a> of California has
+        completed copying the township and borough sketches found in the <a
+        href="history/1879/Part1.html">1879</a>-80 county directory, and an
+        index to those sketches has been added.<br />
+        <br />
+        Guides to <a href="history/townships.html">Historical Township
+        Boundaries</a> and <a href="history/boroughs.html">Historical Borough
+        Boundaries</a> have been posted, showing the formation of these
+        political subdivisions and their boundary changes.<br />
+        <br />
+        Notes on Methodist and Prebyterian Churches have been copied for a
+        section on church history.
+      </p>
+      <br />
+      <a id="places" name="places"></a>
+      <div class="c4">
+        <a href="places.html"><span class="c1">Places</span></a><br />
+        <span class="c6"><b><i>Last revised on 24 February 2000.</i></b></span>
+      </div>
+      <p>
+        This section is being developed as a listing of geographical places,
+        together with links to any pages dealing specifically with each place
+        included.
+      </p>
+      <br />
+      <a id="vital" name="vital"></a>
+      <div class="c4">
+        <a href="vital.html"><span class="c1">Vital Records</span></a><br />
+        <span class="c6"><b><i>Last revised on 6 January 1999.</i></b></span>
+      </div>
+      <p>
+        Additional information on obtaining vital records is being added, and
+        the possibility of including the Meadville death records is being
+        explored.
+      </p>
+      <br />
+      <br />
+       
+      <div class="c4">
+        <a href="#UP"><img alt="top" src="images/up.gif" border="0" /></a>
+		<a href="index.shtml"><img alt="home" src="images/ccg.gif" border="0" /></a>
+      </div>
+    </div>
+  </body>
+</html>
+
