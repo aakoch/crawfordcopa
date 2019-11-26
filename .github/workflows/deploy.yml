@@ -4,11 +4,14 @@ on: [push]
 
 jobs:
   deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@v1.1.0
+        uses: w9jds/firebase-action@master
         with:
-          args: deploy
+          args: deploy --only hosting:prod
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
