@@ -1,0 +1,57 @@
+<!--#set var="title" value="Biography" -->
+<!--#include virtual="header.shtml" -->
+<span style="font-size:.9em;">Index to biographical sketches published in the sources listed in the <a href="biography/key.html">KEY</a>:</span>
+<dt><font size="-1"><i>(those with links have been copied for this site)</font size></i>
+<dt><font size="-5">&nbsp;</font size>
+<align="center"><font size="+1">
+<a href="biography/a.html">A</a>&nbsp;
+<a href="biography/b.html">B</a>&nbsp;
+<a href="biography/c.html">C</a>&nbsp;
+<a href="biography/d.html">D</a>&nbsp;
+<a href="biography/e.html">E</a>&nbsp;
+<a href="biography/f.html">F</a>&nbsp;
+<a href="biography/g.html">G</a>&nbsp;
+<a href="biography/h.html">H</a>&nbsp;
+<a href="biography/i.html">I</a>&nbsp;
+<a href="biography/j.html">J</a>&nbsp;
+<a href="biography/k.html">K</a>&nbsp;
+<a href="biography/l.html">L</a>&nbsp;
+<a href="biography/m.html">M</a>&nbsp;
+<a href="biography/n.html">N</a>&nbsp;
+<a href="biography/o.html">O</a>&nbsp;
+<a href="biography/p.html">P</a>&nbsp;
+<a href="biography/q.html">Q</a>&nbsp;
+<a href="biography/r.html">R</a>&nbsp;
+<a href="biography/s.html">S</a>&nbsp;
+<a href="biography/t.html">T</a>&nbsp;
+<a href="biography/u.html">U</a>&nbsp;
+<a href="biography/v.html">V</a>&nbsp;
+<a href="biography/w.html">W</a>&nbsp;
+<!--a href="biography/x.html"--><u>X</u><!--/a-->&nbsp;
+<a href="biography/y.html">Y</a>&nbsp;
+<a href="biography/z.html">Z</a>
+</font size></div>
+<dt>&nbsp;
+<dt><i>For brief biographical information, see also</i>:
+<ul compact style="list-style-type: none;margin-top:0px;">
+<li>&#8220;<a href="biography/1888/citizens.html" target="_blank">Our Old Citizens</a>,&#148; an 1888 list of some county residents born before 1820
+<li>every-name <a href="history/1850/idx.html" target="_blank">index</a> to Huidekoper&#8217;s &#8220;;Incidents&#148; published in 1850</li>
+<li>every-name <a href="history/idx combined.html" target="_blank">index</a> to portions of the 1869-70 directory of the oil regions</li>
+<li>every-name <a href="history/idx combined.html" target="_blank">index</a> to portions of the 1871 county directory</li>
+<li>every-name <a href="history/1874/idx.html" target="_blank">index</a> to portions of the 1874 county gazetteer [in progress]</li>
+<li>every-name <a href="history/1876/idx.html" target="_blank">index</a> to portions of the 1876 county atlas</li>
+<li>every-name <a href="history/1879/idx.html" target="_blank">index</a> to portions of the 1879-80 county directory</li>
+</ul>
+
+<i>Other sources of biographical information</i>:
+<ul compact style="list-style-type: none;margin-top:0px;">
+<li><a href="topicidx/families.html" target="_blank">FAMILIES</a> subsection of <a href="topical.html" target="_blank">Topical Index</a> to <i>Crawford County Genealogy</i>
+<li>Resident veterans of the <a href="military/1776.html" target="_blank">Revolutionary War</a> and <a href="military/Indian.html" target="_blank">Indian Wars</a>
+<li>Card file to biographies at the library of the Crawford County Historical Society (<i>see</i> <a href="facilities.html">Research Facilities</a>)
+</ul>
+
+
+<div align="center"><a href="index.shtml"><img src="images/ccg.gif" border="0"></a></div>
+<!--#include file="ga.html" -->
+</body>
+</html>

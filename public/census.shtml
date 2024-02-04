@@ -1,0 +1,68 @@
+<!--#set var="title" value="Census" -->
+<!--#include virtual="header.shtml" -->
+<table>
+<tr>
+	<td valign="top"><h3 style="margin-top:0px;">State:</h3></td>
+	<td valign="top">
+		<ul>
+		<li>1800&nbsp; [Fourth Septennial Census]&nbsp; 
+		<span style="font-size:.8em;"><i>Note:</i> Returned as part of Allegheny Co.</span></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="census/1800PA.html">transcribed</a> with <a href="census/censusidx.html">index</a>
+		</ul>
+	</td>
+</tr>
+<tr>
+	<td valign="top"><h3 style="margin-top:0px;">Federal:</h3></td>
+	<td valign="top">
+		<ul>
+			<li>1790 [First Federal Census]&nbsp; (then part of Allegheny Co.)</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="census/1790US.html">transcribed</a> with <a href="census/censusidx.html">index</a>
+			<li>1800 [Second Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="census/1800US.html">transcribed</a> with <a href="census/censusidx.html">index</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: included on <a href="http://archive.org/stream/populationsc18000038unit#page/n3/mode/2up" target="_blank">microcopy M32, roll 38</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;also indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site</li>
+			<li>1810 [Third Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="census/1810US.html">transcribed</a> with <a href="census/censusidx.html">index</a> 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: included on <a href="http://archive.org/stream/populationschedu0047unix#page/n153/mode/1up" target="_blank">microcopy 252, roll 47</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;also indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site</li>
+			<li>1820 [Fourth Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="census/1820US.html">transcribed</a> with <a href="census/censusidx.html">index</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: included on <a href="http://archive.org/stream/populationsc18200101unit#page/n56/mode/1up" target="_blank">microcopy 33, roll 101</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;also indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site</li>
+			<li>1830 [Fifth Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexed at <a href="http://www.cvahs.org/1830/index.html" target="_blank">Conneaut Valley Area Historical Society</a> site
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;also indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: included (first) on <a href="http://archive.org/stream/populationsc18300153unit#page/n1/mode/1up" target="_blank">film 19, roll 153</a></li>
+			<li>1840 [Sixth Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Summerhill Township <i>only</i><a href="census/1840US.html"> transcribed</a> with <a href="census/censusidx.html">index</a> 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: <a href="http://archive.org/stream/populationsc18400452unit#page/n2/mode/1up" target="_blank">microcopy 704, roll 452</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Census of <a href="census/1840pensioner.html">Pensioners</a> with <a href="census/censusidx.html">index</a> </li>
+			<li>1850 [Seventh Census]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexed at <a href="https://www.familysearch.org/" target="_blank" target="_blank">FamilySearch</a> site
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images, <a href="http://archive.org/stream/populationschedu0770unix#page/n2/mode/1up target="_blank"">microcopy 432, roll 770</a> <a href="#asterisk" name="RET"><b>*</b></a> and <a href="http://archive.org/stream/populationschedu0771unix#page/n2/mode/1up" target="_blank">roll 771</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mortality Schedules <a href="census/1850US-m.html">transcribed</a> with <a href="census/mortidx.html">Index</a></li>
+			<li>1860 [Eighth Census]</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mortality Schedules <a href="census/1860US-m.html">transcribed</a> with <a href="census/mortidx.html">Index</a>
+			<li>1870 [Ninth Census]</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexed at <a href="https://www.familysearch.org/" target="_blank">FamilySearch</a> site
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online census images: <a href="http://archive.org/stream/populationschedu1330unit#page/n1/mode/1up" target="_blank">microcopy 593, roll 1330</a> and <a href="http://archive.org/stream/populationschedu1331unit#page/n1/mode/1up">roll 1331</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mortality Schedules <a href="census/1870US-m.html">transcribed</a> with <a href="census/mortidx.html">Index</a> &nbsp;<i>in progress November 2012</i>
+			<li>1880 [Tenth Census]</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mortality Schedules <a href="census/1880US-m.html">transcribed</a> with <a href="census/mortidx.html">Index</a></li>
+			<li>1890 [Eleventh Census]&nbsp; <i>apparently destroyed except for</i></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Census of Veterans</li> 
+		</ul>
+	</td>
+</tr>
+</table>
+<i>See also</i> <a href="military/militia.html">Meadville Militia 1793-1795</a>;
+<a href="military/1835.html">1835 Census of Pensioners</a>
+<br>
+<br><a name="asterisk" href="#RET"><b>*</b></a>&nbsp;&nbsp;Covers Spring Twp., Beaver Twp., Cussewago Twp., Hayfield Twp., Summerhill Twp., Conneautville, Conneaut Twp., Meadville, Mead Twp., Vernon Twp., Pine Twp., and Summit Twp.
+
+<center><a href="#UP"><img src="images/up.gif" alt="Top" border="0"></a> &nbsp; <a href="index.shtml"><img src="images/ccg.gif" alt="Home" border="0"></a></center>
+<!--#include file="ga.html" -->
+</div>
+</body>
+</html>
