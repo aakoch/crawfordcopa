@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --no-optimize --no-scope-hoist --log-level verbose src/index.html"
+    "build": "parcel watch --log-level verbose src/index.html"
   },
   "author": "",
   "license": "ISC",
