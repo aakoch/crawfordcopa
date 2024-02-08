@@ -1,0 +1,1273 @@
+LinkChecker 10.4.0
+Copyright (C) 2000-2016 Bastian Kleineidam, 2010-2023 LinkChecker Authors
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it under
+certain conditions. Look at the file `COPYING' within this distribution.
+Read the documentation at https://linkchecker.github.io/linkchecker/
+Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
+
+Start checking at 2024-02-07 22:42:32-005
+
+URL        `mailto:');\ndefine('__EMAIL1B',      ''
+Name       `');\ndefine('__EMAIL1C',      ''
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/vindictivematte.html, line 76, col 27
+Real URL   mailto:%27);define(%27__EMAIL1B%27,%20%20%20%20%20%20%27
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Result     Error: Missing `@' in mail address `''.
+
+URL        `,..../images/up.gif'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/indextemplate.html, line 85, col 23
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/,..../images/up.gif
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/,..../images/up.gif'>
+
+URL        `contents/21a.html'
+Name       `Volume 21, Number 1 (Feb. 1998)'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/contents.html, line 4, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/contents/21a.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/contents/21a.html'>
+
+URL        `research/cemetery.html'
+Name       `CEMETERIES'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 15, col 9
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/research/cemetery.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/research/cemetery.html'>
+
+URL        `sources.html'
+Name       `published sources'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 19, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/sources.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/sources.html'>
+
+URL        `research/history/CCohistory.html'
+Name       `History'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 20, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/research/history/CCohistory.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/research/history/CCohistory.html'>
+
+URL        `research/vital.html'
+Name       `Vital records'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 26, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/research/vital.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/research/vital.html'>
+
+URL        `ccg.gif'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 59, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ccg.gif
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ccg.gif'>
+
+URL        `research/photos.shtml'
+Name       `photocopy requests'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research.html, line 49, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/research/photos.shtml
+Check time 0.006 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/research/photos.shtml'>
+
+URL        `ahnentafels/explanation.html'
+Name       `Explanation'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 12, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/explanation.html
+Check time 0.001 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/explanation.html'>
+
+URL        `ahnentafels/tablesindex.html'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 13, col 34
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/tablesindex.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/tablesindex.html'>
+
+URL        `ahnentafels/A01.html'
+Name       `1'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 16, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A01.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A01.html'>
+
+URL        `ahnentafels/A03.html'
+Name       `3'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 17, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A03.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A03.html'>
+
+URL        `ahnentafels/A05.html'
+Name       `5'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 19, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A05.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A05.html'>
+
+URL        `ahnentafels/A08.html'
+Name       `8'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 20, col 49
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A08.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A08.html'>
+
+URL        `ahnentafels/A10.html'
+Name       `10'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 21, col 49
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A10.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A10.html'>
+
+URL        `ahnentafels/A12.html'
+Name       `12'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 22, col 50
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A12.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A12.html'>
+
+URL        `ahnentafels/A13.html'
+Name       `13'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 23, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A13.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A13.html'>
+
+URL        `ahnentafels/A14.html'
+Name       `14'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 23, col 45
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A14.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A14.html'>
+
+URL        `ahnentafels/A15.html'
+Name       `15'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 24, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A15.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A15.html'>
+
+URL        `ahnentafels/A19.html'
+Name       `19'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/tables.html, line 27, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/ahnentafels/A19.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/ahnentafels/A19.html'>
+
+URL        `<!--#include virtual='
+Name       `Tom Yoset'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/news.html, line 42, col 81
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/%3C!--
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/<!--'>
+
+URL        `twp/Allegheny.html'
+Name       `Allegheny'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 24, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Allegheny.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Allegheny.html'>
+
+URL        `twp/Athens.html'
+Name       `Athens'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 25, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Athens.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Athens.html'>
+
+URL        `twp/Beaver.html'
+Name       `Beaver'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 26, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Beaver.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Beaver.html'>
+
+URL        `twp/Bloomfield.html'
+Name       `Bloomfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 27, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Bloomfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Bloomfield.html'>
+
+URL        `twp/Cambridge.html'
+Name       `Cambridge'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 28, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Cambridge.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Cambridge.html'>
+
+URL        `twp/Cherrytree.html'
+Name       `Cherrytree'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 29, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Cherrytree.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Cherrytree.html'>
+
+URL        `twp/Conneaut.html'
+Name       `Conneaut'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 30, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Conneaut.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Conneaut.html'>
+
+URL        `twp/Cussewago.html'
+Name       `Cussewago'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 31, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Cussewago.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Cussewago.html'>
+
+URL        `twp/EBranch.html'
+Name       `East Branch'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 32, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/EBranch.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/EBranch.html'>
+
+URL        `twp/EFairfield.html'
+Name       `East Fairfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 33, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/EFairfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/EFairfield.html'>
+
+URL        `twp/EFallowfield.html'
+Name       `East Fallowfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 34, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/EFallowfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/EFallowfield.html'>
+
+URL        `twp/EMead.html'
+Name       `East Mead'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 35, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/EMead.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/EMead.html'>
+
+URL        `twp/Fairfield.html'
+Name       `Fairfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 36, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Fairfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Fairfield.html'>
+
+URL        `twp/Fallowfield.html'
+Name       `Fallowfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 37, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Fallowfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Fallowfield.html'>
+
+URL        `twp/Greenwood.html'
+Name       `Greenwood'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 38, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Greenwood.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Greenwood.html'>
+
+URL        `twp/Harmansburg.html'
+Name       `Harmansburg'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 39, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Harmansburg.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Harmansburg.html'>
+
+URL        `twp/Hayfield.html'
+Name       `Hayfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 40, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Hayfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Hayfield.html'>
+
+URL        `twp/Irwin.html'
+Name       `Irwin'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 41, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Irwin.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Irwin.html'>
+
+URL        `twp/Mead.html'
+Name       `Mead'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 42, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Mead.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Mead.html'>
+
+URL        `twp/Monroe.html'
+Name       `Monroe'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 43, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Monroe.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Monroe.html'>
+
+URL        `twp/Neshannock.html'
+Name       `Neshannock'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 44, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Neshannock.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Neshannock.html'>
+
+URL        `twp/NMead.html'
+Name       `North Mead'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 45, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/NMead.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/NMead.html'>
+
+URL        `twp/NShenango.html'
+Name       `North Shenango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 46, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/NShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/NShenango.html'>
+
+URL        `twp/OilCreek.html'
+Name       `Oil Creek'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 47, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/OilCreek.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/OilCreek.html'>
+
+URL        `twp/PennLine.html'
+Name       `Penn Line'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 48, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/PennLine.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/PennLine.html'>
+
+URL        `twp/Pine.html'
+Name       `Pine'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 49, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Pine.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Pine.html'>
+
+URL        `twp/Pitt.html'
+Name       `Pitt'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 50, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Pitt.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Pitt.html'>
+
+URL        `twp/Plum.html'
+Name       `Plum'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 51, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Plum.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Plum.html'>
+
+URL        `twp/Randolph.html'
+Name       `Randolph'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 52, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Randolph.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Randolph.html'>
+
+URL        `twp/Richmond.html'
+Name       `Richmond'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 53, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Richmond.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Richmond.html'>
+
+URL        `twp/Rockdale.html'
+Name       `Rockdale'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 54, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Rockdale.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Rockdale.html'>
+
+URL        `twp/Rome.html'
+Name       `Rome'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 55, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Rome.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Rome.html'>
+
+URL        `twp/Royalton.html'
+Name       `Royalton'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 56, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Royalton.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Royalton.html'>
+
+URL        `twp/Sadsbury.html'
+Name       `Sadsbury'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 57, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Sadsbury.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Sadsbury.html'>
+
+URL        `twp/Salem.html'
+Name       `Salem'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 58, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Salem.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Salem.html'>
+
+URL        `twp/SandyCreek.html'
+Name       `Sandy Creek'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 59, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/SandyCreek.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/SandyCreek.html'>
+
+URL        `twp/SandyLake.html'
+Name       `Sandy Lake'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 60, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/SandyLake.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/SandyLake.html'>
+
+URL        `twp/Shenango.html'
+Name       `Shenango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 61, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Shenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Shenango.html'>
+
+URL        `twp/Snowhill.html'
+Name       `Snowhill'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 62, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Snowhill.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Snowhill.html'>
+
+URL        `twp/SShenango.html'
+Name       `South Shenango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 63, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/SShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/SShenango.html'>
+
+URL        `twp/Sparta.html'
+Name       `Sparta'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 64, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Sparta.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Sparta.html'>
+
+URL        `twp/Spring.html'
+Name       `Spring'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 65, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Spring.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Spring.html'>
+
+URL        `twp/Steuben.html'
+Name       `Steuben'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 66, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Steuben.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Steuben.html'>
+
+URL        `twp/SugarCreek.html'
+Name       `Sugar Creek'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 67, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/SugarCreek.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/SugarCreek.html'>
+
+URL        `twp/Summerhill.html'
+Name       `Summerhill'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 68, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Summerhill.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Summerhill.html'>
+
+URL        `twp/Summit.html'
+Name       `Summit'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 69, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Summit.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Summit.html'>
+
+URL        `twp/Troy.html'
+Name       `Troy'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 70, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Troy.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Troy.html'>
+
+URL        `twp/Union.html'
+Name       `Union'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 71, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Union.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Union.html'>
+
+URL        `twp/Venango.html'
+Name       `Venango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 72, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Venango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Venango.html'>
+
+URL        `twp/Vernon.html'
+Name       `Vernon'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 73, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Vernon.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Vernon.html'>
+
+URL        `twp/Washington.html'
+Name       `Washington'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 74, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Washington.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Washington.html'>
+
+URL        `twp/Wayne.html'
+Name       `Wayne'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 75, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Wayne.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Wayne.html'>
+
+URL        `twp/WFairfield.html'
+Name       `West Fairfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 76, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/WFairfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/WFairfield.html'>
+
+URL        `twp/WFallowfield.html'
+Name       `West Fallowfield'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 77, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/WFallowfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/WFallowfield.html'>
+
+URL        `twp/WMead.html'
+Name       `West Mead'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 78, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/WMead.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/WMead.html'>
+
+URL        `twp/WSalem.html'
+Name       `West Salem'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 79, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/WSalem.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/WSalem.html'>
+
+URL        `twp/WShenango.html'
+Name       `West Shenango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 80, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/WShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/WShenango.html'>
+
+URL        `twp/Woodcock.html'
+Name       `Woodcock'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 81, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Woodcock.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Woodcock.html'>
+
+URL        `twp/Harmonsburg.html'
+Name       `Harmonsburg'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 115, col 9
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp/Harmonsburg.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp/Harmonsburg.html'>
+
+URL        `twp./SShenango.html'
+Name       `South Shenango'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/townships.html, line 129, col 9
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/twp./SShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/twp./SShenango.html'>
+
+URL        `<'
+Name       `">Tom Yoset'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/research/photos.html, line 29, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/research/%3C
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/research/<'>
+
+URL        `subscribe.html'
+Name       `SUBSCRIBE'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/ccg.html, line 9, col 47
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/subscribe.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/subscribe.html'>
+
+URL        `society.html'
+Name       `Crawford County Genealogical Society'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/ccg.html, line 11, col 26
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/society.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/society.html'>
+
+URL        `contents/nameidx.html'
+Name       `index'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/ccg.html, line 21, col 75
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/contents/nameidx.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/contents/nameidx.html'>
+
+URL        `deposit.html'
+Name       `libraries'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/ccg.html, line 24, col 51
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/deposit.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/deposit.html'>
+
+URL        `backccg.html'
+Name       `back issues'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/ccg.html, line 23, col 83
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/backccg.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/backccg.html'>
+
+URL        `adopt/1856-85#78:89'
+Name       `Ethel Ellis'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/adoptold.html, line 300, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/adopt/1856-85
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/adopt/1856-85'>
+
+URL        `biogs.html'
+Name       `Part V:  Biographical Sketches'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/biography/Rome.html, line 13, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/biography/biogs.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/biography/biogs.html'>
+
+URL        `../census/census.html'
+Name       `Census'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/indices/c.html, line 11, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/census.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/census.html'>
+
+URL        `../census/1800PA/64.html#57'
+Name       `1800 PA Census:89'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/indices/c.html, line 73, col 207
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1800PA/64.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1800PA/64.html'>
+
+URL        `../census/1800PA/71.html#47'
+Name       `1800 PA Census:97'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/indices/g.html, line 83, col 10
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1800PA/71.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1800PA/71.html'>
+
+URL        `SPB60'
+Name       `From Genealogy of the Fairbanks Family, at genealogylibrary.com\npages 60-61'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/biography/misc.html, line 15, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/biography/SPB60
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/biography/SPB60'>
+
+URL        `1798_files/filelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798.htm, line 12, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798_files/filelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798_files/filelist.xml'>
+
+URL        `1798_files/themedata.thmx'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798.htm, line 34, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798_files/themedata.thmx
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798_files/themedata.thmx'>
+
+URL        `../1870US-m.html'
+Name       `1870 U.S. CENSUS - Mortality Schedules'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m.sh11.html, line 11, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/1870US-m.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/1870US-m.html'>
+
+URL        `1798_files/colorschememapping.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798.htm, line 35, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798_files/colorschememapping.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798_files/colorschememapping.xml'>
+
+URL        `../mortidx.html'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m.sh11.html, line 12, col 27
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/mortidx.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/mortidx.html'>
+
+URL        `sh$.html'
+Name       `prior page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m.sh11.html, line 13, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/sh%24.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/sh$.html'>
+
+URL        `1798%20table_files/filelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table.htm, line 25, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table_files/filelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798 table_files/filelist.xml'>
+
+URL        `sh#.html'
+Name       `next page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m.sh1.html, line 80, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/sh
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/sh'>
+
+URL        `1798%20table_files/themedata.thmx'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table.htm, line 47, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table_files/themedata.thmx
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798 table_files/themedata.thmx'>
+
+URL        `1798%20table_files/colorschememapping.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table.htm, line 48, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1798%20table_files/colorschememapping.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1798 table_files/colorschememapping.xml'>
+
+URL        `EF="1860m/8.html#163"'
+Name       `1860:8'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/mort.html, line 216, col 64
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/EF=%221860m/8.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/EF="1860m/8.html'>
+
+URL        `../history/twp/*.html'
+Name       `Formation and boundary changes'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 15, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/twp/*.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/twp/*.html'>
+
+URL        `../census/1810/.html'
+Name       `1810'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 16, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1810/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1810/.html'>
+
+URL        `../census/1820/.html'
+Name       `1820'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 17, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1820/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1820/.html'>
+
+URL        `../history/boro/.html'
+Name       `Formation and boundary changes'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/tempboro.html, line 15, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/.html'>
+
+URL        `../history/1876/*.html'
+Name       `1876'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 21, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/*.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/*.html'>
+
+URL        `../history/1876/.html'
+Name       `1876'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/tempboro.html, line 20, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/.html'>
+
+URL        `../census/1880m/ED.html'
+Name       `1880'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 23, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1880m/ED.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1880m/ED.html'>
+
+URL        `../biography/1885/*.html'
+Name       `1885'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/temp.html, line 24, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/biography/1885/*.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/biography/1885/*.html'>
+
+URL        `../biography/1885/.html'
+Name       `1885'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/places/tempboro.html, line 24, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/biography/1885/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/biography/1885/.html'>
+
+URL        `idx.html'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/bb/bb.html, line 13, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/bb/idx.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/bb/idx.html'>
+
+URL        `../bb.html'
+Name       `INTRODUCTION'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/bb/bb.html, line 14, col 113
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/bb.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/bb.html'>
+
+URL        `fst.html#96'
+Name       `1900FST'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/mw/idxtemp.html, line 22, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/mw/fst.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/mw/fst.html'>
+
+URL        `Rockdale_files/filelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/biography/1899/Rockdale%20temp.html, line 11, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/biography/1899/Rockdale_files/filelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/biography/1899/Rockdale_files/filelist.xml'>
+
+URL        `../taxes.html'
+Name       `TAX DUPLICATES'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/tax/template.html, line 11, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/taxes.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/taxes.html'>
+
+URL        `1801Erie_files/filelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/tax/Erie1801.html, line 12, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/filelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/filelist.xml'>
+
+URL        `1801Erie_files/preview.wmf'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/tax/Erie1801.html, line 13, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/preview.wmf
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/preview.wmf'>
+
+URL        `1801Erie_files/themedata.thmx'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/tax/Erie1801.html, line 35, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/themedata.thmx
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/themedata.thmx'>
+
+URL        `1801Erie_files/colorschememapping.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/tax/Erie1801.html, line 36, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/colorschememapping.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/tax/1801Erie_files/colorschememapping.xml'>
+
+URL        `Union%20Cemetery,%20Harmonsburg_files/filelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg.htm, line 11, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg_files/filelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union Cemetery, Harmonsburg_files/filelist.xml'>
+
+URL        `mw.html184'
+Name       `1890MW'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/court/mw/idx.html, line 166, col 19
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/court/mw/mw.html184
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/court/mw/mw.html184'>
+
+URL        `Union%20Cemetery,%20Harmonsburg_files/sheet001.htm'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg.htm, line 13, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg_files/sheet001.htm
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union Cemetery, Harmonsburg_files/sheet001.htm'>
+
+URL        `../images/lgrey015.jpg'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 6, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/images/lgrey015.jpg
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/images/lgrey015.jpg'>
+
+URL        `Union%20Cemetery,%20Harmonsburg_files/tabstrip.htm'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg.htm, line 317, col 2
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20Cemetery,%20Harmonsburg_files/tabstrip.htm
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union Cemetery, Harmonsburg_files/tabstrip.htm'>
+
+URL        `3D"UnionCemetery,HarmonsburgSFWP_files/filelist.='
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 24, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22UnionCemetery,HarmonsburgSFWP_files/filelist.=
+Check time 0.001 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"UnionCemetery,HarmonsburgSFWP_files/filelist.='>
+
+URL        `3D"UnionCemetery,HarmonsburgSFWP_files/sheet001.ht='
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 27, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22UnionCemetery,HarmonsburgSFWP_files/sheet001.ht=
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"UnionCemetery,HarmonsburgSFWP_files/sheet001.ht='>
+
+URL        `3D"UnionCemetery,HarmonsburgSFWP_files/sheet001.htm"'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 365, col 2
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22UnionCemetery,HarmonsburgSFWP_files/sheet001.htm%22
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"UnionCemetery,HarmonsburgSFWP_files/sheet001.htm"'>
+
+URL        `3D"UnionCemetery,HarmonsburgSFWP_files/tabstrip.htm"'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 367, col 2
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22UnionCemetery,HarmonsburgSFWP_files/tabstrip.htm%22
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"UnionCemetery,HarmonsburgSFWP_files/tabstrip.htm"'>
+
+URL        `3D"../UnionCemetery,HarmonsburgSF='
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 628, col 1
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22../UnionCemetery,HarmonsburgSF=
+Check time 0.002 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"../UnionCemetery,HarmonsburgSF='>
+
+URL        `89.html'
+Name       `next page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1800tax/test.html, line 16, col 4
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1800tax/89.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1800tax/89.html'>
+
+URL        `3D"sheet001.='
+Name       `Sheet1'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 655, col 56
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/3D%22sheet001.=
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/507AA330/UnionCemetery,HarmonsburgSFWP_files/3D"sheet001.='>
+
+URL        `3D"../UnionCemetery,HarmonsburgSF='
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 679, col 1
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/3D%22../UnionCemetery,HarmonsburgSF=
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/507AA330/UnionCemetery,HarmonsburgSFWP_files/3D"../UnionCemetery,HarmonsburgSF='>
+
+URL        `3Dfilelist.xml'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 681, col 1
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/3Dfilelist.xml
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/507AA330/UnionCemetery,HarmonsburgSFWP_files/3Dfilelist.xml'>
+
+URL        `3Dstylesheet.css'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 688, col 1
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/3Dstylesheet.css
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/507AA330/UnionCemetery,HarmonsburgSFWP_files/3Dstylesheet.css'>
+
+URL        `../1899.html'
+Name       `1899 HISTORY'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1899/religion.html, line 11, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1899.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1899.html'>
+
+URL        `sh$.html'
+Name       `prior page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m/sh0.html, line 14, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1870m/sh%24.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1870m/sh$.html'>
+
+URL        `#UP'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 3656, col 1
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht='>
+
+URL        `../../images/up.gif'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 3656, col 15
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/images/up.gif
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/images/up.gif'>
+
+URL        `../../index.html'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 3657, col 8
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/index.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/index.html'>
+
+URL        `../../places/$.html'
+Name       `$ TOWNSHIP'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1870m/sh0.html, line 39, col 53
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/places/%24.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/places/$.html'>
+
+URL        `../../images/ccg.gif'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/Union%20new.html, line 3657, col 35
+Base       file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/507AA330/UnionCemetery,HarmonsburgSFWP_files/tabstrip.ht=
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D%22file%3A/C%3A/images/ccg.gif
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/cemeteries/Summit/3D"file:/C:/images/ccg.gif'>
+
+URL        `boroughs.html'
+Name       `HISTORICAL BOROUGH BOUNDARIES'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1876/Tryonville.html, line 11, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/boroughs.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/boroughs.html'>
+
+URL        `idx.html'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1871/template.html, line 14, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1871/idx.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1871/idx.html'>
+
+URL        `twp/Steuben.html'
+Name       `Steuben Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1876/Tryonville.html, line 19, col 35
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/twp/Steuben.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/twp/Steuben.html'>
+
+URL        `*.html'
+Name       `prior page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1871/template.html, line 16, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1871/*.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1871/*.html'>
+
+URL        `twp/SShenango.html'
+Name       `South Shenango Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1876/Turnersville.html, line 19, col 38
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/twp/SShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/twp/SShenango.html'>
+
+URL        `twp/WShenango.html'
+Name       `West Shenango Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1876/Turnersville.html, line 22, col 40
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1876/twp/WShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1876/twp/WShenango.html'>
+
+URL        `6.html'
+Name       `prior page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1850m/temp.html, line 13, col 21
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/census/1850m/6.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/census/1850m/6.html'>
+
+URL        `.html#510'
+Name       `&nbsp510'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1885/guide.html, line 46, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1885/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1885/.html'>
+
+URL        `townships.html'
+Name       `HISTORICAL TOWNSHIP BOUNDARIES'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Salem.html, line 11, col 17
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/townships.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/townships.html'>
+
+URL        `../../places/.html'
+Name       `TOWNSHIP'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/census/1850m/temp.html, line 33, col 53
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/places/.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/places/.html'>
+
+URL        `Neshannock.html'
+Name       `Neshannock Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Salem.html, line 17, col 26
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Neshannock.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Neshannock.html'>
+
+URL        `Mead.html'
+Name       `Mead Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Randolph.html, line 17, col 38
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Mead.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Mead.html'>
+
+URL        `WSalem.html#B1'
+Name       `West Salem Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Salem.html, line 24, col 38
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/WSalem.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/WSalem.html'>
+
+URL        `Fallowfield.html#B2'
+Name       `Fallowfield Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Salem.html, line 26, col 28
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Fallowfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Fallowfield.html'>
+
+URL        `Athens.html'
+Name       `Athens Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Randolph.html, line 20, col 74
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Athens.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Athens.html'>
+
+URL        `Irwin.html'
+Name       `Irwin Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Pitt.html, line 20, col 77
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Irwin.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Irwin.html'>
+
+URL        `boro/Turnersville.html'
+Name       `Turnersville.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/WShenango.html, line 19, col 111
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Turnersville.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Turnersville.html'>
+
+URL        `*.html'
+Name       `prior page'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1869/template.html, line 16, col 5
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1869/*.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1869/*.html'>
+
+URL        `SugarCreek.html'
+Name       `Sugar Creek Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Wayne.html, line 20, col 64
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/SugarCreek.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/SugarCreek.html'>
+
+URL        `Fairfield.html'
+Name       `Fairfield Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Wayne.html, line 23, col 48
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Fairfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Fairfield.html'>
+
+URL        `Monroe.html#B1'
+Name       `Monroe Township'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Wayne.html, line 31, col 246
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Monroe.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Monroe.html'>
+
+URL        `Steuben.html'
+Name       `Steuben Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Troy.html, line 20, col 39
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Steuben.html
+Check time 0.001 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Steuben.html'>
+
+URL        `Shenango.html'
+Name       `Shenango Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/SShenango.html, line 17, col 43
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Shenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Shenango.html'>
+
+URL        `Cherrytree.html'
+Name       `Cherrytree Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Plum.html, line 17, col 95
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Cherrytree.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Cherrytree.html'>
+
+URL        `boro/Jamestown.html#B2'
+Name       `Jamestown'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/SShenango.html, line 22, col 39
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Jamestown.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Jamestown.html'>
+
+URL        `WFallowfield.html#B2'
+Name       `West Fallowfield Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/SShenango.html, line 24, col 31
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/WFallowfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/WFallowfield.html'>
+
+URL        `Bloomfield.html'
+Name       `Bloomfield Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Rome.html, line 17, col 27
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Bloomfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Bloomfield.html'>
+
+URL        `OilCreek.html'
+Name       `Oil Creek Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Rome.html, line 17, col 77
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/OilCreek.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/OilCreek.html'>
+
+URL        `boro/Centerville.html#B2'
+Name       `Centerville'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Rome.html, line 23, col 44
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Centerville.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Centerville.html'>
+
+URL        `Hayfield.html'
+Name       `Hayfield Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Sadsbury.html, line 23, col 80
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Hayfield.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Hayfield.html'>
+
+URL        `Summerhill.html'
+Name       `Summerhill Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Sadsbury.html, line 23, col 123
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Summerhill.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Summerhill.html'>
+
+URL        `Vernon.html'
+Name       `Vernon Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Sadsbury.html, line 23, col 173
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Vernon.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Vernon.html'>
+
+URL        `Summit.html#B1'
+Name       `Summit Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Sadsbury.html, line 28, col 39
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Summit.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/Summit.html'>
+
+URL        `boro/Conneaut.html#B2'
+Name       `Evansburg'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Sadsbury.html, line 30, col 44
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Conneaut.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Conneaut.html'>
+
+URL        `NShenango.html'
+Name       `North Shenango Twp.'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Pine.html, line 17, col 26
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/NShenango.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/NShenango.html'>
+
+URL        `boro/Linesville.html#B2'
+Name       `Linesville'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/boro/Pine.html, line 22, col 44
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Linesville.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/boro/boro/Linesville.html'>
+
+URL        `9.html#1'
+Name       `1869-70:9'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1869/idx.html, line 110, col 16
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1869/9.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1869/9.html'>
+
+URL        `chronology.html#UP'
+Parent URL file:///Users/aakoch/projects/crawfordcopa/src/history/1869/idx.html, line 156, col 9
+Real URL   file:///Users/aakoch/projects/crawfordcopa/src/history/1869/chronology.html
+Check time 0.000 seconds
+Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/Users/aakoch/projects/crawfordcopa/src/history/1869/chronology.html'>
+
+Statistics:
+Downloaded: 21.8MB.
+Content types: 5 image, 1196 text, 0 video, 0 audio, 123 application, 5 mail and 847 other.
+URL lengths: min=15, max=237, avg=64.
+
+That's it. 2176 links in 2176 URLs checked. 0 warnings found. 183 errors found.
+Stopped checking at 2024-02-07 22:43:06-005 (33 seconds)
