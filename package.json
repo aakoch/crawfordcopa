@@ -8,11 +8,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel watch --log-level verbose src/index.html"
+    "build": "parcel build --no-source-maps --log-level verbose src/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.11.0"
+    "@parcel/transformer-pug": "^2.11.0",
+    "parcel-resolver-ignore": "^2.2.0"
   }
 }

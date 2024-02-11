@@ -68,3 +68,4 @@ node_modules/
 .idea/
 crawfordcopa.iml
 .DS_Store
+dist/
