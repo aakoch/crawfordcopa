@@ -6,12 +6,12 @@ certain conditions. Look at the file `COPYING' within this distribution.
 Read the documentation at https://linkchecker.github.io/linkchecker/
 Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
 
-Start checking at 2024-02-16 01:50:27-005
+Start checking at 2024-02-16 02:17:08-005
 
 Statistics:
-Downloaded: 663.72KB.
-Content types: 0 image, 78 text, 0 video, 0 audio, 0 application, 2 mail and 72 other.
-URL lengths: min=21, max=79, avg=67.
+Downloaded: 17.6MB.
+Content types: 5 image, 1025 text, 0 video, 0 audio, 3 application, 4 mail and 136 other.
+URL lengths: min=15, max=237, avg=68.
 
-That's it. 152 links in 152 URLs checked. 0 warnings found. 0 errors found.
-Stopped checking at 2024-02-16 01:50:28-005 (1 seconds)
+That's it. 1173 links in 1173 URLs checked. 0 warnings found. 0 errors found.
+Stopped checking at 2024-02-16 02:17:39-005 (30 seconds)
