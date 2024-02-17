@@ -6,12 +6,30 @@ certain conditions. Look at the file `COPYING' within this distribution.
 Read the documentation at https://linkchecker.github.io/linkchecker/
 Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
 
-Start checking at 2024-02-16 02:17:08-005
+Start checking at 2024-02-17 13:08:54-005
+
+URL        `style.css'
+Parent URL http://localhost:59919/places, line 1, col 50
+Real URL   http://localhost:59919/style.css
+Check time 3.570 seconds
+Result     Error: 404 Not Found
+
+URL        `images/lgrey015.jpg'
+Parent URL http://localhost:59919/places, line 1, col 113
+Real URL   http://localhost:59919/images/lgrey015.jpg
+Check time 3.428 seconds
+Result     Error: 404 Not Found
+
+URL        `/src/style.css'
+Parent URL http://localhost:59919/census/1880m/ED96, line 1, col 74
+Real URL   http://localhost:59919/src/style.css
+Check time 3.675 seconds
+Result     Error: 404 Not Found
 
 Statistics:
-Downloaded: 17.6MB.
-Content types: 5 image, 1025 text, 0 video, 0 audio, 3 application, 4 mail and 136 other.
-URL lengths: min=15, max=237, avg=68.
+Downloaded: 25.3MB.
+Content types: 5 image, 1189 text, 0 video, 0 audio, 2 application, 4 mail and 135 other.
+URL lengths: min=15, max=237, avg=44.
 
-That's it. 1173 links in 1173 URLs checked. 0 warnings found. 0 errors found.
-Stopped checking at 2024-02-16 02:17:39-005 (30 seconds)
+That's it. 1335 links in 2364 URLs checked. 0 warnings found (1029 ignored or duplicates not printed). 3 errors found.
+Stopped checking at 2024-02-17 13:16:00-005 (7 minutes, 5 seconds)
