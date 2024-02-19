@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build './src/**/*.html' --trace --no-scope-hoist --no-optimize --no-content-hash --no-source-maps --public-url ./",
-    "watch": "parcel watch './src/**/*.html' --trace --no-scope-hoist --no-optimize --no-content-hash --no-source-maps --public-url ./",
+    "watch": "parcel watch -p 12345 './src/**/*.html' --trace --no-content-hash --no-source-maps --public-url ./",
     "start": "parcel serve -p 12345 './src/**/*.html' --trace --no-source-maps --public-url ./"
   },
   "author": "Adam Koch (aakoch)",
