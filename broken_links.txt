@@ -20,9 +20,9 @@ Real URL   http://localhost:59919/images/lgrey015.jpg
 Check time 3.428 seconds
 Result     Error: 404 Not Found
 
-URL        `/src/style.css'
+URL        `/style.css'
 Parent URL http://localhost:59919/census/1880m/ED96, line 1, col 74
-Real URL   http://localhost:59919/src/style.css
+Real URL   http://localhost:59919/style.css
 Check time 3.675 seconds
 Result     Error: 404 Not Found
 

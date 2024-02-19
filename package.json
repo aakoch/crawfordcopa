@@ -2,26 +2,20 @@
   "name": "crawfordcopa",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {
-    "parcel": "^2.11.0",
-    "pug": "^3.0.2"
-  },
   "source": "src/index.html",
   "targets": [
     {
-      "distDir": "dist"
+      "distDir": "src"
     }
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build './src/**/*.html' --no-scope-hoist --no-source-maps --public-url ./",
-    "watch": "parcel watch -p 12345 './src/**/*.html' --no-source-maps --public-url ./",
-    "start": "parcel serve -p 12345 './src/**/*.html' --no-source-maps --public-url ./"
+    "build": "echo \"Presto!\"",
+    "start": "serve src/"
   },
   "author": "Adam Koch (aakoch)",
   "license": "CC BY-NC 4.0 and GPL v3",
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.11.0",
-    "parcel-resolver-ignore": "^2.2.0"
+    "serve": "^14.2.1"
   }
 }
