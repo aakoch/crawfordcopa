@@ -1,11 +1,16 @@
+:root {
+
+	--bs-body-font-family: "Times New Roman", Times, serif;
+	--bs-primary-rgb: #ff00ff;
+}
 body {
 	background-image: url(images/lgrey015.jpg);
 	color: #000;
-	font-family: "Times New Roman", Times, serif;
+	--bs-body-font-family: "Times New Roman", Times, serif;
 }
 
 a {
-	color: #00f
+	color: #ffa100;
 }
 
 a:visited {
