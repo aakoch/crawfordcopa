@@ -1,0 +1,953 @@
+This is a list of files that I originally changed "href" to "title" to get the build tool to run. Since I'm currently
+not using any build tool, I'll be reverting the changes using `sed`:
+
+find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
+
+
+./dist/research/index.html:15:509:<center><a title="research/cemetery.html"><font size="+1">CEMETERIES</a></font></center>
+./dist/research/index.html:19:672:<br><a title="sources.html">published sources</a> on the history and biography of Crawford County
+./dist/research/index.html:20:770:<br><a title="research/history/CCohistory.html">History</a> of some Crawford County places, geographic names, ....
+./dist/research/index.html:26:1143:<a title="research/vital.html">Vital records</a>
+./dist/research/index.html:35:1770:<br>Copies of most <a title="sources.html">published sources</a> on the history of Crawford County are available in closed stacks
+./dist/research/index.html:49:2603:<li><a title="research/photos.html">photocopy requests</a></ul>
+./dist/townships/index.html:107:10456:<tr><td><a title="history/twp/Harmonsburg.html">Harmonsburg</a><td align="center">1842<td align="center">1843<td>Sadsbury, Summerhill<td align="center">18__<td align="center">none</tr>
+./dist/townships/index.html:121:12713:<tr><td><a title="history/twp./SShenango.html">South Shenango</a><td align="center">1829<td>&nbsp;<td>Shenango<td align="center">1830<td align="center">1830</tr>
+./dist/biography/1899/index.html:20:879:<a title="1899/Beaver.html">Beaver</a> &#183 
+./dist/biography/1899/index.html:21:925:<a title="1899/Bloomfield.html">Bloomfield</a> &#183 
+./dist/biography/1899/index.html:22:979:<a title="1899/Cambridge.html">Cambridge</a> &#183 
+./dist/biography/1899/index.html:23:1031:<a title="1899/Conneaut.html">Conneaut</a> &#183 
+./dist/biography/1899/index.html:24:1081:<a title="1899/Cussewago.html">Cussewago</a> &#183 
+./dist/biography/1899/index.html:25:1133:<a title="1899/EFairfield.html">East&nbsp;Fairfield</a> &#183 
+./dist/biography/1899/index.html:26:1196:<a title="1899/EFallowfield.html">East&nbsp;Fallowfield</a> &#183 
+./dist/biography/1899/index.html:28:1314:<a title="1899/Greenwood.html">Greenwood</a> &#183 
+./dist/biography/1899/index.html:29:1366:<a title="1899/Hayfield.html">Hayfield</a> &#183 
+./dist/biography/1899/index.html:30:1416:<a title="1899/Mead.html">Mead</a> &#183 
+./dist/biography/1899/index.html:31:1458:<a title="1899/NShenango.html">North&nbsp;Shenango</a> &#183 
+./dist/biography/1899/index.html:32:1520:<a title="1899/OilCreek.html">Oil&nbsp;Creek</a> &#183 
+./dist/biography/1899/index.html:33:1576:<a title="1899/Pine.html">Pine</a> &#183 
+./dist/biography/1899/index.html:34:1618:<a title="1899/Randolph.html">Randolph</a> &#183 
+./dist/biography/1899/index.html:35:1668:<a title="1899/Richmond.html">Richmond</a> &#183 
+./dist/biography/1899/index.html:38:1808:<a title="1899/Sadsbury.html">Sadsbury</a> &#183 
+./dist/biography/1899/index.html:39:1858:<a title="1899/SShenango.html">South&nbsp;Shenango</a> &#183 
+./dist/biography/1899/index.html:40:1920:<a title="1899/Sparta.html">Sparta</a> &#183 
+./dist/biography/1899/index.html:42:2011:<a title="1899/Steuben.html">Steuben</a> &#183 
+./dist/biography/1899/index.html:43:2059:<a title="1899/Summerhill.html">Summerhill</a> &#183 
+./dist/biography/1899/index.html:44:2113:<a title="1899/Summit.html">Summit</a> &#183 
+./dist/biography/1899/index.html:45:2159:<a title="1899/Troy.html">Troy</a> &#183 
+./dist/biography/1899/index.html:46:2201:<a title="1899/Union.html">Union</a> &#183 
+./dist/biography/1899/index.html:47:2245:<a title="1899/Venango.html">Venango</a> &#183 
+./dist/biography/1899/index.html:48:2293:<a title="1899/Vernon.html">Vernon</a> &#183 
+./dist/biography/1899/index.html:49:2339:<a title="1899/Wayne.html">Wayne</a> &#183 
+./dist/biography/1899/index.html:50:2383:<a title="1899/WFallowfield.html">West&nbsp;Fallowfield</a> &#183 
+./dist/biography/1899/index.html:51:2450:<a title="1899/WShenango.html">West&nbsp;Shenango</a> &#183 
+./dist/biography/1899/index.html:52:2511:<a title="1899/Woodcock.html">Woodcock</a>
+./dist/biography/misc/index.html:15:542:<br><a title="SPB60">From <i>Genealogy of the Fairbanks Family</i>, at genealogylibrary.com
+./dist/biography/s/index.html:75:2667:<p>SELDEN, George (decd.) 1885:305, 1888:<a title="../history/1888/bar.html#GS137">137</a>
+./dist/biography/f/index.html:9:288:<a title="../index.html"><img src="../images/ccg.gif" border="0"></a>
+./dist/biography/f/index.html:10:358:<br><a title="../biography.html"><font size="+2"><b>Biography</b></font></a>
+./dist/biography/f/index.html:12:440:<br><a title="a.html">A</a>&nbsp; <a title="b.html">B</a>&nbsp; <a title="c.html">C</a>&nbsp; <a title="d.html">D</a>&nbsp; 
+./dist/biography/f/index.html:13:565:<a title="e.html">E</a>&nbsp; F&nbsp; <a title="g.html">G</a>&nbsp; <a title="h.html">H</a>&nbsp; <a title="i.html">I</a>&nbsp;
+./dist/biography/f/index.html:14:693: <a title="j.html">J</a>&nbsp; <a title="k.html">K</a>&nbsp; <a title="l.html">L</a>&nbsp; <a title="m.html">M</a>&nbsp; <a title="n.html">N</a>&nbsp;
+./dist/biography/f/index.html:15:844: <a title="o.html">O</a>&nbsp; <a title="p.html">P</a>&nbsp; <a title="q.html">Q</a>&nbsp; <a title="r.html">R</a>&nbsp; <a title="s.html">S</a>&nbsp;
+./dist/biography/f/index.html:16:995: <a title="t.html">T</a>&nbsp; <a title="u.html">U</a>&nbsp; <a title="v.html">V</a>&nbsp; <a title="w.html">W</a>&nbsp; <!--a href="x.html"-->
+./dist/biography/f/index.html:17:1139:<u>X</u><!--/a-->&nbsp; <a title="y.html">Y</a>&nbsp; <a title="z.html">Z</a>
+./dist/biography/f/index.html:19:1259:<a title="key.html">key</a></center>
+./dist/biography/f/index.html:29:1422:<p>FARRELLY, David M. 1879:237, 1885:309, 737, 1899:203; Ellis M. 1885:1070, 1899:932; John W. (decd.) 1885:309, 1888:<a title="../history/1888/Bar.html#JWF137">137</a>, 1899:203; Patrick (decd.) 1885:304-5, 1888:<a title="../history/1888/bar.html#PF137">137</a>, 1899:201, 1903:246, <i>Lawyers</i> <a title="../history/lawyers.html#XI">XI</a>
+./dist/biography/f/index.html:33:1800:<p>FAULKNER, (Dr.) Morgan L. 1885:<a title="1885/Venango.html#MLF1115">1115</a>; Peter 1874BE:626-27
+./dist/biography/f/index.html:55:2301:<p>FINNEY,  Asahel Clark 1874BE:373; Darwin A. (decd.) 1885:310, 1888:<a title="../history/1888/Bar.html#DAF137">137-38</a>, 1899:204; Hannibal H. 1885:965
+./dist/biography/f/index.html:59:2509:<p>FISH, Albert 1885:1057; Benjamin O. 1899:839; Ira W. 1885:<a title="1885/Rome.html#IWF975">975</a>
+./dist/biography/f/index.html:73:2920:<p>FLICKINGER, William E. 1885:<a title="1885/Vernon.html#WEF1128">1128</a>
+./dist/biography/f/index.html:95:3440:<p>FOSTER, Alexander W. (decd.) 1885:304, 1888:<a title="../history/1888/bar.html#AWF137">137</a>, 1903:246, <i>Lawyers</i> <a title="../history/lawyers.html#XII">XII</a>, <i>Pioneers</i> 8; 
+./dist/biography/f/index.html:96:3632:David 1899:951; James G. 1879:236; (Mrs.) Margaret (Power) 1885:1020-21; Samuel B. 1888:<a title="../history/1888/bar.html#SBF137">137</a>, <i>Lawyers</i> <a title="../history/lawyers.html#XIII">XIII</a>; William Bentley CCH 3:6:1; William McAllister CCH 6:2:6
+./dist/biography/f/index.html:114:4382:<p>FREY, Jacob 1885:<a title="1885/Pine.html#JF920">920</a>; R. C. 1879:235
+./dist/biography/f/index.html:122:4569:<p>FULLER, Albert M. 1879:238, 1885:739, 1888:151, 1899:840; Hiram F. 1885:<a title="1885/Sparta.html#HFF1005">1005</a>; John 1885:1083; Thomas 1885:1005
+./dist/biography/f/index.html:124:4724:<p>FULLERTON, David L. 1885:<a title="1885/Rockdale.html#965">965</a>; Samuel D. 1885:845-46
+./dist/biography/f/index.html:129:4850:<br><center><a title="#UP"><img src="../images/up.gif" border="0"></a> &nbsp; <a title="../index.html"><img src="../images/ccg.gif" border="0"></a></center></center>
+./dist/biography/Rome/index.html:13:586:<br><a title="biogs.html">Part V:&nbsp; Biographical Sketches</a>
+./dist/biography/b/index.html:33:1757:<p>BALDWIN, Charles E. 1899:896; E. D. 1882:2:<a href="1882.html#EDB345">345</a>; Henry (decd.) 1885:303, 1888:<a title="../history/1888/bar.html#HB136">136</a>; 1899:199, 1903:246, <i>Lawyers</i> <a href="../history/lawyers.html#VI">VI</a>; <i>Pioneers</i> 3; CCH Summer 2013:1; Henry, Jr. (decd.) 1885:309; Isaac S. 1885:<a href="1885/Spring.html#ISB1011">1011</a>
+./dist/contents/index.html:18:646:<br><a title="contents/21a.html">Volume 21, Number 1 (Feb. 1998)</a>
+./dist/tables/index.html:12:308:<br><font size="-1"><a title="ahnentafels/explanation.html">Explanation</a></font>
+./dist/tables/index.html:13:391:<br><font size="+2">&nbsp;</font><a title="ahnentafels/tablesindex.html"><img src="images/index.gif" align="top" alt="INDEX"></a><font size="+2">&nbsp;</font>
+./dist/tables/index.html:16:635:<a title="ahnentafels/A01.html">1</a>&nbsp; <!--a href="ahnentafels/A02.html"-->2</a>&nbsp; 
+./dist/tables/index.html:17:728:<a title="ahnentafels/A03.html">3</a>&nbsp; <!--a href="ahnentafels/A04.html"-->4</a>&nbsp; 
+./dist/tables/index.html:19:905:<a title="ahnentafels/A05.html">5</a>&nbsp; <!--a href="ahnentafels/A06.html"-->6</a>&nbsp; 
+./dist/tables/index.html:20:998:<!--a href="ahnentafels/A07.html"-->7</a>&nbsp; <a title="ahnentafels/A08.html">8</a>&nbsp; 
+./dist/tables/index.html:21:1091:<!--a href="ahnentafels/A09.html"-->9</a>&nbsp; <a title="ahnentafels/A10.html">10</a>&nbsp; 
+./dist/tables/index.html:22:1185:<!--a href="ahnentafels/A11.html"-->11</a>&nbsp; <a title="ahnentafels/A12.html">12</a>&nbsp; 
+./dist/tables/index.html:23:1280:<a title="ahnentafels/A13.html">13</a>&nbsp; <a title="ahnentafels/A14.html">14</a>&nbsp; 
+./dist/tables/index.html:24:1371:<a title="ahnentafels/A15.html">15</a>&nbsp; <!--a href="ahnentafels/A16.html"-->16</a>&nbsp; 
+./dist/tables/index.html:27:1601:<a title="ahnentafels/A19.html">19</a>
+./dist/tables/index.html:30:1711:<a title="ahnentafels/A05.html">5</a>&nbsp;-&nbsp;<b>Rita M. Benson</b>
+./dist/tables/index.html:33:1950:<br><a title="ahnentafels/A10.html">10</a>&nbsp;-&nbsp;<b>Janet Evelyn Savage Cornell</b>
+./dist/tables/index.html:34:2040:<br><a title="ahnentafels/A14.html">14</a>&nbsp;-&nbsp;<b>Charles W. Coulter</b>
+./dist/tables/index.html:35:2121:<br><a title="ahnentafels/A08.html">8</a>&nbsp;-&nbsp;<b>Jane (Weller) Early</b>
+./dist/tables/index.html:38:2374:<br><a title="ahnentafels/A01.html">1</a>&nbsp;-&nbsp;<b>Kathleen Sackett Hayden</b>
+./dist/tables/index.html:40:2546:<br><a title="ahnentafels/A03.html">3</a>&nbsp;-&nbsp;<b>Marguerite Moore</b>
+./dist/tables/index.html:41:2624:<br><a title="ahnentafels/A13.html">13</a>&nbsp;-&nbsp;<b>Donna Davenport Netters</b>
+./dist/tables/index.html:42:2710:<br><a title="ahnentafels/A15.html">15</a>&nbsp;-&nbsp;<b>Patricia St. Clair Ostwald</b>
+./dist/tables/index.html:46:3039:<br><a title="ahnentafels/A19.html">19</a>&nbsp;-&nbsp;<b>Carol Diane McDill Theuriet</b>
+./dist/tables/index.html:47:3129:<br><a title="ahnentafels/A12.html">12</a>&nbsp;-&nbsp;<b>Ann S. White</b>
+./dist/fairfield/index.html:11:431:<font size="+1"><a title="./1899.html">1899</a></font>
+./dist/court/div/std/index.html:702:117999:<p><b>S<font size="-1">ELL</b></font>, <a name="677"></a>Jacob, of Adams Co., & Eve; he, &#147;when a young man, in the year [1777], married a woman of the name of <a name="678"></a>Eve <b>Helman</b>, who five months after her marriage was delivered of a female child, and both being conscious that the child was not [his], and firmly impressed with a belief that under these circumstances happiness was not to be expected, mutually agreed to separate; she &#133; having acknowledged the fact, agreed in consideration of the sum of ten pounds paid by [him], the receipt of which [she] has also acknowledged, and further by a written instrument duly executed in which she has disclaimed any pretensions or further demands, which she might be supposed to lay claim to in virtue of said marriage contract; And whereas [he] having considered himself entirely freed from any obligations to [her], as in any respect arising from said marriage, did in the year [1780], marry another wife by whom he has, now living, six children: &#133; by the united exertions of himself and his present wife, they have by hard labor and honest industry acquired a considerable property, some of which he having transferred, but being unable to complete a title thereto, by reason of a claim which the aforesaid Eve may be supposed to possess &#133; as a right of dowry thereto &#133; [he] having now become old, and in a declining state of health, and having expressed to the legislature an anxious desire of distributing the property which he conceives he is justly entitled to, to the use and benefit of his present wife and family, and to the exclusion of a woman who has in no wise contributed thereto&#148;; Jacob&#146;s children by the woman he last married declared legitimate.&nbsp; <font size="-1">1805-6 Pa. Laws 326 (Ch. 118, approved 8 Feb. 1806), 18 Statutes at Large 56.</font>
+./dist/court/div/stdalpha/index.html:702:105684:<p><b>S<font size="-1">ELL</b></font>, Jacob, of Adams Co., & Eve; he, &#147;when a young man, in the year [1777], married a woman of the name of Eve <b>Helman</b>, who five months after her marriage was delivered of a female child, and both being conscious that the child was not [his], and firmly impressed with a belief that under these circumstances happiness was not to be expected, mutually agreed to separate; she &#133; having acknowledged the fact, agreed in consideration of the sum of ten pounds paid by [him], the receipt of which [she] has also acknowledged, and further by a written instrument duly executed in which she has disclaimed any pretensions or further demands, which she might be supposed to lay claim to in virtue of said marriage contract; And whereas [he] having considered himself entirely freed from any obligations to [her], as in any respect arising from said marriage, did in the year [1780], marry another wife by whom he has, now living, six children: &#133; by the united exertions of himself and his present wife, they have by hard labor and honest industry acquired a considerable property, some of which he having transferred, but being unable to complete a title thereto, by reason of a claim which the aforesaid Eve may be supposed to possess &#133; as a right of dowry thereto &#133; [he] having now become old, and in a declining state of health, and having expressed to the legislature an anxious desire of distributing the property which he conceives he is justly entitled to, to the use and benefit of his present wife and family, and to the exclusion of a woman who has in no wise contributed thereto&#148;; Jacob&#146;s children by the woman he last married declared legitimate.&nbsp; <font size="-1">1805-6 Pa. Laws 326 (Ch. 118, approved 8 Feb. 1806), 18 Statutes at Large 56.</font>
+./dist/court/div/pad/index.html:39:16897:<p><a name="388"></a><b>A<font size="-1">NDERSON</b></font>, Hannah <i>v.</i> <a name="389"></a>James.&nbsp; Petition of Hannah Anderson, of the District of Southwork, Philadelphia, by her next friend <a name="390"></a>Martin Rizer, sworn to at Philadelphia 17 June and filed 18 June 1799; married 11 July 1797; cohabited &#147;untill within a month last past&#148;; grounds: &#147;when the said James without provocation on the part of the said Hannah Anderson did maliciously and willfully desert from the said Hannah and in violation of the said Marriage Vow did Elope and live in Adultry with a certain <a title="391"></a>Susannah Leneville.&#148;&nbsp; <font size="-1">FHL film #1023001, images 69-73 (69).</font></p>
+./dist/court/div/pad/index.html:329:255505:<p><a name="160"></a><b>G<font size="-1">ARDNER</b></font>, George <i>v.</i> <a name="161"></a>Margaret.&nbsp; Petition of George Gardner, the younger [&#147;Junior&#148; on some interrogatories] (signed in German script Georg G&#228;rtner), &#147;of the Borough of Reading in the County of Berks,&#148; sworn to in Berks Co. 11 Feb. 1797 and filed by 18 Feb. 1797 (when a subpoena was awarded; 21 Feb. 1797 according to the cover) at #292 March Term 1797; married &#147;about seven Years ago&#148; Margaret <b>F<font size="-1">OLTZ</font></b>, &#147;who was then a single woman&#148;; [period of cohabitation not stated]; grounds: &#147;the said Margaret within a year last past has committed many Acts of Adultery, some of which were committed in a very shameless and almost public Manner.&#148;&nbsp; Testimony taken 9 March 1799 (unsigned): <a name="842"></a><u>Eva Till</u>, wife of <a name="843"></a>Wm. Till, tanner &amp; currier in Reading, states that Margaret &#147;lives in the House with my Family,&#148; where she is visited by <a name="844"></a>Christian Madera, who is keeper of the Goal [jail] in Reading (where she slept with him), and married; <a name="845"></a><u>Elizabeth  Leitheiser</u>, wife of <a name="846"></a>Hartman Leitheiser, Lieutenant in the U.S.Army, who lived with Margaret about 2&#189; years ago; <a name="847"></a><u>Ann Maria Ulrick</u>, wife of <a name="848"></a>Philip Ulrick, labourer of Reading; and <a title="849"></a><u>Mary Till</u>, of Reading, spinster, states that Margaret rented a room in the house of her father, Wm. Till, in the Borough of Reading.&nbsp; Divorced 27 March 1799.&nbsp; <font size="-1">FHL film #1023003, images 44-59 (48).</font></p>
+./dist/court/bb/index.html:13:552:<br><a title="idx.html"><img src="../../images/index.gif" align="center" valign="bottom"></a></center></a>
+./dist/court/bb/index.html:14:659:<center><!--a href="list.html"--><font size="-1">L</font><font size="-2">ISTING</a></font> &nbsp; &#183; &nbsp; <a title="../bb.html"><font size="-1">I</font><font size="-2">NTRODUCTION</font></a> &nbsp; &#183; &nbsp; A<font size="-1">BSTRACTS</font></center>
+./dist/court/bb/index.html:322:9495:<font size="-1"><a title="#FN1ret" name="FN1"><sup>1</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:324:9577:<br><font size="-1"><a title="#FN2ret" name="FN2"><sup>2</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:326:9663:<br><font size="-1"><a title="#FN3ret" name="FN3"><sup>3</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:328:9749:<br><font size="-1"><a title="#FN4ret" name="FN4"><sup>4</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:330:9835:<br><font size="-1"><a title="#FN5ret" name="FN5"><sup>5</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:332:9921:<br><font size="-1"><a title="#FN6ret" name="FN6"><sup>6</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:334:10007:<br><font size="-1"><a title="#FN7ret" name="FN7"><sup>7</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:336:10093:<br><font size="-1"><a title="#FN8ret" name="FN8"><sup>8</sup></a>&nbsp; </font>
+./dist/court/bb/index.html:338:10179:<br><font size="-1"><a title="#FN9ret" name="FN9"><sup>9</sup></a>&nbsp; </font>
+./dist/court/adopt/escheat/index.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197" target="_blank">S<font size="-1">ECT</font>. 2.</a> &#8230;
+./dist/court/adoptold/index.html:300:17753:<td><font size="-1"><a title="adopt/1856-85#78:89">Ethel Ellis</a></font></td></tr>
+./dist/court/tax/Erie1801/index.html:35:1208:<link rel=themeData title="1801Erie_files/themedata.thmx">
+./dist/court/tax/template/index.html:11:382:<font size="+1"><a title="../taxes.html">TAX DUPLICATES</a></font>
+./dist/court/mw/idx/index.html:15:711:<a href="#e">E</a>&nbsp; <a href="#f">F</a>&nbsp; <a href="#g">G</a>&nbsp; <a href="#h">H</a>&nbsp; <a title="#i">I</a>&nbsp; <a href="#j">J</a>&nbsp; <a href="#k">K</a>&nbsp; <a href="#l">L</a>&nbsp; <a href="#m">M</a>&nbsp; <a href="#n">N</a>&nbsp; <a href="#o">O</a>&nbsp; <a href="#p">P</a>&nbsp; <a title="#q">Q</a>&nbsp; <a href="#r">R</a>&nbsp; <a href="#s">S</a>&nbsp; <a href="#t">T</a>&nbsp; <u>U</u>&nbsp; <a title="#v">V</a>&nbsp; <a href="#w">W</a>&nbsp; <!--a href="#x"--><u>X</u><!--/a-->&nbsp; <u>Y</u>&nbsp; <a href="#z">Z</a></center>
+./dist/court/mw/idx/index.html:166:10961:<p>SHIELDS, Alice <a title="mw.html184#">1890MW</a>; Hugh <a href="mw2.html#185">1890MW</a>
+./dist/court/mw/idxtemp/index.html:22:1563:<p>AIKEN, C. E. <a title="fst.html#96">1900FST</a>
+./dist/court/mw/idxtemp/index.html:24:1709:<p>ANDREWS, Mary Adelaide (Frey) <a href="mw2.html#146">1884MW</a>; Rubie <a href="mw2.html#153">1885MW</a>; Thomas <a title="fst.html#40">1873FST</a>; William H. <a href="mw2.html#147">1884MW</a>; W. R. <a href="mw2.html#154">1885MW</a>
+./dist/court/mw/idxtemp/index.html:31:2226:<p>BAIRD, Joseph <a title="fst.html#106">1901FST</a>; Sarah E. <a title="fst.html#105">1901FST</a>
+./dist/court/mw/idxtemp/index.html:33:2419:<p>BALDRIDGE, E. M. <a title="fst.html#101">1900FST</a>
+./dist/court/mw/idxtemp/index.html:34:2475:<p>BANNISTER, Lee <a title="fst.html#77">1890FST</a>
+./dist/court/mw/idxtemp/index.html:36:2626:<p>Barlay &amp; Myles <a title="fst.html#116">1890FST</a>
+./dist/court/mw/idxtemp/index.html:39:2896:<p>BIRCH, Kitty <a title="fst.html#51">1883FST</a>; K. G. L. <a title="fst.html#118">1883FST</a>
+./dist/court/mw/idxtemp/index.html:42:3197:<p>BOYLAN, Mary (McKeowen) <a title="fst.html#19">1873FST</a>; Michael <a title="fst.html#20">1873FST</a>
+./dist/court/mw/idxtemp/index.html:45:3504:<p>BROWN, Clark <a title="fst.html#46">1877FST</a>
+./dist/court/mw/idxtemp/index.html:46:3555:<p>Brown Bros. <a title="fst.html#97">1900FST</a>
+./dist/court/mw/idxtemp/index.html:48:3692:<p>Bucklin Hotel <a title="fst.html#100">1900FST</a>
+./dist/court/mw/idxtemp/index.html:49:3745:<p>BURDICK, Emeline/Emiline <a title="fst.html#85">1895FST</a>
+./dist/court/mw/idxtemp/index.html:50:3808:<p>BURGESS, B. S. <a title="fst.html#9">1866FST</a>; Edward G. <a href="mw2.html#61">1877MW</a>; Jennie Elizabeth <a href="mw2.html#60">1877MW</a>
+./dist/court/mw/idxtemp/index.html:58:4338:<p>CATHALA/CATHALO, John <a title="fst.html#29">1873FST</a>; <i>see</i> CATHALAT
+./dist/court/mw/idxtemp/index.html:59:4419:<p>CATHALAT, Jean P. <a title="fst.html#110">1873FST</a>; <i>see</i> CATHALA
+./dist/court/mw/idxtemp/index.html:60:4496:<p>CEASE, John R. <a title="fst.html#86">1895FST</a>
+./dist/court/mw/idxtemp/index.html:62:4638:<p>CHICK, John M. <a title="fst.html#95">1900FST</a>
+./dist/court/mw/idxtemp/index.html:63:4691:<p>CLARK, Francenia/Francina <a title="fst.html#55">1884FST</a>; John M. <a title="fst.html#36">1873FST</a>;  Lydia <a title="fst.html#52">1884FST</a>; Mary H. <a href="mw2.html#14">1874MW</a>; Nathaniel C. <a href="mw2.html#15">1874MW</a>; William <a title="fst.html#53">1884FST</a>
+./dist/court/mw/idxtemp/index.html:66:5131:<p>COLT, H. T. <a title="fst.html#18">1868FST</a>
+./dist/court/mw/idxtemp/index.html:67:5181:<p>CONGDON, C. W. <a title="fst.html#42">1873FST</a>
+./dist/court/mw/idxtemp/index.html:68:5234:<p>CRAIGHEAD, (Rev.) R. <a title="fst.html#113">1873FST</a>, <a href="mw2.html#191">1873MW</a>
+./dist/court/mw/idxtemp/index.html:75:5609:<p>DAME, W. M. <a title="fst.html#73">1890FST</a>
+./dist/court/mw/idxtemp/index.html:77:5752:<p>DAVIS, Andrew T. <a title="fst.html#58">1884FST</a>
+./dist/court/mw/idxtemp/index.html:83:6247:<p>DOUGLASS, William A. <a title="fst.html#56">1884FST</a>
+./dist/court/mw/idxtemp/index.html:84:6306:<p>DREYFOUS, Catherine E. <a title="fst.html#1">1865FST</a>; Henry J. <a title="fst.html#2">1865FST</a>
+./dist/court/mw/idxtemp/index.html:98:6935:<p>FETTERMAN, Anna <a href="mw2.html#122">1882MW</a>, <a title="fst.html#78">1892FST</a>; George <a href="mw2.html#123">1882MW</a>, <a title="fst.html#79">1892FST</a>
+./dist/court/mw/idxtemp/index.html:99:7102:<p>FINDLEY/FINDLY, W. J. B. <a title="fst.html#34">1873FST</a>
+./dist/court/mw/idxtemp/index.html:100:7165:<p>FREY, Mary Adelaide <a href="mw2.html#146">1884MW</a>, <a href="mw2.html#197">1884MW</a>; Reuben C. <a title="fst.html#30">1873FST</a>, <a title="fst.html#33">1873FST</a>
+./dist/court/mw/idxtemp/index.html:108:7743:<p>GREEN, Clara M. <a title="fst.html#75">1890FST</a>; Maud W. <a title="fst.html#76">1890FST</a>
+./dist/court/mw/idxtemp/index.html:110:7934:<p>GUTHMANN, Emanuel <a title="fst.html#10">1866FST</a>
+./dist/court/mw/idxtemp/index.html:120:8751:<p>HAWKS, John T. <a title="fst.html#23">1873FST</a>
+./dist/court/mw/idxtemp/index.html:122:8913:<p>HENDERSON, John F. <a title="fst.html#14">1866FST</a>
+./dist/court/mw/idxtemp/index.html:124:9066:<p>HILL, Henry H. <a href="mw2.html#50">1877MW</a>, <a title="fst.html#44">1877FST</a>; Lydia <a href="mw2.html#49">1877MW</a>, <a title="fst.html#43">1877FST</a>
+./dist/court/mw/idxtemp/index.html:125:9229:<p>HOEY, James P. <a title="fst.html#4">1865FST</a>, <a title="fst.html#8">1866FST</a>
+./dist/court/mw/idxtemp/index.html:128:9519:<p>HOLDEN, J. J. <a title="fst.html#72">1890FST</a>
+./dist/court/mw/idxtemp/index.html:130:9670:<p>HONEYWELL, L. <a title="fst.html#35">1873FST</a>
+./dist/court/mw/idxtemp/index.html:132:9823:<p>HUNT, H. T. <a title="fst.html#47">1877FST</a>
+./dist/court/mw/idxtemp/index.html:138:10060:<p>JAMISON, Mary M. <a title="fst.html#92">1900FST</a>; Samuel H. <a title="fst.html#93">1900FST</a>
+./dist/court/mw/idxtemp/index.html:140:10254:<p>JOHNSON, Sara M. <a title="fst.html#109">1903FST</a>
+./dist/court/mw/idxtemp/index.html:147:10586:<p>KERR, Chester L. <a title="fst.html#94">1900FST</a>; S. M. <a title="fst.html#55">1884FST</a>
+./dist/court/mw/idxtemp/index.html:151:10981:<p>KNERR, C. W. <a title="fst.html#61">1886FST</a>
+./dist/court/mw/idxtemp/index.html:159:11408:<p>LARIMER, Ellen H. <a title="fst.html#65">1886FST</a>; Joseph <a title="fst.html#66">1886FST</a>
+./dist/court/mw/idxtemp/index.html:160:11507:<p>LAWRENCE, Joseph W. <a title="fst.html#108">1903FST</a>; Nancy <a title="fst.html#107">1903FST</a>
+./dist/court/mw/idxtemp/index.html:161:11609:<p>LEWIS, Alford/Alfred <a title="fst.html#88">1895FST</a>; J. H. <a title="fst.html#13">1866FST</a>; Lovilla <a title="fst.html#87">1895FST</a>
+./dist/court/mw/idxtemp/index.html:162:11754:<p>LUSE, M. H. <a title="fst.html#84">1895FST</a>
+./dist/court/mw/idxtemp/index.html:170:12149:<p>McCLIMANS, Mary <a title="fst.html#37">1873FST</a>
+./dist/court/mw/idxtemp/index.html:171:12203:<p>McCLOSKEY, J. Newton <a title="fst.html#27">1873FST</a>
+./dist/court/mw/idxtemp/index.html:173:12349:<p>McDOWELL, Charles A. <a title="fst.html#80">1892FST</a>; Mary E. <a title="fst.html#81">1892FST</a>
+./dist/court/mw/idxtemp/index.html:174:12452:<p>McFADDEN, Elizabeth H. <a title="fst.html#48">1883FST</a>
+./dist/court/mw/idxtemp/index.html:175:12513:<p>McGRATH, Thomas <a title="fst.html#28">1873FST</a>
+./dist/court/mw/idxtemp/index.html:176:12567:<p>MACHEY, Eugene <a title="fst.html#104">1900FST</a>
+./dist/court/mw/idxtemp/index.html:178:12711:<p>McKEOWEN, Mary <a title="fst.html#19">1873FST</a>
+./dist/court/mw/idxtemp/index.html:181:12912:<p>McPHEETERS, Martha A. <a title="fst.html#59">1886FST</a>; Robert <a title="fst.html#60">1886FST</a>
+./dist/court/mw/idxtemp/index.html:183:13109:<p>Marlay, Byles &amp <a title="fst.html#117">1890FST</a>
+./dist/court/mw/idxtemp/index.html:185:13265:<p>MEYERS, J. B. <a title="fst.html#99">1900FST</a>
+./dist/court/mw/idxtemp/index.html:186:13317:<p>MONTAIGNE, Augustine <a title="fst.html#25">1873FST</a>; Catharine <a title="fst.html#112">1873FST</a>; Jean Baptiste <a title="fst.html#111">1873FST</a>
+./dist/court/mw/idxtemp/index.html:187:13474:<p>MOORE, Mary B. <a title="fst.html#50">1883FST</a>
+./dist/court/mw/idxtemp/index.html:188:13527:<p>MULVIN, D. S. <a title="fst.html#16">1866FST</a>
+./dist/court/mw/idxtemp/index.html:194:13782:<p>NILES, Dennis W. <a title="fst.html#71">1890FST</a>; Rebecca M. <a title="fst.html#70">1890FST</a>
+./dist/court/mw/idxtemp/index.html:195:13884:<p>NORTHAM, E. <a title="fst.html#69">1886FST</a>
+./dist/court/mw/idxtemp/index.html:205:14229:<p>PAUL, Harrison D. <a title="fst.html#7">1866FST</a>
+./dist/court/mw/idxtemp/index.html:207:14383:<p>PENTZ, William <a title="fst.html#39">1873FST</a>
+./dist/court/mw/idxtemp/index.html:208:14436:<p>PERKINS, Charles H. <a title="fst.html#32">1873FST</a>; Elizabeth (Porter)<a title="fst.html#31">1873FST</a>; Samuel D. <a title="fst.html#64">1886FST</a>
+./dist/court/mw/idxtemp/index.html:209:14594:<p>PIERSON, Harry <a title="fst.html#19">1868FST</a>
+./dist/court/mw/idxtemp/index.html:210:14647:<p>PORTER, (Col.) James <a title="fst.html#114">1873</a>
+./dist/court/mw/idxtemp/index.html:216:14979:<p>RAY, David <a title="fst.html#38">1873FST</a>; John <a title="fst.html#41">1873FST</a>; Mary (McClimans) <a title="fst.html#37">1873FST</a>
+./dist/court/mw/idxtemp/index.html:217:15122:<p>REID, B. J. <a title="fst.html#22">1873FST</a>
+./dist/court/mw/idxtemp/index.html:218:15172:<p>RHOADES, Lillian B. <a title="fst.html#115">1900FST</a>
+./dist/court/mw/idxtemp/index.html:219:15231:<p>RHODES, Lillian B. <a title="fst.html#102">1900FST</a>
+./dist/court/mw/idxtemp/index.html:221:15380:<p>ROFFEE, Eugene S. <a href="mw2.html#">1873MW</a>; Frank H. <a title="fst.html#103">1900FST</a>; Harriet Augusta <a href="mw2.html#10">1873MW</a>; Lillian B. (Rhoades) <a title="fst.html#102">1900FST</a>
+./dist/court/mw/idxtemp/index.html:228:15869:<p>SAMPLE, Elizabeth &#147;Lizzie&#148 H. (McFadden) <a href="mw2.html#111">1881MW</a>, <a title="fst.html#48">1883FST</a>; Rinalda/Rinaldo P. <a href="mw2.html#112">1881MW</a>, <a title="fst.html#49">1883FST</a>
+./dist/court/mw/idxtemp/index.html:229:16082:<p>SCANLIN, Augustine (Montaigne) <a title="fst.html#25">1873FST</a>; James <a title="fst.html#26">1873FST</a>
+./dist/court/mw/idxtemp/index.html:231:16293:<p>SHERWOOD, Almira J. <a title="fst.html#82">1895FST</a>; John A. <a title="fst.html#83">1895FST</a>
+./dist/court/mw/idxtemp/index.html:232:16395:<p>SHESKIN, Louisa <a title="fst.html#17">1868FST</a>
+./dist/court/mw/idxtemp/index.html:233:16449:<p>SHIELDS, Alice <a title="mw.html184#">1890MW</a>; Hugh <a href="mw2.html#185">1890MW</a>
+./dist/court/mw/idxtemp/index.html:234:16541:<p>SHWAB, Abraham <a title="fst.html#6">1866FST</a>; Anna <a title="fst.html#5">1866FST</a>
+./dist/court/mw/idxtemp/index.html:236:16689:<p>SLAYTON, M. J. <a title="fst.html#91">1895FST</a>
+./dist/court/mw/idxtemp/index.html:239:16892:<p>SPRINGER, Max <a title="fst.html#3">1865FST</a>
+./dist/court/mw/idxtemp/index.html:240:16943:<p>STEWART, Ettie <a href="mw2.html#174">1887MW</a>, <a href="mw2.html#200">1887MW</a>; John <a title="fst.html#57">1884FST</a>; Rosetta <a href="mw2.html#174">1887MW</a>
+./dist/court/mw/idxtemp/index.html:241:17114:<p>STOREY, Lucy A. <a title="fst.html#98">1900FST</a>
+./dist/court/mw/idxtemp/index.html:243:17219:<p>STROUSE, Simon <a title="fst.html#24">1873FST</a>, <a title="fst.html#45">1877FST</a>
+./dist/court/mw/idxtemp/index.html:245:17398:<p>SWIFT, John W. <a title="fst.html#63">1886FST</a>
+./dist/court/mw/idxtemp/index.html:253:17872:<p>TRACEY/TRACY, John S. <a title="fst.html#21">1873FST</a>
+./dist/court/mw/idxtemp/index.html:254:17932:<p>TROPLE, William <a title="fst.html#15">1866FST</a>
+./dist/court/mw/idxtemp/index.html:256:18014:<p>TRUESDALE, Newton <a title="fst.html#89">1895FST</a>
+./dist/court/mw/idxtemp/index.html:262:18266:<p>WALES, Benjamin F. <a title="fst.html#62">1886FST</a>
+./dist/court/mw/idxtemp/index.html:269:18855:<p>WENZ, Philip P. <a title="fst.html#67">1886FST</a>
+./dist/court/mw/idxtemp/index.html:272:19098:<p>WHEELER, Elijah/Elizah M. <a title="fst.html#12">1866FST</a>; Emma L. <a title="fst.html#11">18666FST</a>
+./dist/court/mw/idxtemp/index.html:273:19207:<p>Wilkins Farm <a title="fst.html#74">1890FST</a>
+./dist/court/mw/idxtemp/index.html:274:19258:<p>WILLIAMS, James <a title="fst.html#90">1895FST</a>
+./dist/court/mw/idxtemp/index.html:275:19312:<p>WILSON, F. E. <a title="fst.html#68">1886FST</a>; Livinia P. <a href="mw2.html#70">1878MW</a>
+./dist/court/mw/idx template/index.html:74:2285:<p>LUSE, M. H. <a title="fst.html#*">1895FST</a>
+./dist/court/statdiv/index.html:29:4604:<br> &nbsp; &nbsp; Divorce bills were generally referred to a committee on divorces,<font size="-1"><sup><a name="15"><a href="#N15">15</sup></a></font> but the committee papers apparently do not survive.&nbsp; Additional details, however, may be discoverable in the <i>Minutes of the &#133; General Assembly of Pennsylvania</i> or the <i>Legislative Journal</i> for the sessions when the bill was introduced and debated upon.&nbsp; Information added from the state Senate, House of Representative, and Legislative Journals (abbreviated Sen., H.R., and Leg. Journal, respectively), and references thereto, are rendered in the accompanying abstracts in italics.<font size="-1"><sup><a title="N16" name="16">16</sup></a></font>
+./dist/indices/g/index.html:83:5068:Jeremiah <a title="../census/1800PA/71.html#47">1800 PA Census:97</a>, <a href="../census/1810/416.html">1810 US Census:416</a>; Jermiah <a href="../census/1820/57.html">1820 US Census:57</a>; 
+./dist/indices/c/index.html:11:366:<br><font size="+2"><a title="../census/census.html">Census</a></font>
+./dist/indices/c/index.html:73:4392:<p>CARMAN, Frze <a href="../census/1820/51A.html">1820 US Census:51A</a>; James <a href="../census/1800PA/89.html#62">1800 PA Census:89</a>, <a href="../census/1810/433.html">1810 US Census:433</a>; Reuben <a title="../census/1800PA/64.html#57">1800 PA Census:89</a>; Ruben <a href="../census/1800/11.html">1800 US Census:11</a>; Stephen <a href="../census/1800PA/89.html#61">1800 PA Census:89</a>; <i>see</i> CARMON
+./dist/indices/d/index.html:11:366:<br><font size="+2"><a title="../census/census.html">Census</a></font>
+./dist/places/tempboro/index.html:15:542:<dd><a title="../history/boro/.html">Formation and boundary changes</a>
+./dist/places/tempboro/index.html:20:947:<dd><a title="../history/1876/.html#">1876</a> borough sketch from a county atlas
+./dist/places/tempboro/index.html:22:1116:<dd><a title="../census/1880m/ED.html">1880</a> U.S. Census - mortality schedules
+./dist/places/tempboro/index.html:24:1283:<dd><a title="../biography/1885/.html">1885</a> biographical sketches from a county history
+./dist/places/temp/index.html:15:517:<dd><a title="../history/twp/*.html">Formation and boundary changes</a>
+./dist/places/temp/index.html:16:589:<dd><a title="../census/1810/.html">1810</a> U.S. Census
+./dist/places/temp/index.html:17:646:<dd><a title="../census/1820/.html">1820</a> U.S. Census
+./dist/places/temp/index.html:18:703:<dd><a title="../census/1850US-m.html">1850</a> U.S. Census - mortality schedules
+./dist/places/temp/index.html:21:956:<dd><a title="../history/1876/*.html">1876</a> township sketch from a county atlas
+./dist/places/temp/index.html:23:1127:<dd><a title="../census/1880m/ED.html">1880</a> U.S. Census - mortality schedules
+./dist/places/temp/index.html:24:1209:<dd><a title="../biography/1885/*.html">1885</a> biographical sketches from a county history
+./dist/places/Meadville/index.html:36:1972:    <dd><a title="vital/Meadville/1880.html">1880 deaths</a>
+./dist/places/Springboro/index.html:28:1383:    <dd><a title="../history/1899/Spring.html">1899</a> borough sketch from a county history
+./dist/military/Indian/index.html:41:2886:<ol><li><a title="../census/1800/.html">1800 U.S. Census</a>
+./dist/military/Indian/index.html:115:7823:<li><i>see</i> Huidekoper <a title="../history/1850/idx.html#F">Index</a>
+./dist/military/Indian/index.html:121:7947:<ol><li><a title="../census/1800/.html">1800 U.S. Census</a>
+./dist/military/Indian/index.html:122:8008:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./dist/military/Indian/index.html:123:8077:<li><a title="../census/1810/.html">1810 U.S. Census</a>
+./dist/military/Indian/index.html:124:8134:<li><a title="../census/1820/.html">1820 U.S. Census</a>
+./dist/military/Indian/index.html:159:12820:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./dist/military/Indian/index.html:360:29670:<ol><li><a title="../census/6.html">1800 U.S. Census</a>
+./dist/military/Indian/index.html:361:29727:<li><a title="../census/93.html#301">1800 U.S. Census</a> (Mead Twp.; also one in Conneaut Twp.)
+./dist/military/Indian/index.html:362:29824:<li><a title="../census/404.html">180 U.S. Census</a> (Mead Twp.)
+./dist/military/Indian/index.html:363:29890:<li><a title="../census/53A.html">1820 U.S. Census</a> (Wayne Twp.)
+./dist/military/Indian/index.html:371:30367:<li><a title="../census/1800PA/93.html#271">1800 PA Septennial Census</a>
+./dist/military/Indian/index.html:380:30996:<li><a title="../census/1800PA/93.html#300">1800 PA Septennial Census</a>
+./dist/military/Indian/index.html:467:37672:<li><a title="../history/1871/230.html#S8">1871-72 CCo. Directory</a>
+./dist/military/Indian/index.html:483:40943:<li><a title="../history/1879/Venango.html#276">1879 CCo. Directory</a>
+./dist/military/Indian/index.html:538:45133:<li><a title="../census/1800/.html">1800 U.S. Census</a>
+./dist/military/Indian/index.html:539:45190:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./dist/military/Indian/index.html:540:45259:<li><a title="../census/1810/.html">1810 U.S. Census</a>
+./dist/military/Indian/index.html:541:45316:<li><a title="../census/1820/.html">1820 U.S. Census</a>
+./dist/military/1776/R/index.html:44:6555:<li><a title="../../census/1800PA/.html">1800 PA Septennial Census</a>
+./dist/military/1776/R/index.html:46:6688:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./dist/military/1776/G/index.html:108:18056:<ol><li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./dist/military/1776/F/index.html:86:6121:<li><a title="../../census/1820/.html">1810 U.S. Census</a>, Beaver Twp.
+./dist/military/1776/H/index.html:97:6848:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./dist/military/1776/H/index.html:98:6908:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</>
+./dist/military/1776/H/index.html:99:6979:<li><a title="../../census/1810/.html">1810 U.S. Census</a>
+./dist/military/1776/H/index.html:100:7039:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./dist/military/1776/H/index.html:216:13413:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./dist/military/1776/H/index.html:217:13473:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</>
+./dist/military/1776/H/index.html:218:13544:<li><a title="../../census/1810/.html">1810 U.S. Census</a>
+./dist/military/1776/H/index.html:219:13604:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./dist/military/1776/C/index.html:114:28936:<li><a title="../../census/1810/64.html">1820 U.S. Census</a>, Cussewago Twp., p. 64:&nbsp; Elias Chamberlin, 1 - - 1 - - - - 1 - - - 1 - -; and John Chamberlin, - 1 - - - 1 3 1 3 - 1 - 1 - -
+./dist/military/1776/C/index.html:117:29260:<li>1850 U.S. Census <a title="../../census/1850m/24.html">mortality schedules</a>, from CCG 5(1982):17, 24:&nbsp; Cussewago Twp., #3: Elizabeth Chamberlin, aged 75, female, born New Jersey, d. Aug., old age, 14 days
+./dist/military/1776/C/index.html:323:53083:<li><a href="../../census/1800/3.html">1800 U.S. Census</a> or <li><a title="../../census/1820/9.html">1820 U.S. Census</a>
+./dist/military/1776/C/index.html:332:54604:<li><a title="../../1874/Greenwood.html#7">1874 CCo. Gazetteer</a>:&nbsp; &#147;In 1797 Richard Custard, a native of Chester county, came from the west branch of the Susquehanna and settled upon a tract of 400 acres in the eastern part, where for some time he kept a hotel.&#148;
+./dist/military/1776/D/index.html:67:5186:<li><a title="../../census/1800PA/89.html#95">1800 PA Septennial Census</a>
+./dist/military/1776/D/index.html:114:8242:<li><a title="../../census/1810/842.html">1810 U.S. Census</a>, p. 842
+./dist/military/1776/V/index.html:24:971:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./dist/military/1776/V/index.html:25:1031:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</a>
+./dist/military/1776/B/index.html:355:90888:<li><a title="../../1810/430.html">1810</a> U.S. census, Cussewago Twp., CCo., p. 430:&nbsp; William Burney, - - 1 - 1 &#124; - 1 2 - 1 &#124; - -.
+./dist/military/1776/B/index.html:359:91751:<li><a title="../../1820/64A.html">1820</a> U.S. census, Cussewago Twp., p. 64:&nbsp; John Burney, - - - - - 1 &#124; - - - 1 1 &#124; - - - -.
+./dist/military/1776/veterans/index.html:13:549:<br><a title="idx.html"><img src="../../images/index.gif" align="center" valign="bottom"></a></center></a>
+./dist/history/1899/religion/index.html:11:368:<font size="+1"><a title="../1899.html">1899 HISTORY</a></font>
+./dist/history/index.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up" target="_blank">193</a>-205</dd>
+./dist/history/twp/Cambridge/index.html:30:2771:<br><sup><a title="B2" name="N2">2</sup> </a>A petition for review filed 10 Nov. 1879 resulted in a new decree being issued on 13 Feb. 1882. &nbsp;
+./dist/history/twp/Cambridge/index.html:32:2924:<br><sup><a title="B3" name="N3">3</sup> </a>Ct. QS Dk. 12:245 (#86 Aug. Session 1878) [includes metes and bounds description].
+./dist/history/twp/Beaver/index.html:30:2854:<br><sup><a title="B2" name="N2" title="B2">2</sup> </a>Crawford Co. Court of Quarter Sessions.&nbsp; The court papers have been lost, and the information presented here is from a condensed report of the commission appointed to determine the new boundaries, printed in the <i>Crawford Messenger</i> of 26 Feb. 1829.
+./dist/history/1876/Townville/index.html:11:442:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./dist/history/1876/Townville/index.html:22:1348:<td>Incorporated from <a title="twp/Steuben.html">Steuben Twp.</a><font size="-1"><a href="#N3"><sup>3</sup></font></a></td></tr>
+./dist/history/1876/Summit/index.html:21:3469:pioneers to obtain a title to their lands, which were to become valuable eventually, was that of William McFadden, who nominally settled on a tract of land about half a mile west of Harmonsburg, put up a small log cabin, deadened a small piece of timber, and cleared a patch of ground.&nbsp; It is observable that almost all the early settlers planted out orchards on their arrival, guarded them carefully, and enjoyed in quantity what they lacked in quality of the fruit.&nbsp; The first raising in the township was of a hewed-log barn for Brown; it was of immense size, being sixty feet long and thirty-two feet wide.&nbsp; People came to the raising from a distance of twelve miles, and two days were occupied at the work.&nbsp; The first framed barn was put up by John McClure, and soon after a second was raised by John Smith, son of the old settler.&nbsp; The first grist-mill was built by Henry Bright, on Prairie Run, just south of Harmonsburg; a saw-mill was put up near by some time later.&nbsp; In about 1806, a man named Swartz, who had come out with Gehr, built a small tannery on Bright's farm, and followed tanning a few years. Gehr &amp; Brown had the next.&nbsp; Many of the old settlers had stills and manufactured their own liquors, which were comparatively harmless and positively pure.&nbsp; The first religious meeting was held at Gehr's by Swartz, who was class-leader and exhorter.&nbsp; Medical attendance was obtained at Evansburg [now Conneaut Lake].&nbsp; <a name="Harmonsburg" href="../../places/Harmansburg.html"></a>Harmonsburg is the only village in the township.&nbsp; Bright laid out the village in 1816.&nbsp; The first house built in the place was constructed by Joseph McMoultrie, a solider of 1812.&nbsp; This primitive log structure was used for several years as a tavern.&nbsp; The next building was a frame, built by Ephraim Chitister, and used for a tavern; it is still standing.&nbsp; One Whately Barrett, a school-teacher from Vermont, kept the first store in McMoultrie's tavern stand.&nbsp; Luper put up the second house, a log, on the present site of Luper's store.&nbsp; Nathaniel Jones was the village smith for a score of years.&nbsp; The first school was undertaken by Mrs. Knox in her own home, while her husband was out finding employment by days' work.&nbsp; Carson Sloan, who taught during the winter of 1815-16 in the humblest of school-houses of early days, was the first male teacher.&nbsp; "Barring out the master" was a pastime remembered by the aged when many other events had passed from the mind.&nbsp; Such is an example of the power and importance of youthful impressions.
+./dist/history/1876/Tryonville/index.html:11:443:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./dist/history/1876/Tryonville/index.html:19:1005:<td>Petition to incorporate, from <a title="twp/Steuben.html">Steuben Twp.</a>, not approved<font size="-1"><a href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/1876/Turnersville/index.html:11:445:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./dist/history/1876/Turnersville/index.html:19:1018:<td>Incorporated as Turnerville from <a title="twp/SShenango.html">South Shenango Twp.</a><font size="-1"><a href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/1876/Turnersville/index.html:22:1805:<td>Charter annulled upon formation of <a title="twp/WShenango.html">West Shenango Twp.</a> [q.v.]</td></tr>
+./dist/history/1876/Athens/index.html:12:452:<font size="+1"><a title="76Atlas.html">1876 ATLAS</a></font>
+./dist/history/1871/258/index.html:14:637:<br><a title="idx.html"><img src="../../images/index.gif" border="0"></a>
+./dist/history/1871/template/index.html:14:628:<br><a title="idx.html"><img src="../../images/index.gif" border="0"></a>
+./dist/history/1871/template/index.html:16:774:<br><a title="*.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./dist/history/1871/template/index.html:17:870:page <b>*</b> &nbsp; &nbsp; &#183; &nbsp; &nbsp; <i><a title="*.html">next page</i></a></font></center>
+./dist/history/1871/template/index.html:23:1012:<center><font size="-1"><a title="*.html"><i>next page</i></a></font></center>
+./dist/history/1885/guide/index.html:46:1782:<td><a title=".html#510">&nbsp510</a>
+./dist/history/1885/guide/index.html:47:1820:<td><a title=".html#511">&nbsp511</a>
+./dist/history/1885/guide/index.html:48:1858:<td><a title=".html#512">&nbsp512</a>
+./dist/history/1885/guide/index.html:49:1896:<td><a title=".html#513">&nbsp513</a>
+./dist/history/1885/guide/index.html:50:1934:<td><a title=".html#514">&nbsp514</a>
+./dist/history/1885/guide/index.html:51:1972:<td><a title=".html#515">&nbsp515</a>
+./dist/history/1885/guide/index.html:52:2010:<td><a title=".html#516">&nbsp516</a>
+./dist/history/1885/guide/index.html:53:2048:<td><a title=".html#517">&nbsp517</a>
+./dist/history/1885/guide/index.html:54:2086:<td><a title=".html#518">&nbsp518</a>
+./dist/history/1885/guide/index.html:55:2124:<td><a title=".html#519">&nbsp519</a>
+./dist/history/1885/guide/index.html:57:2167:<td><a title=".html#520">&nbsp520</a>
+./dist/history/1885/guide/index.html:58:2205:<td><a title=".html#521">&nbsp521</a>
+./dist/history/1885/guide/index.html:59:2243:<td><a title=".html#522">&nbsp522</a>
+./dist/history/1885/guide/index.html:60:2281:<td><a title=".html#523">&nbsp523</a>
+./dist/history/1885/guide/index.html:61:2319:<td><a title=".html#524">&nbsp524</a>
+./dist/history/1885/guide/index.html:62:2357:<td><a title=".html#525">&nbsp525</a>
+./dist/history/1885/guide/index.html:63:2395:<td><a title=".html#526">&nbsp526</a>
+./dist/history/1885/guide/index.html:64:2433:<td><a title=".html#527">&nbsp527</a>
+./dist/history/1885/guide/index.html:65:2471:<td><a title=".html#528">&nbsp528</a>
+./dist/history/1885/guide/index.html:66:2509:<td><a title=".html#529">&nbsp529</a>
+./dist/history/1885/guide/index.html:68:2552:<td><a title=".html#530">&nbsp530</a>
+./dist/history/1885/guide/index.html:69:2590:<td><a title=".html#531">&nbsp531</a>
+./dist/history/1885/guide/index.html:70:2628:<td><a title=".html#532">&nbsp532</a>
+./dist/history/1885/guide/index.html:71:2666:<td><a title=".html#533">&nbsp533</a>
+./dist/history/1885/guide/index.html:72:2704:<td><a title=".html#534">&nbsp534</a>
+./dist/history/1885/guide/index.html:73:2742:<td><a title=".html#535">&nbsp535</a>
+./dist/history/1885/guide/index.html:74:2780:<td><a title=".html#536">&nbsp536</a>
+./dist/history/1885/guide/index.html:75:2818:<td><a title=".html#537">&nbsp537</a>
+./dist/history/1885/guide/index.html:76:2856:<td><a title=".html#538">&nbsp538</a>
+./dist/history/1885/guide/index.html:77:2894:<td><a title=".html#539">&nbsp539</a>
+./dist/history/1885/guide/index.html:79:2937:<td><a title=".html#540">&nbsp540</a>
+./dist/history/1885/guide/index.html:80:2975:<td><a title=".html#541">&nbsp541</a>
+./dist/history/1885/guide/index.html:81:3013:<td><a title=".html#542">&nbsp542</a>
+./dist/history/1885/guide/index.html:82:3051:<td><a title=".html#543">&nbsp543</a>
+./dist/history/1885/guide/index.html:83:3089:<td><a title=".html#544">&nbsp544</a>
+./dist/history/1885/guide/index.html:84:3127:<td><a title=".html#545">&nbsp545</a>
+./dist/history/1885/Beaver/index.html:27:3234:<br> &nbsp; &nbsp; The northern and central portions of the township consist of tracts which were patented by individuals, most of whom, however, were not settlers.&nbsp; The land act of 1792, besides the payment of 20 cents per acre, required a five years' residence and the clearing of eight acres to perfect a title to a tract of 400 acres.&nbsp; In many instances a non-resident entered the land and compiled with the terms of settlement by means of a temporary tenant, to whom a stipend or a portion of the tract was given, while other enterprising pioneers with large families entered several tracts, built rude cabins and placed a son in each one.&nbsp; The western part of Beaver Township consists of thirteen tracts, owned by the American Land Company, while in the eastern and southern portions the Pennsylvania Population Company acquired the title of sixteen tracts.
+./dist/history/1885/Spring/index.html:34:7174:<br> &nbsp; &nbsp; As indicated by the above, dissensions were rife between the company and the occupants of the land.&nbsp; A number who settled under contract were afterward led to believe that the company had no good title, and in consequence abandoned the contract and often sought to hold the entire tract by virtue of their rights as resident settlers.&nbsp; In this attempt, however, they were ultimately worsted.&nbsp; Others settled on the tracts without a contract, expecting under the land laws to acquire a title by virtue of residence and improvements made.&nbsp; In this they were disappointed, as the Land company maintained its claim after lengthy litigation in the courts.
+./dist/history/idx combined/index.html:24:842:    <a title="#A">A</a>&nbsp; <a href="#B">B</a>&nbsp; <a href="#C">C</a>&nbsp; <a href="#D">D</a>&nbsp;
+./dist/history/idx combined/index.html:361:30302:<p>MEAD, David <a title="1869/9.html#1">1869-70:9</a>, <a href="1869/10.html#2">1869-70:10-11</a>; <a href="1871/022.html#1">1871-72:22-23</a>, <a href="1871/022.html#18">1871-72:24</a>
+./dist/history/idx combined/index.html:538:44722:<center><a title="chronology.html#UP"><img src="../images/up.gif" border="0"></a> &nbsp; <a href="../index.html"><img src="../images/ccg.gif" border="0"></a></center>
+./dist/history/1869/idx/index.html:110:7297:<p>MEAD, David <a title="9.html#1">1869-70:9</a>, <a href="10.html#2">1869-70:10-11</a>
+./dist/history/1869/idx/index.html:156:9751:<center><a title="chronology.html#UP"><img src="../../images/up.gif" border="0"></a> &nbsp; <a href="../../index.html"><img src="../../images/ccg.gif" border="0"></a></center>
+./dist/history/1869/template/index.html:16:773:<br><a title="*.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./dist/history/1869/template/index.html:17:869:page <b>*</b> &nbsp; &nbsp; &#183; &nbsp; &nbsp; <i><a title="*.html">next page</i></a></font></center>
+./dist/history/1869/template/index.html:23:1011:<center><font size="-1"><a title="*.html"><i>next page</i></a></font></center>
+./dist/history/1869/11/index.html:16:787:<br><a title="Mdvl11.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./dist/history/1869/21/index.html:16:787:<br><a title="Mdvl20.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./dist/history/1869/130/index.html:133:4270:<tr align="right"><td align="left"><a title="S25"></a>&nbsp; &nbsp;Foster Farm, Pioneer Run</td>
+./dist/history/1869/13/index.html:21:1114:<p>&nbsp;  &nbsp;  The very valuable library which the institution possesses was obtained mainly by the untiring zeal of Mr. Alden, who performed one or more tours through the Eastern States to solicit aid from learned and benevolent individuals for his infant seminary.&nbsp; The most liberal contributor was the <a title="8"></a>Rev. Dr. Bentley, a Unitarian clergyman, of Salem, Mass., who had spent his life in amassing one of the rarest collections of theological works in the country.&nbsp; Harvard University had set her eyes upon this collection, and having bestowed a preliminary <i>plum</i>, in the shape of an LL. D. Diploma, patiently awaited the Doctor&#146;s demise.&nbsp;  She occupied, however, the situation of Esau before Isaac, for Mr. Alden had previously &#147;prepared the savory dish, and received the boon.&#148;  The portrait of Dr. Bentley still adorns the walls of the Hall of Allegheny Literary Society.&nbsp; The valuable private libraries of <a name="9"></a>Hon. Judge Winthrop and <a name="10"></a>Isaiah Thomas, Esq., also both of Massachusetts, were added soon after to the College Library through the influence of Mr. Alden, the former being valued at the time at $6,500.&nbsp; But notwithstanding these and other liberal endowments, the College, which commenced its existence as a Presbyterian institution, languished.
+./dist/history/boro/Wayne/index.html:11:443:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Wayne/index.html:17:804:<td>Created from the southern part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Wayne/index.html:20:2188:<td>Parts exchanged with <a href="Plum.html">Plum Twp.</a> and <a title="SugarCreek.html">Sugar Creek Twp.</a> in Venango Co.<font size="-1"><a name="B2"  href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/boro/Wayne/index.html:23:5037:<td>Boundaries redefined: western part lost to <a title="Fairfield.html">Fairfield Twp.</a>; northeastern part lost to <a href="Randolph.html">Randolph Twp.</a> and to creation of <a href="Troy.html">Troy Twp.</a> <font size="-1"><a name="B3" href="#N3"><sup>3</sup></font></a></td></tr>
+./dist/history/boro/Wayne/index.html:31:6330:<sup><a name="N1">1</sup> </a>Crawford Co. Court of Quarter Sessions Dec. Session 1808 (road papers).&nbsp; The election district was created by Act of 4 April 1809, 1808-9 Pa. Laws 177 (Ch. 102, &sect; 8).&nbsp; Residents had proposed the name <a title="Monroe.html#B1">Monroe Township</a> [q.v.]. &nbsp; <font size="-2"><a href="#B1">BACK</a></font>
+./dist/history/boro/Troy/index.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Troy/index.html:20:1654:<td>Northern part lost to creation of <a title="Steuben.html">Steuben Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Royalton/index.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/SandyLake/index.html:11:448:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/SandyLake/index.html:17:812:<td>Created from parts of <a title="Neshannock.html">Neshannock Twp.</a> and <a title="Irwin.html">Irwin Twp.</a>, Mercer Co.<font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/SShenango/index.html:11:452:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/SShenango/index.html:17:823:<td>Created from the southwestern part of <a title="Shenango.html">Shenango Twp.</a><font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/SShenango/index.html:20:1423:<td>Portion incorporated as the borough of <a title="boro/Turnersville.html#B2">Turnersville</a> [q.v.]</td></tr>
+./dist/history/boro/SShenango/index.html:22:1577:<td>Portion annexed to the borough of <a title="boro/Jamestown.html#B2">Jamestown</a>, Mercer County [q.v.]</td></tr>
+./dist/history/boro/SShenango/index.html:24:1734:<td>Northeastern part lost to <a title="WFallowfield.html#B2">West Fallowfield Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Richmond/index.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Rockdale/index.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Rockdale/index.html:17:864:<td>Created from part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/boro/Rockdale/index.html:20:1674:<td>Territory lost to <a title="Bloomfield.html#B3">Bloomfield Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Rockdale/index.html:22:1814:<td>Boundaries redefined: parts lost to <a title="Bloomfield.html">Bloomfield Twp.</a> and <a href="Venango.html">Venango Twp.</a> and to creation of <a title="Athens.html">Athens Twp.</a>, <a href="Richmond.html">Richmond Twp.</a>, and <a href="Woodcock.html">Woodcock Twp.</a>; territory west of French Creek gained from <a href="Venango.html">Venango Twp.</a> <font size="-1"><a name="B3"  href="#N3"><sup>3</sup></font></a></td></tr>
+./dist/history/boro/PennLine/index.html:11:447:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Plum/index.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Plum/index.html:17:783:<td>Created from <a title="SugarCreek.html">Sugar Creek Twp.</a>, Venango Co., but attached to <a title="Cherrytree.html">Cherrytree Twp.</a> for township purposes.<font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Sadsbury/index.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Sadsbury/index.html:17:808:<td>Created from parts of <a href="Conneaut.html">Conneaut Twp.</a> and <a title="Mead.html">Mead Twp.</a><font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Sadsbury/index.html:20:1556:<td>Territory gained from <a title="Fallowfield.html">Fallowfield Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/boro/Sadsbury/index.html:23:3891:<td>Boundaries redefined:&nbsp; northern and eastern parts lost to creation of <a title="Hayfield.html">Hayfield Twp.</a>, <a title="Summerhill.html">Summerhill Twp.</a> and <a title="Vernon.html">Vernon Twp.</a>; territory gained from <a href="Conneaut.html">Conneaut Twp.</a>, <a title="Fallowfield.html">Fallowfield Twp.</a>, and <a title="Shenango.html">Shenango Twp.</a> 
+./dist/history/boro/Sadsbury/index.html:28:4823:<td>Northern part lost to creation of <a title="Summit.html#B1">Summit Twp.</a> [q.v.] </td></tr>
+./dist/history/boro/Sadsbury/index.html:30:4969:<td>Portion incorporated as the borough of <a title="boro/Conneaut.html#B2">Evansburg</a> [q.v.]</td></tr>
+./dist/history/boro/Sadsbury/index.html:32:5125:<td>Southwestern part lost to <a title="WFallowfield.html#B2">West Fallowfield Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Pine/index.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Pine/index.html:17:801:<td>Created from part of <a title="NShenango.html" name="B1">North Shenango Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Pine/index.html:20:1417:<td>Western part lost to <a title="NShenango.html">North Shenango Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Randolph/index.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Randolph/index.html:17:809:<td>Created from the eastern part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Randolph/index.html:20:1750:<td>Boundaries redefined: eastern and northern parts lost to creation of <a title="Athens.html">Athens Twp.</a>, <a href="Richmond.html">Richmond Twp.</a>, and <a href="Troy.html">Troy Twp.</a>; territory gained from <a href="Wayne.html">Wayne Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./dist/history/boro/Salem/index.html:11:443:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Salem/index.html:17:802:<td>Created from part of <a title="Neshannock.html">Neshannock Twp.</a>, Mercer Co.<font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Salem/index.html:24:1844:<td>Western part lost to creation of <a title="WSalem.html#B1">West Salem Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Salem/index.html:26:1989:<td>Northern strip lost to <a title="Fallowfield.html#B2">Fallowfield Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/Rome/index.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Rome/index.html:17:803:<td>Created from parts of <a title="Bloomfield.html">Bloomfield Twp.</a> and <a title="OilCreek.html">Oil Creek Twp.</a> <font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/boro/Rome/index.html:21:1708:<td>Southwestern part lost to creation of <a title="Steuben.html#B1">Steuben Twp.</a> [q.v.] </td></tr>
+./dist/history/boro/Rome/index.html:23:1862:<td>Portion incorporated as the borough of <a title="boro/Centerville.html#B2">Centerville</a> [q.v.]</td></tr>
+./dist/history/boro/Pitt/index.html:11:441:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/Pitt/index.html:20:1406:<td>Northern part lost to creation of <a title="Mead.html">Mead Twp.</a> and <a title="Irwin.html">Irwin Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/SandyCreek/index.html:11:449:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/SandyCreek/index.html:25:1566:<td>Northwestern strip lost to <a title="Fairfield.html#B2">Fairfield Twp.</a> and <a title="Fallowfield.html#B2">Fallowfield Twp.</a> [q.v.]</td></tr>
+./dist/history/boro/WShenango/index.html:11:451:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./dist/history/boro/WShenango/index.html:19:996:<td>Created from the southwestern part of <a href="SShenango.html">South Shenango Twp.</a> and the borough of <a title="boro/Turnersville.html">Turnersville.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./dist/history/1850/response/index.html:22:976:<br> &nbsp; &nbsp; It is impossible now to ascertain the motives which actuated the first settlers in emigrating to this county.&nbsp; The contest between claimants under the Connecticut and Pennsylvania titles to lands in Northumberland, seems to have led to the first visit of <a name="141"></a>David Mead.&nbsp; After much trouble and controversy, he lost his farm near Sunbury, and subsequently received indemnity from the commonwealth, by the grant of lands west of Alleghany.&nbsp; <a name="142"></a>Cornelius Van Horn was also involved in that controversy, and received a partial equivalent in money from the state for the losses he sustained.&nbsp; The greater part of the first settlers came from the Susquehanna River, probably in quest of better and cheaper lands.
+./dist/history/1874/Cussewago/index.html:202:14323:was erected in 1857, at a cost of $660.&nbsp; The present pastor is <a title="58"></a>Rev.
+./dist/topicidx/subjects/index.html:638:39056:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54" target="_blank">1852-1854</a>) &nbsp;1:62</dd>
+./dist/topicidx/subjects/index.html:639:39162:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54" target="_blank">1852-1854</a>) &nbsp;2:81</dd>
+./dist/census/1820US/index.html:24:1147:<td><a title="1820/68A.html#Oil Creek">Oil Creek Township</a>
+./dist/census/1800tax/test/index.html:16:879:<i><a title="89.html">next page</i></a></font>
+./dist/census/1870m/sh09/index.html:45:3449:<br><font size="-1">[Certification of compliance signed by Ass't Marshal <a title="0"></a>E Norris, dated 29 Aug. 1870 � <i>see <a href="sh08.html">prior page</a> for entries</i>]</font>&nbsp;
+./dist/census/1870m/sh0/index.html:14:673:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./dist/census/1870m/sh0/index.html:81:5041:<font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./dist/census/mortidx/m-b/index.html:68:4483:<br><br>BARTHOLOMEW, Eliza <a title="../1880m/ED152.html#152">1880:93</a>; George <a href="../1870m/sh44.html#6">1870:44</a>; <i>see</i> BORTHALAMEW <a href="../1880m/ED125.html#128">1880:125</a>
+./dist/census/mortidx/m-p/index.html:24:1096:<br><br>PALMER, Almeda <a href="../1880m/ED95.html#199">1880:95</a>; Frank Demancy <a href="../1870m/sh13.html#4">1870:13</a>; Perry <a href="../1850m/663.html#182">1850:663</a>; Phebe <a href="../1850m/663.html#181">1850:663</a>; Samuel <a title="../1880m/ED663.html#198">1880:95</a>
+./dist/census/mortidx/m-p/index.html:42:2191:<br><br>PARSONS, (Dr.) <a href="../1880m/ED95.html#183">1880:95</a>, <a title="../1880m/ED.html#128">1880:105</a>; Anson <a href="../1880m/ED116.html#128">1880:116</a>, <a href="../1880m/ED116.html#128">1880:116</a>; Clara <a href="../1870m/sh21.html#7">1870:21</a>
+./dist/census/mortidx/m-p/index.html:46:2629:<br><br>PAYNE, C. <a href="../1880m/ED88.html#42">1880:88</a>; Charles <a title="../1880m/ED.html#49">1880:88</a>
+./dist/census/mortidx/m-p/index.html:76:3962:<br><br>PETERSON, A. <a href="../1880m/ED96.html#216">1880:96</a>; Alice Elda <a href="../1870m/sh17.html#11">1870:17</a>; Amanda <a title="../1880m/ED.html#128">1880:124</a>; Franklin <a href="../1870m/sh15.html#2">1870:15</a>; John Henry<a href="../1870m/sh17.html#12">1870:17</a>
+./dist/census/mortidx/m-p/index.html:87:4819:<a title="../1880m/ED.html#128">1880:125</a>
+./dist/census/mortidx/m-p/index.html:131:7918:<br><br>PRESTON, Sarah <a href="../1850m/649.html#103">1850:649</a><br><br>PRICE, Hattie <a href="../1880m/ED132.html#128">1880:132</a>; James <a title="../1880m/ED.html#128">1880:132</a>
+./dist/census/mortidx/m-p/index.html:135:8225:<br><br>PROPER, (Dr.) <a href="../1880m/ED108.html#128">1880:108</a>, <a href="../1880m/ED122.html#163">1880:122</a>, <a title="../1880m/ED.html#128">1880:122</a>, <a href="../1880m/ED124.html#128">1880:124</a>, <a href="../1880m/ED125.html#128">1880:125</a>; Andrew H., Jr. <a title="../1880m/ED.html#128">1880:126</a>; J. L.
+./dist/census/mortidx/m-m/index.html:171:8915:<br><br>MARSHALL, C. <a href="../1880m/ED113.html#128">1880:113</a>; David <a title="../1880m/ED1118.html#128">1880:118</a>; James <a href="../1880m/ED118.html#128">1880:118</a>; Kate <a href="../1880m/ED117.html#128">1880:117</a>; Mary <a href="../1880m/ED118.html#128">1880:118</a>; Robert <a href="../1860m/9.html#186">1860:9</a>
+./dist/census/mortidx/m-h/index.html:214:11614:<br><br>HOPKINS, Gilbert M <a href="../1850m/679.html#246">1850:679</a>; John C. <a href="../1880m/ED129.html#128">1880:129</a>; Leroy <a href="../1880m/ED112.html#128">1880:112</a>; Mary <a href="../1880m/ED95.html#196">1880:95</a>; Mellville <a title="../1880m/ED200.html#200">1880:95</a>; Mertie M. <a href="../1880m/ED122.html#128">E.D.
+./dist/census/mortidx/m-o/index.html:35:1866:<br><br>OLSON, Allie <a href="../1880m/ED94.html#162">1880:94</a>; Blanche <a href="../1880m/ED94.html#157">1880:94</a>; Peter <a title="../1880m/ED161.html#161">1880:94</a>
+./dist/census/mortidx/m-r/index.html:18:786:<br>RADACK, infant <a title="../1880m/ED.html#137">1880:122</a>
+./dist/census/mortidx/m-r/index.html:112:5979:<br><br>ROSS, Edwina <a href="../1880m/ED104.html#128">1880:104</a>; John B. <a href="../1880m/ED100.html#307">1880:100</a>; Maggie <a title="../1880m/ED.html#128">1880:114</a>; Smith J. <a href="../1880m/ED100.html#309">1880:100</a>; Thomas <a href="../1860m/14.html#252">1860:14</a>
+./dist/census/mortidx/m-g/index.html:132:7791:<br><br>GREENLEE, (Dr.) <a href="../1880m/ED104.html#128">1880:104</a>, <a href="../1880m/ED105.html#128">1880:105</a>; Cora <a href="../1870m/sh43.html#24">1870:43</a>; D. R. <a href="../1880m/ED104.html#128">1880:104</a>, <a href="../1880m/ED104.html#128">1880:104</a>; Frank <a href="../1880m/ED116.html#128">1880:116</a>; Olive <a href="../1850m/665.html#186">1850:665</a>; Ralph <a href="../1870m/sh02.html#10">1870:02</a>; Sarah <a href="../1850m/629.html#34">1850:629</a>; Simeon <a href="../1850m/663.html#167">1850:663</a>; William C. <a title="../1880m/ED194.html#128">1880:104</a>
+./dist/census/mortidx/m-g/index.html:156:9437:<br><br>GROUTEE, Eliza <a href="../1880m/ED105.html#128">1880:105</a>; Hugo <a title="../1880m/ED205.html#128">1880:105</a>; Madiline <a href="../1880m/ED105.html#128">1880:105</a>
+./dist/census/censusidx/census-c/index.html:73:3689:<p>CARMAN, Frze <a href="../1820/51A.html">1820:51A</a>; James <a href="../1800PA/89.html#62">1800PA:89</a>, <a href="../1810/433.html">1810:433</a>; Reuben <a title="../1800PA/64.html#57">1800PA:89</a>; Ruben <a href="../1800/11.html">1800:11</a>; Stephen <a href="../1800PA/89.html#61">1800PA:89</a>; <i>see</i> CARMON
+./dist/census/1870m.sh1/index.html:9:283:<br><font size="+2"><a title="../../census.html">Census</a></font>
+./dist/census/1870m.sh1/index.html:11:392:<font size="+1"><a title="../1870US-m.html">1870 U.S. CENSUS - Mortality Schedules</a></font>
+./dist/census/1870m.sh1/index.html:12:486:<br><font size="+2">&nbsp;<a title="../mortidx.html"><img title="../../images/index.gif" border="0"></a>&nbsp;</font>
+./dist/census/1870m.sh1/index.html:13:604:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./dist/census/1870m.sh1/index.html:38:2908:<tr align="center"><td colspan="14"><font size="+1"><a title="../../places/$.html" name="$">$ TOWNSHIP</a></font>
+./dist/census/1870m.sh1/index.html:80:4988:<font size="-1"><a title="sh#.html"><i>next page</i></a></font>
+./dist/census/1870m.sh11/index.html:9:283:<br><font size="+2"><a title="../../census.html">Census</a></font>
+./dist/census/1870m.sh11/index.html:11:392:<font size="+1"><a title="../1870US-m.html">1870 U.S. CENSUS - Mortality Schedules</a></font>
+./dist/census/1870m.sh11/index.html:12:486:<br><font size="+2">&nbsp;<a title="../mortidx.html"><img title="../../images/index.gif" border="0"></a>&nbsp;</font>
+./dist/census/1870m.sh11/index.html:13:604:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./dist/census/1870m.sh11/index.html:38:2909:<tr align="center"><td colspan="14"><font size="+1"><a title="../../places/$.html" name="$">$ TOWNSHIP</a></font>
+./dist/census/1870m.sh11/index.html:80:4971:<font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./dist/census/1850m/temp/index.html:33:2581:<tr align="center"><td colspan="12"><font size="+1"><a title="../../places/.html"> TOWNSHIP</a></font>
+./dist/census/mort/index.html:15:677:<center><a title="#A">A</a>&nbsp; <a href="#B">B</a>&nbsp; <a href="#C">C</a>&nbsp; <a href="#D">D</a>&nbsp; 
+./dist/census/mort/index.html:16:787:<a href="#E">E</a>&nbsp; <a href="#F">F</a>&nbsp; <a href="#G">G</a>&nbsp; <a href="#H">H</a>&nbsp; <a href="#I">I</a>&nbsp; <a href="#J">J</a>&nbsp; <a href="#K">K</a>&nbsp; <a href="#L">L</a>&nbsp; <a href="#M">M</a>&nbsp; <a href="#N">N</a>&nbsp; <a href="#O">O</a>&nbsp; <a href="#P">P</a>&nbsp; <a href="#Q">Q</a>&nbsp; <a href="#R">R</a>&nbsp; <a href="#S">S</a>&nbsp; <a title="#Tt">T</a>&nbsp; <a title="#U">U</a>&nbsp; <a href="#V">V</a>&nbsp; <a href="#W">W</a>&nbsp; <!--a href="#X"-->
+./dist/ccg/index.html:9:310:<br><font size="-2">To</font> <font size="-2"><a title="subscribe.html">SUBSCRIBE</font></center>
+./dist/ccg/index.html:11:517:newsletter issued by the <a title="society.html">Crawford County Genealogical Society</a>.&nbsp; 
+./dist/ccg/index.html:21:1341:&nbsp; A <a title="contents/21a.html">table of contents</a> and every name <a title="contents/nameidx.html">
+./dist/ccg/index.html:23:1622:Periodical Index</i> and in <i>Periodical Source Index</i> (PERSI).&nbsp; Certain <a title="backccg.html">back issues</a> 
+./dist/ccg/index.html:24:1745:are available for purchase, and many genealogical <a title="deposit.html">libraries</a> carry CCG.
+./src/biography/b.html:33:1757:<p>BALDWIN, Charles E. 1899:896; E. D. 1882:2:<a href="1882.html#EDB345">345</a>; Henry (decd.) 1885:303, 1888:<a title="../history/1888/bar.html#HB136">136</a>; 1899:199, 1903:246, <i>Lawyers</i> <a href="../history/lawyers.html#VI">VI</a>; <i>Pioneers</i> 3; CCH Summer 2013:1; Henry, Jr. (decd.) 1885:309; Isaac S. 1885:<a href="1885/Spring.html#ISB1011">1011</a>
+./src/biography/1899.html:20:879:<a title="1899/Beaver.html">Beaver</a> &#183 
+./src/biography/1899.html:21:925:<a title="1899/Bloomfield.html">Bloomfield</a> &#183 
+./src/biography/1899.html:22:979:<a title="1899/Cambridge.html">Cambridge</a> &#183 
+./src/biography/1899.html:23:1031:<a title="1899/Conneaut.html">Conneaut</a> &#183 
+./src/biography/1899.html:24:1081:<a title="1899/Cussewago.html">Cussewago</a> &#183 
+./src/biography/1899.html:25:1133:<a title="1899/EFairfield.html">East&nbsp;Fairfield</a> &#183 
+./src/biography/1899.html:26:1196:<a title="1899/EFallowfield.html">East&nbsp;Fallowfield</a> &#183 
+./src/biography/1899.html:28:1314:<a title="1899/Greenwood.html">Greenwood</a> &#183 
+./src/biography/1899.html:29:1366:<a title="1899/Hayfield.html">Hayfield</a> &#183 
+./src/biography/1899.html:30:1416:<a title="1899/Mead.html">Mead</a> &#183 
+./src/biography/1899.html:31:1458:<a title="1899/NShenango.html">North&nbsp;Shenango</a> &#183 
+./src/biography/1899.html:32:1520:<a title="1899/OilCreek.html">Oil&nbsp;Creek</a> &#183 
+./src/biography/1899.html:33:1576:<a title="1899/Pine.html">Pine</a> &#183 
+./src/biography/1899.html:34:1618:<a title="1899/Randolph.html">Randolph</a> &#183 
+./src/biography/1899.html:35:1668:<a title="1899/Richmond.html">Richmond</a> &#183 
+./src/biography/1899.html:38:1808:<a title="1899/Sadsbury.html">Sadsbury</a> &#183 
+./src/biography/1899.html:39:1858:<a title="1899/SShenango.html">South&nbsp;Shenango</a> &#183 
+./src/biography/1899.html:40:1920:<a title="1899/Sparta.html">Sparta</a> &#183 
+./src/biography/1899.html:42:2011:<a title="1899/Steuben.html">Steuben</a> &#183 
+./src/biography/1899.html:43:2059:<a title="1899/Summerhill.html">Summerhill</a> &#183 
+./src/biography/1899.html:44:2113:<a title="1899/Summit.html">Summit</a> &#183 
+./src/biography/1899.html:45:2159:<a title="1899/Troy.html">Troy</a> &#183 
+./src/biography/1899.html:46:2201:<a title="1899/Union.html">Union</a> &#183 
+./src/biography/1899.html:47:2245:<a title="1899/Venango.html">Venango</a> &#183 
+./src/biography/1899.html:48:2293:<a title="1899/Vernon.html">Vernon</a> &#183 
+./src/biography/1899.html:49:2339:<a title="1899/Wayne.html">Wayne</a> &#183 
+./src/biography/1899.html:50:2383:<a title="1899/WFallowfield.html">West&nbsp;Fallowfield</a> &#183 
+./src/biography/1899.html:51:2450:<a title="1899/WShenango.html">West&nbsp;Shenango</a> &#183 
+./src/biography/1899.html:52:2511:<a title="1899/Woodcock.html">Woodcock</a>
+./src/biography/s.html:75:2667:<p>SELDEN, George (decd.) 1885:305, 1888:<a title="../history/1888/bar.html#GS137">137</a>
+./src/biography/f.html:9:288:<a title="../index.html"><img src="../images/ccg.gif" border="0"></a>
+./src/biography/f.html:10:358:<br><a title="../biography.html"><font size="+2"><b>Biography</b></font></a>
+./src/biography/f.html:12:440:<br><a title="a.html">A</a>&nbsp; <a title="b.html">B</a>&nbsp; <a title="c.html">C</a>&nbsp; <a title="d.html">D</a>&nbsp; 
+./src/biography/f.html:13:565:<a title="e.html">E</a>&nbsp; F&nbsp; <a title="g.html">G</a>&nbsp; <a title="h.html">H</a>&nbsp; <a title="i.html">I</a>&nbsp;
+./src/biography/f.html:14:693: <a title="j.html">J</a>&nbsp; <a title="k.html">K</a>&nbsp; <a title="l.html">L</a>&nbsp; <a title="m.html">M</a>&nbsp; <a title="n.html">N</a>&nbsp;
+./src/biography/f.html:15:844: <a title="o.html">O</a>&nbsp; <a title="p.html">P</a>&nbsp; <a title="q.html">Q</a>&nbsp; <a title="r.html">R</a>&nbsp; <a title="s.html">S</a>&nbsp;
+./src/biography/f.html:16:995: <a title="t.html">T</a>&nbsp; <a title="u.html">U</a>&nbsp; <a title="v.html">V</a>&nbsp; <a title="w.html">W</a>&nbsp; <!--a href="x.html"-->
+./src/biography/f.html:17:1139:<u>X</u><!--/a-->&nbsp; <a title="y.html">Y</a>&nbsp; <a title="z.html">Z</a>
+./src/biography/f.html:19:1259:<a title="key.html">key</a></center>
+./src/biography/f.html:29:1422:<p>FARRELLY, David M. 1879:237, 1885:309, 737, 1899:203; Ellis M. 1885:1070, 1899:932; John W. (decd.) 1885:309, 1888:<a title="../history/1888/Bar.html#JWF137">137</a>, 1899:203; Patrick (decd.) 1885:304-5, 1888:<a title="../history/1888/bar.html#PF137">137</a>, 1899:201, 1903:246, <i>Lawyers</i> <a title="../history/lawyers.html#XI">XI</a>
+./src/biography/f.html:33:1800:<p>FAULKNER, (Dr.) Morgan L. 1885:<a title="1885/Venango.html#MLF1115">1115</a>; Peter 1874BE:626-27
+./src/biography/f.html:55:2301:<p>FINNEY,  Asahel Clark 1874BE:373; Darwin A. (decd.) 1885:310, 1888:<a title="../history/1888/Bar.html#DAF137">137-38</a>, 1899:204; Hannibal H. 1885:965
+./src/biography/f.html:59:2509:<p>FISH, Albert 1885:1057; Benjamin O. 1899:839; Ira W. 1885:<a title="1885/Rome.html#IWF975">975</a>
+./src/biography/f.html:73:2920:<p>FLICKINGER, William E. 1885:<a title="1885/Vernon.html#WEF1128">1128</a>
+./src/biography/f.html:95:3440:<p>FOSTER, Alexander W. (decd.) 1885:304, 1888:<a title="../history/1888/bar.html#AWF137">137</a>, 1903:246, <i>Lawyers</i> <a title="../history/lawyers.html#XII">XII</a>, <i>Pioneers</i> 8; 
+./src/biography/f.html:96:3632:David 1899:951; James G. 1879:236; (Mrs.) Margaret (Power) 1885:1020-21; Samuel B. 1888:<a title="../history/1888/bar.html#SBF137">137</a>, <i>Lawyers</i> <a title="../history/lawyers.html#XIII">XIII</a>; William Bentley CCH 3:6:1; William McAllister CCH 6:2:6
+./src/biography/f.html:114:4382:<p>FREY, Jacob 1885:<a title="1885/Pine.html#JF920">920</a>; R. C. 1879:235
+./src/biography/f.html:122:4569:<p>FULLER, Albert M. 1879:238, 1885:739, 1888:151, 1899:840; Hiram F. 1885:<a title="1885/Sparta.html#HFF1005">1005</a>; John 1885:1083; Thomas 1885:1005
+./src/biography/f.html:124:4724:<p>FULLERTON, David L. 1885:<a title="1885/Rockdale.html#965">965</a>; Samuel D. 1885:845-46
+./src/biography/f.html:129:4850:<br><center><a title="#UP"><img src="../images/up.gif" border="0"></a> &nbsp; <a title="../index.html"><img src="../images/ccg.gif" border="0"></a></center></center>
+./src/biography/Rome.html:13:586:<br><a title="biogs.html">Part V:&nbsp; Biographical Sketches</a>
+./src/biography/misc.html:15:542:<br><a title="SPB60">From <i>Genealogy of the Fairbanks Family</i>, at genealogylibrary.com
+./src/court/adoptold.html:300:17753:<td><font size="-1"><a title="adopt/1856-85#78:89">Ethel Ellis</a></font></td></tr>
+./src/court/div/stdalpha.html:702:105684:<p><b>S<font size="-1">ELL</b></font>, Jacob, of Adams Co., & Eve; he, &#147;when a young man, in the year [1777], married a woman of the name of Eve <b>Helman</b>, who five months after her marriage was delivered of a female child, and both being conscious that the child was not [his], and firmly impressed with a belief that under these circumstances happiness was not to be expected, mutually agreed to separate; she &#133; having acknowledged the fact, agreed in consideration of the sum of ten pounds paid by [him], the receipt of which [she] has also acknowledged, and further by a written instrument duly executed in which she has disclaimed any pretensions or further demands, which she might be supposed to lay claim to in virtue of said marriage contract; And whereas [he] having considered himself entirely freed from any obligations to [her], as in any respect arising from said marriage, did in the year [1780], marry another wife by whom he has, now living, six children: &#133; by the united exertions of himself and his present wife, they have by hard labor and honest industry acquired a considerable property, some of which he having transferred, but being unable to complete a title thereto, by reason of a claim which the aforesaid Eve may be supposed to possess &#133; as a right of dowry thereto &#133; [he] having now become old, and in a declining state of health, and having expressed to the legislature an anxious desire of distributing the property which he conceives he is justly entitled to, to the use and benefit of his present wife and family, and to the exclusion of a woman who has in no wise contributed thereto&#148;; Jacob&#146;s children by the woman he last married declared legitimate.&nbsp; <font size="-1">1805-6 Pa. Laws 326 (Ch. 118, approved 8 Feb. 1806), 18 Statutes at Large 56.</font>
+./src/court/div/std.html:702:117999:<p><b>S<font size="-1">ELL</b></font>, <a name="677"></a>Jacob, of Adams Co., & Eve; he, &#147;when a young man, in the year [1777], married a woman of the name of <a name="678"></a>Eve <b>Helman</b>, who five months after her marriage was delivered of a female child, and both being conscious that the child was not [his], and firmly impressed with a belief that under these circumstances happiness was not to be expected, mutually agreed to separate; she &#133; having acknowledged the fact, agreed in consideration of the sum of ten pounds paid by [him], the receipt of which [she] has also acknowledged, and further by a written instrument duly executed in which she has disclaimed any pretensions or further demands, which she might be supposed to lay claim to in virtue of said marriage contract; And whereas [he] having considered himself entirely freed from any obligations to [her], as in any respect arising from said marriage, did in the year [1780], marry another wife by whom he has, now living, six children: &#133; by the united exertions of himself and his present wife, they have by hard labor and honest industry acquired a considerable property, some of which he having transferred, but being unable to complete a title thereto, by reason of a claim which the aforesaid Eve may be supposed to possess &#133; as a right of dowry thereto &#133; [he] having now become old, and in a declining state of health, and having expressed to the legislature an anxious desire of distributing the property which he conceives he is justly entitled to, to the use and benefit of his present wife and family, and to the exclusion of a woman who has in no wise contributed thereto&#148;; Jacob&#146;s children by the woman he last married declared legitimate.&nbsp; <font size="-1">1805-6 Pa. Laws 326 (Ch. 118, approved 8 Feb. 1806), 18 Statutes at Large 56.</font>
+./src/court/div/pad.html:39:16897:<p><a name="388"></a><b>A<font size="-1">NDERSON</b></font>, Hannah <i>v.</i> <a name="389"></a>James.&nbsp; Petition of Hannah Anderson, of the District of Southwork, Philadelphia, by her next friend <a name="390"></a>Martin Rizer, sworn to at Philadelphia 17 June and filed 18 June 1799; married 11 July 1797; cohabited &#147;untill within a month last past&#148;; grounds: &#147;when the said James without provocation on the part of the said Hannah Anderson did maliciously and willfully desert from the said Hannah and in violation of the said Marriage Vow did Elope and live in Adultry with a certain <a title="391"></a>Susannah Leneville.&#148;&nbsp; <font size="-1">FHL film #1023001, images 69-73 (69).</font></p>
+./src/court/div/pad.html:329:255505:<p><a name="160"></a><b>G<font size="-1">ARDNER</b></font>, George <i>v.</i> <a name="161"></a>Margaret.&nbsp; Petition of George Gardner, the younger [&#147;Junior&#148; on some interrogatories] (signed in German script Georg G&#228;rtner), &#147;of the Borough of Reading in the County of Berks,&#148; sworn to in Berks Co. 11 Feb. 1797 and filed by 18 Feb. 1797 (when a subpoena was awarded; 21 Feb. 1797 according to the cover) at #292 March Term 1797; married &#147;about seven Years ago&#148; Margaret <b>F<font size="-1">OLTZ</font></b>, &#147;who was then a single woman&#148;; [period of cohabitation not stated]; grounds: &#147;the said Margaret within a year last past has committed many Acts of Adultery, some of which were committed in a very shameless and almost public Manner.&#148;&nbsp; Testimony taken 9 March 1799 (unsigned): <a name="842"></a><u>Eva Till</u>, wife of <a name="843"></a>Wm. Till, tanner &amp; currier in Reading, states that Margaret &#147;lives in the House with my Family,&#148; where she is visited by <a name="844"></a>Christian Madera, who is keeper of the Goal [jail] in Reading (where she slept with him), and married; <a name="845"></a><u>Elizabeth  Leitheiser</u>, wife of <a name="846"></a>Hartman Leitheiser, Lieutenant in the U.S.Army, who lived with Margaret about 2&#189; years ago; <a name="847"></a><u>Ann Maria Ulrick</u>, wife of <a name="848"></a>Philip Ulrick, labourer of Reading; and <a title="849"></a><u>Mary Till</u>, of Reading, spinster, states that Margaret rented a room in the house of her father, Wm. Till, in the Borough of Reading.&nbsp; Divorced 27 March 1799.&nbsp; <font size="-1">FHL film #1023003, images 44-59 (48).</font></p>
+./src/court/bb/bb.html:13:552:<br><a title="idx.html"><img src="../../images/index.gif" align="center" valign="bottom"></a></center></a>
+./src/court/bb/bb.html:14:659:<center><!--a href="list.html"--><font size="-1">L</font><font size="-2">ISTING</a></font> &nbsp; &#183; &nbsp; <a title="../bb.html"><font size="-1">I</font><font size="-2">NTRODUCTION</font></a> &nbsp; &#183; &nbsp; A<font size="-1">BSTRACTS</font></center>
+./src/court/bb/bb.html:322:9495:<font size="-1"><a title="#FN1ret" name="FN1"><sup>1</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:324:9577:<br><font size="-1"><a title="#FN2ret" name="FN2"><sup>2</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:326:9663:<br><font size="-1"><a title="#FN3ret" name="FN3"><sup>3</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:328:9749:<br><font size="-1"><a title="#FN4ret" name="FN4"><sup>4</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:330:9835:<br><font size="-1"><a title="#FN5ret" name="FN5"><sup>5</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:332:9921:<br><font size="-1"><a title="#FN6ret" name="FN6"><sup>6</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:334:10007:<br><font size="-1"><a title="#FN7ret" name="FN7"><sup>7</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:336:10093:<br><font size="-1"><a title="#FN8ret" name="FN8"><sup>8</sup></a>&nbsp; </font>
+./src/court/bb/bb.html:338:10179:<br><font size="-1"><a title="#FN9ret" name="FN9"><sup>9</sup></a>&nbsp; </font>
+./src/court/adopt/escheat.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197" target="_blank">S<font size="-1">ECT</font>. 2.</a> &#8230;
+./src/court/statdiv.html:29:4604:<br> &nbsp; &nbsp; Divorce bills were generally referred to a committee on divorces,<font size="-1"><sup><a name="15"><a href="#N15">15</sup></a></font> but the committee papers apparently do not survive.&nbsp; Additional details, however, may be discoverable in the <i>Minutes of the &#133; General Assembly of Pennsylvania</i> or the <i>Legislative Journal</i> for the sessions when the bill was introduced and debated upon.&nbsp; Information added from the state Senate, House of Representative, and Legislative Journals (abbreviated Sen., H.R., and Leg. Journal, respectively), and references thereto, are rendered in the accompanying abstracts in italics.<font size="-1"><sup><a title="N16" name="16">16</sup></a></font>
+./src/court/tax/template.html:11:382:<font size="+1"><a title="../taxes.html">TAX DUPLICATES</a></font>
+./src/court/mw/idx template.html:74:2285:<p>LUSE, M. H. <a title="fst.html#*">1895FST</a>
+./src/court/mw/idx.html:15:711:<a href="#e">E</a>&nbsp; <a href="#f">F</a>&nbsp; <a href="#g">G</a>&nbsp; <a href="#h">H</a>&nbsp; <a title="#i">I</a>&nbsp; <a href="#j">J</a>&nbsp; <a href="#k">K</a>&nbsp; <a href="#l">L</a>&nbsp; <a href="#m">M</a>&nbsp; <a href="#n">N</a>&nbsp; <a href="#o">O</a>&nbsp; <a href="#p">P</a>&nbsp; <a title="#q">Q</a>&nbsp; <a href="#r">R</a>&nbsp; <a href="#s">S</a>&nbsp; <a href="#t">T</a>&nbsp; <u>U</u>&nbsp; <a title="#v">V</a>&nbsp; <a href="#w">W</a>&nbsp; <!--a href="#x"--><u>X</u><!--/a-->&nbsp; <u>Y</u>&nbsp; <a href="#z">Z</a></center>
+./src/court/mw/idx.html:166:10961:<p>SHIELDS, Alice <a title="mw.html184#">1890MW</a>; Hugh <a href="mw2.html#185">1890MW</a>
+./src/court/mw/idxtemp.html:22:1563:<p>AIKEN, C. E. <a title="fst.html#96">1900FST</a>
+./src/court/mw/idxtemp.html:24:1709:<p>ANDREWS, Mary Adelaide (Frey) <a href="mw2.html#146">1884MW</a>; Rubie <a href="mw2.html#153">1885MW</a>; Thomas <a title="fst.html#40">1873FST</a>; William H. <a href="mw2.html#147">1884MW</a>; W. R. <a href="mw2.html#154">1885MW</a>
+./src/court/mw/idxtemp.html:31:2226:<p>BAIRD, Joseph <a title="fst.html#106">1901FST</a>; Sarah E. <a title="fst.html#105">1901FST</a>
+./src/court/mw/idxtemp.html:33:2419:<p>BALDRIDGE, E. M. <a title="fst.html#101">1900FST</a>
+./src/court/mw/idxtemp.html:34:2475:<p>BANNISTER, Lee <a title="fst.html#77">1890FST</a>
+./src/court/mw/idxtemp.html:36:2626:<p>Barlay &amp; Myles <a title="fst.html#116">1890FST</a>
+./src/court/mw/idxtemp.html:39:2896:<p>BIRCH, Kitty <a title="fst.html#51">1883FST</a>; K. G. L. <a title="fst.html#118">1883FST</a>
+./src/court/mw/idxtemp.html:42:3197:<p>BOYLAN, Mary (McKeowen) <a title="fst.html#19">1873FST</a>; Michael <a title="fst.html#20">1873FST</a>
+./src/court/mw/idxtemp.html:45:3504:<p>BROWN, Clark <a title="fst.html#46">1877FST</a>
+./src/court/mw/idxtemp.html:46:3555:<p>Brown Bros. <a title="fst.html#97">1900FST</a>
+./src/court/mw/idxtemp.html:48:3692:<p>Bucklin Hotel <a title="fst.html#100">1900FST</a>
+./src/court/mw/idxtemp.html:49:3745:<p>BURDICK, Emeline/Emiline <a title="fst.html#85">1895FST</a>
+./src/court/mw/idxtemp.html:50:3808:<p>BURGESS, B. S. <a title="fst.html#9">1866FST</a>; Edward G. <a href="mw2.html#61">1877MW</a>; Jennie Elizabeth <a href="mw2.html#60">1877MW</a>
+./src/court/mw/idxtemp.html:58:4338:<p>CATHALA/CATHALO, John <a title="fst.html#29">1873FST</a>; <i>see</i> CATHALAT
+./src/court/mw/idxtemp.html:59:4419:<p>CATHALAT, Jean P. <a title="fst.html#110">1873FST</a>; <i>see</i> CATHALA
+./src/court/mw/idxtemp.html:60:4496:<p>CEASE, John R. <a title="fst.html#86">1895FST</a>
+./src/court/mw/idxtemp.html:62:4638:<p>CHICK, John M. <a title="fst.html#95">1900FST</a>
+./src/court/mw/idxtemp.html:63:4691:<p>CLARK, Francenia/Francina <a title="fst.html#55">1884FST</a>; John M. <a title="fst.html#36">1873FST</a>;  Lydia <a title="fst.html#52">1884FST</a>; Mary H. <a href="mw2.html#14">1874MW</a>; Nathaniel C. <a href="mw2.html#15">1874MW</a>; William <a title="fst.html#53">1884FST</a>
+./src/court/mw/idxtemp.html:66:5131:<p>COLT, H. T. <a title="fst.html#18">1868FST</a>
+./src/court/mw/idxtemp.html:67:5181:<p>CONGDON, C. W. <a title="fst.html#42">1873FST</a>
+./src/court/mw/idxtemp.html:68:5234:<p>CRAIGHEAD, (Rev.) R. <a title="fst.html#113">1873FST</a>, <a href="mw2.html#191">1873MW</a>
+./src/court/mw/idxtemp.html:75:5609:<p>DAME, W. M. <a title="fst.html#73">1890FST</a>
+./src/court/mw/idxtemp.html:77:5752:<p>DAVIS, Andrew T. <a title="fst.html#58">1884FST</a>
+./src/court/mw/idxtemp.html:83:6247:<p>DOUGLASS, William A. <a title="fst.html#56">1884FST</a>
+./src/court/mw/idxtemp.html:84:6306:<p>DREYFOUS, Catherine E. <a title="fst.html#1">1865FST</a>; Henry J. <a title="fst.html#2">1865FST</a>
+./src/court/mw/idxtemp.html:98:6935:<p>FETTERMAN, Anna <a href="mw2.html#122">1882MW</a>, <a title="fst.html#78">1892FST</a>; George <a href="mw2.html#123">1882MW</a>, <a title="fst.html#79">1892FST</a>
+./src/court/mw/idxtemp.html:99:7102:<p>FINDLEY/FINDLY, W. J. B. <a title="fst.html#34">1873FST</a>
+./src/court/mw/idxtemp.html:100:7165:<p>FREY, Mary Adelaide <a href="mw2.html#146">1884MW</a>, <a href="mw2.html#197">1884MW</a>; Reuben C. <a title="fst.html#30">1873FST</a>, <a title="fst.html#33">1873FST</a>
+./src/court/mw/idxtemp.html:108:7743:<p>GREEN, Clara M. <a title="fst.html#75">1890FST</a>; Maud W. <a title="fst.html#76">1890FST</a>
+./src/court/mw/idxtemp.html:110:7934:<p>GUTHMANN, Emanuel <a title="fst.html#10">1866FST</a>
+./src/court/mw/idxtemp.html:120:8751:<p>HAWKS, John T. <a title="fst.html#23">1873FST</a>
+./src/court/mw/idxtemp.html:122:8913:<p>HENDERSON, John F. <a title="fst.html#14">1866FST</a>
+./src/court/mw/idxtemp.html:124:9066:<p>HILL, Henry H. <a href="mw2.html#50">1877MW</a>, <a title="fst.html#44">1877FST</a>; Lydia <a href="mw2.html#49">1877MW</a>, <a title="fst.html#43">1877FST</a>
+./src/court/mw/idxtemp.html:125:9229:<p>HOEY, James P. <a title="fst.html#4">1865FST</a>, <a title="fst.html#8">1866FST</a>
+./src/court/mw/idxtemp.html:128:9519:<p>HOLDEN, J. J. <a title="fst.html#72">1890FST</a>
+./src/court/mw/idxtemp.html:130:9670:<p>HONEYWELL, L. <a title="fst.html#35">1873FST</a>
+./src/court/mw/idxtemp.html:132:9823:<p>HUNT, H. T. <a title="fst.html#47">1877FST</a>
+./src/court/mw/idxtemp.html:138:10060:<p>JAMISON, Mary M. <a title="fst.html#92">1900FST</a>; Samuel H. <a title="fst.html#93">1900FST</a>
+./src/court/mw/idxtemp.html:140:10254:<p>JOHNSON, Sara M. <a title="fst.html#109">1903FST</a>
+./src/court/mw/idxtemp.html:147:10586:<p>KERR, Chester L. <a title="fst.html#94">1900FST</a>; S. M. <a title="fst.html#55">1884FST</a>
+./src/court/mw/idxtemp.html:151:10981:<p>KNERR, C. W. <a title="fst.html#61">1886FST</a>
+./src/court/mw/idxtemp.html:159:11408:<p>LARIMER, Ellen H. <a title="fst.html#65">1886FST</a>; Joseph <a title="fst.html#66">1886FST</a>
+./src/court/mw/idxtemp.html:160:11507:<p>LAWRENCE, Joseph W. <a title="fst.html#108">1903FST</a>; Nancy <a title="fst.html#107">1903FST</a>
+./src/court/mw/idxtemp.html:161:11609:<p>LEWIS, Alford/Alfred <a title="fst.html#88">1895FST</a>; J. H. <a title="fst.html#13">1866FST</a>; Lovilla <a title="fst.html#87">1895FST</a>
+./src/court/mw/idxtemp.html:162:11754:<p>LUSE, M. H. <a title="fst.html#84">1895FST</a>
+./src/court/mw/idxtemp.html:170:12149:<p>McCLIMANS, Mary <a title="fst.html#37">1873FST</a>
+./src/court/mw/idxtemp.html:171:12203:<p>McCLOSKEY, J. Newton <a title="fst.html#27">1873FST</a>
+./src/court/mw/idxtemp.html:173:12349:<p>McDOWELL, Charles A. <a title="fst.html#80">1892FST</a>; Mary E. <a title="fst.html#81">1892FST</a>
+./src/court/mw/idxtemp.html:174:12452:<p>McFADDEN, Elizabeth H. <a title="fst.html#48">1883FST</a>
+./src/court/mw/idxtemp.html:175:12513:<p>McGRATH, Thomas <a title="fst.html#28">1873FST</a>
+./src/court/mw/idxtemp.html:176:12567:<p>MACHEY, Eugene <a title="fst.html#104">1900FST</a>
+./src/court/mw/idxtemp.html:178:12711:<p>McKEOWEN, Mary <a title="fst.html#19">1873FST</a>
+./src/court/mw/idxtemp.html:181:12912:<p>McPHEETERS, Martha A. <a title="fst.html#59">1886FST</a>; Robert <a title="fst.html#60">1886FST</a>
+./src/court/mw/idxtemp.html:183:13109:<p>Marlay, Byles &amp <a title="fst.html#117">1890FST</a>
+./src/court/mw/idxtemp.html:185:13265:<p>MEYERS, J. B. <a title="fst.html#99">1900FST</a>
+./src/court/mw/idxtemp.html:186:13317:<p>MONTAIGNE, Augustine <a title="fst.html#25">1873FST</a>; Catharine <a title="fst.html#112">1873FST</a>; Jean Baptiste <a title="fst.html#111">1873FST</a>
+./src/court/mw/idxtemp.html:187:13474:<p>MOORE, Mary B. <a title="fst.html#50">1883FST</a>
+./src/court/mw/idxtemp.html:188:13527:<p>MULVIN, D. S. <a title="fst.html#16">1866FST</a>
+./src/court/mw/idxtemp.html:194:13782:<p>NILES, Dennis W. <a title="fst.html#71">1890FST</a>; Rebecca M. <a title="fst.html#70">1890FST</a>
+./src/court/mw/idxtemp.html:195:13884:<p>NORTHAM, E. <a title="fst.html#69">1886FST</a>
+./src/court/mw/idxtemp.html:205:14229:<p>PAUL, Harrison D. <a title="fst.html#7">1866FST</a>
+./src/court/mw/idxtemp.html:207:14383:<p>PENTZ, William <a title="fst.html#39">1873FST</a>
+./src/court/mw/idxtemp.html:208:14436:<p>PERKINS, Charles H. <a title="fst.html#32">1873FST</a>; Elizabeth (Porter)<a title="fst.html#31">1873FST</a>; Samuel D. <a title="fst.html#64">1886FST</a>
+./src/court/mw/idxtemp.html:209:14594:<p>PIERSON, Harry <a title="fst.html#19">1868FST</a>
+./src/court/mw/idxtemp.html:210:14647:<p>PORTER, (Col.) James <a title="fst.html#114">1873</a>
+./src/court/mw/idxtemp.html:216:14979:<p>RAY, David <a title="fst.html#38">1873FST</a>; John <a title="fst.html#41">1873FST</a>; Mary (McClimans) <a title="fst.html#37">1873FST</a>
+./src/court/mw/idxtemp.html:217:15122:<p>REID, B. J. <a title="fst.html#22">1873FST</a>
+./src/court/mw/idxtemp.html:218:15172:<p>RHOADES, Lillian B. <a title="fst.html#115">1900FST</a>
+./src/court/mw/idxtemp.html:219:15231:<p>RHODES, Lillian B. <a title="fst.html#102">1900FST</a>
+./src/court/mw/idxtemp.html:221:15380:<p>ROFFEE, Eugene S. <a href="mw2.html#">1873MW</a>; Frank H. <a title="fst.html#103">1900FST</a>; Harriet Augusta <a href="mw2.html#10">1873MW</a>; Lillian B. (Rhoades) <a title="fst.html#102">1900FST</a>
+./src/court/mw/idxtemp.html:228:15869:<p>SAMPLE, Elizabeth &#147;Lizzie&#148 H. (McFadden) <a href="mw2.html#111">1881MW</a>, <a title="fst.html#48">1883FST</a>; Rinalda/Rinaldo P. <a href="mw2.html#112">1881MW</a>, <a title="fst.html#49">1883FST</a>
+./src/court/mw/idxtemp.html:229:16082:<p>SCANLIN, Augustine (Montaigne) <a title="fst.html#25">1873FST</a>; James <a title="fst.html#26">1873FST</a>
+./src/court/mw/idxtemp.html:231:16293:<p>SHERWOOD, Almira J. <a title="fst.html#82">1895FST</a>; John A. <a title="fst.html#83">1895FST</a>
+./src/court/mw/idxtemp.html:232:16395:<p>SHESKIN, Louisa <a title="fst.html#17">1868FST</a>
+./src/court/mw/idxtemp.html:233:16449:<p>SHIELDS, Alice <a title="mw.html184#">1890MW</a>; Hugh <a href="mw2.html#185">1890MW</a>
+./src/court/mw/idxtemp.html:234:16541:<p>SHWAB, Abraham <a title="fst.html#6">1866FST</a>; Anna <a title="fst.html#5">1866FST</a>
+./src/court/mw/idxtemp.html:236:16689:<p>SLAYTON, M. J. <a title="fst.html#91">1895FST</a>
+./src/court/mw/idxtemp.html:239:16892:<p>SPRINGER, Max <a title="fst.html#3">1865FST</a>
+./src/court/mw/idxtemp.html:240:16943:<p>STEWART, Ettie <a href="mw2.html#174">1887MW</a>, <a href="mw2.html#200">1887MW</a>; John <a title="fst.html#57">1884FST</a>; Rosetta <a href="mw2.html#174">1887MW</a>
+./src/court/mw/idxtemp.html:241:17114:<p>STOREY, Lucy A. <a title="fst.html#98">1900FST</a>
+./src/court/mw/idxtemp.html:243:17219:<p>STROUSE, Simon <a title="fst.html#24">1873FST</a>, <a title="fst.html#45">1877FST</a>
+./src/court/mw/idxtemp.html:245:17398:<p>SWIFT, John W. <a title="fst.html#63">1886FST</a>
+./src/court/mw/idxtemp.html:253:17872:<p>TRACEY/TRACY, John S. <a title="fst.html#21">1873FST</a>
+./src/court/mw/idxtemp.html:254:17932:<p>TROPLE, William <a title="fst.html#15">1866FST</a>
+./src/court/mw/idxtemp.html:256:18014:<p>TRUESDALE, Newton <a title="fst.html#89">1895FST</a>
+./src/court/mw/idxtemp.html:262:18266:<p>WALES, Benjamin F. <a title="fst.html#62">1886FST</a>
+./src/court/mw/idxtemp.html:269:18855:<p>WENZ, Philip P. <a title="fst.html#67">1886FST</a>
+./src/court/mw/idxtemp.html:272:19098:<p>WHEELER, Elijah/Elizah M. <a title="fst.html#12">1866FST</a>; Emma L. <a title="fst.html#11">18666FST</a>
+./src/court/mw/idxtemp.html:273:19207:<p>Wilkins Farm <a title="fst.html#74">1890FST</a>
+./src/court/mw/idxtemp.html:274:19258:<p>WILLIAMS, James <a title="fst.html#90">1895FST</a>
+./src/court/mw/idxtemp.html:275:19312:<p>WILSON, F. E. <a title="fst.html#68">1886FST</a>; Livinia P. <a href="mw2.html#70">1878MW</a>
+./src/indices/c.html:11:366:<br><font size="+2"><a title="../census/census.html">Census</a></font>
+./src/indices/c.html:73:4392:<p>CARMAN, Frze <a href="../census/1820/51A.html">1820 US Census:51A</a>; James <a href="../census/1800PA/89.html#62">1800 PA Census:89</a>, <a href="../census/1810/433.html">1810 US Census:433</a>; Reuben <a title="../census/1800PA/64.html#57">1800 PA Census:89</a>; Ruben <a href="../census/1800/11.html">1800 US Census:11</a>; Stephen <a href="../census/1800PA/89.html#61">1800 PA Census:89</a>; <i>see</i> CARMON
+./src/indices/d.html:11:366:<br><font size="+2"><a title="../census/census.html">Census</a></font>
+./src/indices/g.html:83:5068:Jeremiah <a title="../census/1800PA/71.html#47">1800 PA Census:97</a>, <a href="../census/1810/416.html">1810 US Census:416</a>; Jermiah <a href="../census/1820/57.html">1820 US Census:57</a>; 
+./src/places/tempboro.html:15:542:<dd><a title="../history/boro/.html">Formation and boundary changes</a>
+./src/places/tempboro.html:20:947:<dd><a title="../history/1876/.html#">1876</a> borough sketch from a county atlas
+./src/places/tempboro.html:22:1116:<dd><a title="../census/1880m/ED.html">1880</a> U.S. Census - mortality schedules
+./src/places/tempboro.html:24:1283:<dd><a title="../biography/1885/.html">1885</a> biographical sketches from a county history
+./src/places/temp.html:15:517:<dd><a title="../history/twp/*.html">Formation and boundary changes</a>
+./src/places/temp.html:16:589:<dd><a title="../census/1810/.html">1810</a> U.S. Census
+./src/places/temp.html:17:646:<dd><a title="../census/1820/.html">1820</a> U.S. Census
+./src/places/temp.html:18:703:<dd><a title="../census/1850US-m.html">1850</a> U.S. Census - mortality schedules
+./src/places/temp.html:21:956:<dd><a title="../history/1876/*.html">1876</a> township sketch from a county atlas
+./src/places/temp.html:23:1127:<dd><a title="../census/1880m/ED.html">1880</a> U.S. Census - mortality schedules
+./src/places/temp.html:24:1209:<dd><a title="../biography/1885/*.html">1885</a> biographical sketches from a county history
+./src/places/Springboro.html:28:1383:    <dd><a title="../history/1899/Spring.html">1899</a> borough sketch from a county history
+./src/places/Meadville.html:36:1900:    <dd><a title="vital/Meadville/1880.html">1880 deaths</a>
+./src/research.html:15:509:<center><a title="research/cemetery.html"><font size="+1">CEMETERIES</a></font></center>
+./src/research.html:19:672:<br><a title="sources.html">published sources</a> on the history and biography of Crawford County
+./src/research.html:20:770:<br><a title="research/history/CCohistory.html">History</a> of some Crawford County places, geographic names, ....
+./src/research.html:26:1143:<a title="research/vital.html">Vital records</a>
+./src/research.html:35:1770:<br>Copies of most <a title="sources.html">published sources</a> on the history of Crawford County are available in closed stacks
+./src/research.html:49:2603:<li><a title="research/photos.html">photocopy requests</a></ul>
+./src/contents.html:18:646:<br><a title="contents/21a.html">Volume 21, Number 1 (Feb. 1998)</a>
+./src/townships.html:107:10456:<tr><td><a title="history/twp/Harmonsburg.html">Harmonsburg</a><td align="center">1842<td align="center">1843<td>Sadsbury, Summerhill<td align="center">18__<td align="center">none</tr>
+./src/townships.html:121:12713:<tr><td><a title="history/twp./SShenango.html">South Shenango</a><td align="center">1829<td>&nbsp;<td>Shenango<td align="center">1830<td align="center">1830</tr>
+./src/military/Indian.html:41:2886:<ol><li><a title="../census/1800/.html">1800 U.S. Census</a>
+./src/military/Indian.html:115:7823:<li><i>see</i> Huidekoper <a title="../history/1850/idx.html#F">Index</a>
+./src/military/Indian.html:121:7947:<ol><li><a title="../census/1800/.html">1800 U.S. Census</a>
+./src/military/Indian.html:122:8008:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./src/military/Indian.html:123:8077:<li><a title="../census/1810/.html">1810 U.S. Census</a>
+./src/military/Indian.html:124:8134:<li><a title="../census/1820/.html">1820 U.S. Census</a>
+./src/military/Indian.html:159:12820:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./src/military/Indian.html:360:29670:<ol><li><a title="../census/6.html">1800 U.S. Census</a>
+./src/military/Indian.html:361:29727:<li><a title="../census/93.html#301">1800 U.S. Census</a> (Mead Twp.; also one in Conneaut Twp.)
+./src/military/Indian.html:362:29824:<li><a title="../census/404.html">180 U.S. Census</a> (Mead Twp.)
+./src/military/Indian.html:363:29890:<li><a title="../census/53A.html">1820 U.S. Census</a> (Wayne Twp.)
+./src/military/Indian.html:371:30367:<li><a title="../census/1800PA/93.html#271">1800 PA Septennial Census</a>
+./src/military/Indian.html:380:30996:<li><a title="../census/1800PA/93.html#300">1800 PA Septennial Census</a>
+./src/military/Indian.html:467:37672:<li><a title="../history/1871/230.html#S8">1871-72 CCo. Directory</a>
+./src/military/Indian.html:483:40943:<li><a title="../history/1879/Venango.html#276">1879 CCo. Directory</a>
+./src/military/Indian.html:538:45133:<li><a title="../census/1800/.html">1800 U.S. Census</a>
+./src/military/Indian.html:539:45190:<li><a title="../census/1800PA/.html#">1800 PA Septennial Census</a>
+./src/military/Indian.html:540:45259:<li><a title="../census/1810/.html">1810 U.S. Census</a>
+./src/military/Indian.html:541:45316:<li><a title="../census/1820/.html">1820 U.S. Census</a>
+./src/military/1776/B.html:355:90888:<li><a title="../../1810/430.html">1810</a> U.S. census, Cussewago Twp., CCo., p. 430:&nbsp; William Burney, - - 1 - 1 &#124; - 1 2 - 1 &#124; - -.
+./src/military/1776/B.html:359:91751:<li><a title="../../1820/64A.html">1820</a> U.S. census, Cussewago Twp., p. 64:&nbsp; John Burney, - - - - - 1 &#124; - - - 1 1 &#124; - - - -.
+./src/military/1776/V.html:24:971:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./src/military/1776/V.html:25:1031:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</a>
+./src/military/1776/C.html:114:28936:<li><a title="../../census/1810/64.html">1820 U.S. Census</a>, Cussewago Twp., p. 64:&nbsp; Elias Chamberlin, 1 - - 1 - - - - 1 - - - 1 - -; and John Chamberlin, - 1 - - - 1 3 1 3 - 1 - 1 - -
+./src/military/1776/C.html:117:29260:<li>1850 U.S. Census <a title="../../census/1850m/24.html">mortality schedules</a>, from CCG 5(1982):17, 24:&nbsp; Cussewago Twp., #3: Elizabeth Chamberlin, aged 75, female, born New Jersey, d. Aug., old age, 14 days
+./src/military/1776/C.html:323:53083:<li><a href="../../census/1800/3.html">1800 U.S. Census</a> or <li><a title="../../census/1820/9.html">1820 U.S. Census</a>
+./src/military/1776/C.html:332:54604:<li><a title="../../1874/Greenwood.html#7">1874 CCo. Gazetteer</a>:&nbsp; &#147;In 1797 Richard Custard, a native of Chester county, came from the west branch of the Susquehanna and settled upon a tract of 400 acres in the eastern part, where for some time he kept a hotel.&#148;
+./src/military/1776/H.html:97:6848:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./src/military/1776/H.html:98:6908:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</>
+./src/military/1776/H.html:99:6979:<li><a title="../../census/1810/.html">1810 U.S. Census</a>
+./src/military/1776/H.html:100:7039:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./src/military/1776/H.html:216:13413:<li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./src/military/1776/H.html:217:13473:<li><a title="../../census/1800PA/.html#">1800 PA Septennial Census</>
+./src/military/1776/H.html:218:13544:<li><a title="../../census/1810/.html">1810 U.S. Census</a>
+./src/military/1776/H.html:219:13604:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./src/military/1776/D.html:67:5186:<li><a title="../../census/1800PA/89.html#95">1800 PA Septennial Census</a>
+./src/military/1776/D.html:114:8242:<li><a title="../../census/1810/842.html">1810 U.S. Census</a>, p. 842
+./src/military/1776/F.html:86:6121:<li><a title="../../census/1820/.html">1810 U.S. Census</a>, Beaver Twp.
+./src/military/1776/G.html:108:18056:<ol><li><a title="../../census/1800/.html">1800 U.S. Census</a>
+./src/military/1776/veterans.html:13:549:<br><a title="idx.html"><img src="../../images/index.gif" align="center" valign="bottom"></a></center></a>
+./src/military/1776/R.html:44:6555:<li><a title="../../census/1800PA/.html">1800 PA Septennial Census</a>
+./src/military/1776/R.html:46:6688:<li><a title="../../census/1820/.html">1820 U.S. Census</a>
+./src/tables.html:12:308:<br><font size="-1"><a title="ahnentafels/explanation.html">Explanation</a></font>
+./src/tables.html:13:391:<br><font size="+2">&nbsp;</font><a title="ahnentafels/tablesindex.html"><img src="images/index.gif" align="top" alt="INDEX"></a><font size="+2">&nbsp;</font>
+./src/tables.html:16:635:<a title="ahnentafels/A01.html">1</a>&nbsp; <!--a href="ahnentafels/A02.html"-->2</a>&nbsp; 
+./src/tables.html:17:728:<a title="ahnentafels/A03.html">3</a>&nbsp; <!--a href="ahnentafels/A04.html"-->4</a>&nbsp; 
+./src/tables.html:19:905:<a title="ahnentafels/A05.html">5</a>&nbsp; <!--a href="ahnentafels/A06.html"-->6</a>&nbsp; 
+./src/tables.html:20:998:<!--a href="ahnentafels/A07.html"-->7</a>&nbsp; <a title="ahnentafels/A08.html">8</a>&nbsp; 
+./src/tables.html:21:1091:<!--a href="ahnentafels/A09.html"-->9</a>&nbsp; <a title="ahnentafels/A10.html">10</a>&nbsp; 
+./src/tables.html:22:1185:<!--a href="ahnentafels/A11.html"-->11</a>&nbsp; <a title="ahnentafels/A12.html">12</a>&nbsp; 
+./src/tables.html:23:1280:<a title="ahnentafels/A13.html">13</a>&nbsp; <a title="ahnentafels/A14.html">14</a>&nbsp; 
+./src/tables.html:24:1371:<a title="ahnentafels/A15.html">15</a>&nbsp; <!--a href="ahnentafels/A16.html"-->16</a>&nbsp; 
+./src/tables.html:27:1601:<a title="ahnentafels/A19.html">19</a>
+./src/tables.html:30:1711:<a title="ahnentafels/A05.html">5</a>&nbsp;-&nbsp;<b>Rita M. Benson</b>
+./src/tables.html:33:1950:<br><a title="ahnentafels/A10.html">10</a>&nbsp;-&nbsp;<b>Janet Evelyn Savage Cornell</b>
+./src/tables.html:34:2040:<br><a title="ahnentafels/A14.html">14</a>&nbsp;-&nbsp;<b>Charles W. Coulter</b>
+./src/tables.html:35:2121:<br><a title="ahnentafels/A08.html">8</a>&nbsp;-&nbsp;<b>Jane (Weller) Early</b>
+./src/tables.html:38:2374:<br><a title="ahnentafels/A01.html">1</a>&nbsp;-&nbsp;<b>Kathleen Sackett Hayden</b>
+./src/tables.html:40:2546:<br><a title="ahnentafels/A03.html">3</a>&nbsp;-&nbsp;<b>Marguerite Moore</b>
+./src/tables.html:41:2624:<br><a title="ahnentafels/A13.html">13</a>&nbsp;-&nbsp;<b>Donna Davenport Netters</b>
+./src/tables.html:42:2710:<br><a title="ahnentafels/A15.html">15</a>&nbsp;-&nbsp;<b>Patricia St. Clair Ostwald</b>
+./src/tables.html:46:3039:<br><a title="ahnentafels/A19.html">19</a>&nbsp;-&nbsp;<b>Carol Diane McDill Theuriet</b>
+./src/tables.html:47:3129:<br><a title="ahnentafels/A12.html">12</a>&nbsp;-&nbsp;<b>Ann S. White</b>
+./src/history.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up" target="_blank">193</a>-205</dd>
+./src/history/1899/religion.html:11:368:<font size="+1"><a title="../1899.html">1899 HISTORY</a></font>
+./src/history/idx combined.html:24:842:    <a title="#A">A</a>&nbsp; <a href="#B">B</a>&nbsp; <a href="#C">C</a>&nbsp; <a href="#D">D</a>&nbsp;
+./src/history/idx combined.html:361:30302:<p>MEAD, David <a title="1869/9.html#1">1869-70:9</a>, <a href="1869/10.html#2">1869-70:10-11</a>; <a href="1871/022.html#1">1871-72:22-23</a>, <a href="1871/022.html#18">1871-72:24</a>
+./src/history/idx combined.html:538:44722:<center><a title="chronology.html#UP"><img src="../images/up.gif" border="0"></a> &nbsp; <a href="../index.html"><img src="../images/ccg.gif" border="0"></a></center>
+./src/history/twp/Cambridge.html:30:2771:<br><sup><a title="B2" name="N2">2</sup> </a>A petition for review filed 10 Nov. 1879 resulted in a new decree being issued on 13 Feb. 1882. &nbsp;
+./src/history/twp/Cambridge.html:32:2924:<br><sup><a title="B3" name="N3">3</sup> </a>Ct. QS Dk. 12:245 (#86 Aug. Session 1878) [includes metes and bounds description].
+./src/history/twp/Beaver.html:30:2854:<br><sup><a title="B2" name="N2" title="B2">2</sup> </a>Crawford Co. Court of Quarter Sessions.&nbsp; The court papers have been lost, and the information presented here is from a condensed report of the commission appointed to determine the new boundaries, printed in the <i>Crawford Messenger</i> of 26 Feb. 1829.
+./src/history/1876/Tryonville.html:11:443:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./src/history/1876/Tryonville.html:19:1005:<td>Petition to incorporate, from <a title="twp/Steuben.html">Steuben Twp.</a>, not approved<font size="-1"><a href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/1876/Summit.html:21:3469:pioneers to obtain a title to their lands, which were to become valuable eventually, was that of William McFadden, who nominally settled on a tract of land about half a mile west of Harmonsburg, put up a small log cabin, deadened a small piece of timber, and cleared a patch of ground.&nbsp; It is observable that almost all the early settlers planted out orchards on their arrival, guarded them carefully, and enjoyed in quantity what they lacked in quality of the fruit.&nbsp; The first raising in the township was of a hewed-log barn for Brown; it was of immense size, being sixty feet long and thirty-two feet wide.&nbsp; People came to the raising from a distance of twelve miles, and two days were occupied at the work.&nbsp; The first framed barn was put up by John McClure, and soon after a second was raised by John Smith, son of the old settler.&nbsp; The first grist-mill was built by Henry Bright, on Prairie Run, just south of Harmonsburg; a saw-mill was put up near by some time later.&nbsp; In about 1806, a man named Swartz, who had come out with Gehr, built a small tannery on Bright's farm, and followed tanning a few years. Gehr &amp; Brown had the next.&nbsp; Many of the old settlers had stills and manufactured their own liquors, which were comparatively harmless and positively pure.&nbsp; The first religious meeting was held at Gehr's by Swartz, who was class-leader and exhorter.&nbsp; Medical attendance was obtained at Evansburg [now Conneaut Lake].&nbsp; <a name="Harmonsburg" href="../../places/Harmansburg.html"></a>Harmonsburg is the only village in the township.&nbsp; Bright laid out the village in 1816.&nbsp; The first house built in the place was constructed by Joseph McMoultrie, a solider of 1812.&nbsp; This primitive log structure was used for several years as a tavern.&nbsp; The next building was a frame, built by Ephraim Chitister, and used for a tavern; it is still standing.&nbsp; One Whately Barrett, a school-teacher from Vermont, kept the first store in McMoultrie's tavern stand.&nbsp; Luper put up the second house, a log, on the present site of Luper's store.&nbsp; Nathaniel Jones was the village smith for a score of years.&nbsp; The first school was undertaken by Mrs. Knox in her own home, while her husband was out finding employment by days' work.&nbsp; Carson Sloan, who taught during the winter of 1815-16 in the humblest of school-houses of early days, was the first male teacher.&nbsp; "Barring out the master" was a pastime remembered by the aged when many other events had passed from the mind.&nbsp; Such is an example of the power and importance of youthful impressions.
+./src/history/1876/Turnersville.html:11:445:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./src/history/1876/Turnersville.html:19:1018:<td>Incorporated as Turnerville from <a title="twp/SShenango.html">South Shenango Twp.</a><font size="-1"><a href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/1876/Turnersville.html:22:1805:<td>Charter annulled upon formation of <a title="twp/WShenango.html">West Shenango Twp.</a> [q.v.]</td></tr>
+./src/history/1876/Athens.html:12:452:<font size="+1"><a title="76Atlas.html">1876 ATLAS</a></font>
+./src/history/1876/Townville.html:11:442:<font size="+1"><a title="boroughs.html">HISTORICAL BOROUGH BOUNDARIES</a></font>
+./src/history/1876/Townville.html:22:1348:<td>Incorporated from <a title="twp/Steuben.html">Steuben Twp.</a><font size="-1"><a href="#N3"><sup>3</sup></font></a></td></tr>
+./src/history/1871/258.html:14:637:<br><a title="idx.html"><img src="../../images/index.gif" border="0"></a>
+./src/history/1871/template.html:14:628:<br><a title="idx.html"><img src="../../images/index.gif" border="0"></a>
+./src/history/1871/template.html:16:774:<br><a title="*.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./src/history/1871/template.html:17:870:page <b>*</b> &nbsp; &nbsp; &#183; &nbsp; &nbsp; <i><a title="*.html">next page</i></a></font></center>
+./src/history/1871/template.html:23:1012:<center><font size="-1"><a title="*.html"><i>next page</i></a></font></center>
+./src/history/1885/guide.html:46:1782:<td><a title=".html#510">&nbsp510</a>
+./src/history/1885/guide.html:47:1820:<td><a title=".html#511">&nbsp511</a>
+./src/history/1885/guide.html:48:1858:<td><a title=".html#512">&nbsp512</a>
+./src/history/1885/guide.html:49:1896:<td><a title=".html#513">&nbsp513</a>
+./src/history/1885/guide.html:50:1934:<td><a title=".html#514">&nbsp514</a>
+./src/history/1885/guide.html:51:1972:<td><a title=".html#515">&nbsp515</a>
+./src/history/1885/guide.html:52:2010:<td><a title=".html#516">&nbsp516</a>
+./src/history/1885/guide.html:53:2048:<td><a title=".html#517">&nbsp517</a>
+./src/history/1885/guide.html:54:2086:<td><a title=".html#518">&nbsp518</a>
+./src/history/1885/guide.html:55:2124:<td><a title=".html#519">&nbsp519</a>
+./src/history/1885/guide.html:57:2167:<td><a title=".html#520">&nbsp520</a>
+./src/history/1885/guide.html:58:2205:<td><a title=".html#521">&nbsp521</a>
+./src/history/1885/guide.html:59:2243:<td><a title=".html#522">&nbsp522</a>
+./src/history/1885/guide.html:60:2281:<td><a title=".html#523">&nbsp523</a>
+./src/history/1885/guide.html:61:2319:<td><a title=".html#524">&nbsp524</a>
+./src/history/1885/guide.html:62:2357:<td><a title=".html#525">&nbsp525</a>
+./src/history/1885/guide.html:63:2395:<td><a title=".html#526">&nbsp526</a>
+./src/history/1885/guide.html:64:2433:<td><a title=".html#527">&nbsp527</a>
+./src/history/1885/guide.html:65:2471:<td><a title=".html#528">&nbsp528</a>
+./src/history/1885/guide.html:66:2509:<td><a title=".html#529">&nbsp529</a>
+./src/history/1885/guide.html:68:2552:<td><a title=".html#530">&nbsp530</a>
+./src/history/1885/guide.html:69:2590:<td><a title=".html#531">&nbsp531</a>
+./src/history/1885/guide.html:70:2628:<td><a title=".html#532">&nbsp532</a>
+./src/history/1885/guide.html:71:2666:<td><a title=".html#533">&nbsp533</a>
+./src/history/1885/guide.html:72:2704:<td><a title=".html#534">&nbsp534</a>
+./src/history/1885/guide.html:73:2742:<td><a title=".html#535">&nbsp535</a>
+./src/history/1885/guide.html:74:2780:<td><a title=".html#536">&nbsp536</a>
+./src/history/1885/guide.html:75:2818:<td><a title=".html#537">&nbsp537</a>
+./src/history/1885/guide.html:76:2856:<td><a title=".html#538">&nbsp538</a>
+./src/history/1885/guide.html:77:2894:<td><a title=".html#539">&nbsp539</a>
+./src/history/1885/guide.html:79:2937:<td><a title=".html#540">&nbsp540</a>
+./src/history/1885/guide.html:80:2975:<td><a title=".html#541">&nbsp541</a>
+./src/history/1885/guide.html:81:3013:<td><a title=".html#542">&nbsp542</a>
+./src/history/1885/guide.html:82:3051:<td><a title=".html#543">&nbsp543</a>
+./src/history/1885/guide.html:83:3089:<td><a title=".html#544">&nbsp544</a>
+./src/history/1885/guide.html:84:3127:<td><a title=".html#545">&nbsp545</a>
+./src/history/1885/Spring.html:34:7174:<br> &nbsp; &nbsp; As indicated by the above, dissensions were rife between the company and the occupants of the land.&nbsp; A number who settled under contract were afterward led to believe that the company had no good title, and in consequence abandoned the contract and often sought to hold the entire tract by virtue of their rights as resident settlers.&nbsp; In this attempt, however, they were ultimately worsted.&nbsp; Others settled on the tracts without a contract, expecting under the land laws to acquire a title by virtue of residence and improvements made.&nbsp; In this they were disappointed, as the Land company maintained its claim after lengthy litigation in the courts.
+./src/history/1885/Beaver.html:27:3234:<br> &nbsp; &nbsp; The northern and central portions of the township consist of tracts which were patented by individuals, most of whom, however, were not settlers.&nbsp; The land act of 1792, besides the payment of 20 cents per acre, required a five years' residence and the clearing of eight acres to perfect a title to a tract of 400 acres.&nbsp; In many instances a non-resident entered the land and compiled with the terms of settlement by means of a temporary tenant, to whom a stipend or a portion of the tract was given, while other enterprising pioneers with large families entered several tracts, built rude cabins and placed a son in each one.&nbsp; The western part of Beaver Township consists of thirteen tracts, owned by the American Land Company, while in the eastern and southern portions the Pennsylvania Population Company acquired the title of sixteen tracts.
+./src/history/1869/130.html:133:4270:<tr align="right"><td align="left"><a title="S25"></a>&nbsp; &nbsp;Foster Farm, Pioneer Run</td>
+./src/history/1869/13.html:21:1114:<p>&nbsp;  &nbsp;  The very valuable library which the institution possesses was obtained mainly by the untiring zeal of Mr. Alden, who performed one or more tours through the Eastern States to solicit aid from learned and benevolent individuals for his infant seminary.&nbsp; The most liberal contributor was the <a title="8"></a>Rev. Dr. Bentley, a Unitarian clergyman, of Salem, Mass., who had spent his life in amassing one of the rarest collections of theological works in the country.&nbsp; Harvard University had set her eyes upon this collection, and having bestowed a preliminary <i>plum</i>, in the shape of an LL. D. Diploma, patiently awaited the Doctor&#146;s demise.&nbsp;  She occupied, however, the situation of Esau before Isaac, for Mr. Alden had previously &#147;prepared the savory dish, and received the boon.&#148;  The portrait of Dr. Bentley still adorns the walls of the Hall of Allegheny Literary Society.&nbsp; The valuable private libraries of <a name="9"></a>Hon. Judge Winthrop and <a name="10"></a>Isaiah Thomas, Esq., also both of Massachusetts, were added soon after to the College Library through the influence of Mr. Alden, the former being valued at the time at $6,500.&nbsp; But notwithstanding these and other liberal endowments, the College, which commenced its existence as a Presbyterian institution, languished.
+./src/history/1869/11.html:16:787:<br><font size="-1"><a title="Mdvl11.html"><i>prior page</i></a> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./src/history/1869/idx.html:110:7297:<p>MEAD, David <a title="9.html#1">1869-70:9</a>, <a href="10.html#2">1869-70:10-11</a>
+./src/history/1869/idx.html:156:9751:<center><a title="chronology.html#UP"><img src="../../images/up.gif" border="0"></a> &nbsp; <a href="../../index.html"><img src="../../images/ccg.gif" border="0"></a></center>
+./src/history/1869/template.html:16:773:<br><a title="*.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./src/history/1869/template.html:17:869:page <b>*</b> &nbsp; &nbsp; &#183; &nbsp; &nbsp; <i><a title="*.html">next page</i></a></font></center>
+./src/history/1869/template.html:23:1011:<center><font size="-1"><a title="*.html"><i>next page</i></a></font></center>
+./src/history/1869/21.html:16:787:<br><a title="Mdvl20.html"><font size="-1"><i>prior page</a></i> &nbsp; &nbsp; &#183; &nbsp; &nbsp; 
+./src/history/boro/Salem.html:11:443:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Salem.html:17:802:<td>Created from part of <a title="Neshannock.html">Neshannock Twp.</a>, Mercer Co.<font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Salem.html:24:1844:<td>Western part lost to creation of <a title="WSalem.html#B1">West Salem Twp.</a> [q.v.]</td></tr>
+./src/history/boro/Salem.html:26:1989:<td>Northern strip lost to <a title="Fallowfield.html#B2">Fallowfield Twp.</a> [q.v.]</td></tr>
+./src/history/boro/Randolph.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Randolph.html:17:809:<td>Created from the eastern part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Randolph.html:20:1750:<td>Boundaries redefined: eastern and northern parts lost to creation of <a title="Athens.html">Athens Twp.</a>, <a href="Richmond.html">Richmond Twp.</a>, and <a href="Troy.html">Troy Twp.</a>; territory gained from <a href="Wayne.html">Wayne Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/boro/Pitt.html:11:441:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Pitt.html:20:1406:<td>Northern part lost to creation of <a title="Mead.html">Mead Twp.</a> and <a title="Irwin.html">Irwin Twp.</a> [q.v.]</td></tr>
+./src/history/boro/WShenango.html:11:451:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/WShenango.html:19:996:<td>Created from the southwestern part of <a href="SShenango.html">South Shenango Twp.</a> and the borough of <a title="boro/Turnersville.html">Turnersville.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Wayne.html:11:443:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Wayne.html:17:804:<td>Created from the southern part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Wayne.html:20:2188:<td>Parts exchanged with <a href="Plum.html">Plum Twp.</a> and <a title="SugarCreek.html">Sugar Creek Twp.</a> in Venango Co.<font size="-1"><a name="B2"  href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/boro/Wayne.html:23:5037:<td>Boundaries redefined: western part lost to <a title="Fairfield.html">Fairfield Twp.</a>; northeastern part lost to <a href="Randolph.html">Randolph Twp.</a> and to creation of <a href="Troy.html">Troy Twp.</a> <font size="-1"><a name="B3" href="#N3"><sup>3</sup></font></a></td></tr>
+./src/history/boro/Wayne.html:31:6330:<sup><a name="N1">1</sup> </a>Crawford Co. Court of Quarter Sessions Dec. Session 1808 (road papers).&nbsp; The election district was created by Act of 4 April 1809, 1808-9 Pa. Laws 177 (Ch. 102, &sect; 8).&nbsp; Residents had proposed the name <a title="Monroe.html#B1">Monroe Township</a> [q.v.]. &nbsp; <font size="-2"><a href="#B1">BACK</a></font>
+./src/history/boro/Troy.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Troy.html:20:1654:<td>Northern part lost to creation of <a title="Steuben.html">Steuben Twp.</a> [q.v.]</td></tr>
+./src/history/boro/PennLine.html:11:447:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/SShenango.html:11:452:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/SShenango.html:17:823:<td>Created from the southwestern part of <a title="Shenango.html">Shenango Twp.</a><font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/SShenango.html:20:1423:<td>Portion incorporated as the borough of <a title="boro/Turnersville.html#B2">Turnersville</a> [q.v.]</td></tr>
+./src/history/boro/SShenango.html:22:1577:<td>Portion annexed to the borough of <a title="boro/Jamestown.html#B2">Jamestown</a>, Mercer County [q.v.]</td></tr>
+./src/history/boro/SShenango.html:24:1734:<td>Northeastern part lost to <a title="WFallowfield.html#B2">West Fallowfield Twp.</a> [q.v.]</td></tr>
+./src/history/boro/Plum.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Plum.html:17:783:<td>Created from <a title="SugarCreek.html">Sugar Creek Twp.</a>, Venango Co., but attached to <a title="Cherrytree.html">Cherrytree Twp.</a> for township purposes.<font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Rome.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Rome.html:17:803:<td>Created from parts of <a title="Bloomfield.html">Bloomfield Twp.</a> and <a title="OilCreek.html">Oil Creek Twp.</a> <font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Rome.html:21:1708:<td>Southwestern part lost to creation of <a title="Steuben.html#B1">Steuben Twp.</a> [q.v.] </td></tr>
+./src/history/boro/Rome.html:23:1862:<td>Portion incorporated as the borough of <a title="boro/Centerville.html#B2">Centerville</a> [q.v.]</td></tr>
+./src/history/boro/Sadsbury.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Sadsbury.html:17:808:<td>Created from parts of <a href="Conneaut.html">Conneaut Twp.</a> and <a title="Mead.html">Mead Twp.</a><font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Sadsbury.html:20:1556:<td>Territory gained from <a title="Fallowfield.html">Fallowfield Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/boro/Sadsbury.html:23:3891:<td>Boundaries redefined:&nbsp; northern and eastern parts lost to creation of <a title="Hayfield.html">Hayfield Twp.</a>, <a title="Summerhill.html">Summerhill Twp.</a> and <a title="Vernon.html">Vernon Twp.</a>; territory gained from <a href="Conneaut.html">Conneaut Twp.</a>, <a title="Fallowfield.html">Fallowfield Twp.</a>, and <a title="Shenango.html">Shenango Twp.</a> 
+./src/history/boro/Sadsbury.html:28:4823:<td>Northern part lost to creation of <a title="Summit.html#B1">Summit Twp.</a> [q.v.] </td></tr>
+./src/history/boro/Sadsbury.html:30:4969:<td>Portion incorporated as the borough of <a title="boro/Conneaut.html#B2">Evansburg</a> [q.v.]</td></tr>
+./src/history/boro/Sadsbury.html:32:5125:<td>Southwestern part lost to <a title="WFallowfield.html#B2">West Fallowfield Twp.</a> [q.v.]</td></tr>
+./src/history/boro/Rockdale.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Rockdale.html:17:864:<td>Created from part of <a title="Mead.html">Mead Twp.</a> <font size="-1"><a name="B2" href="#N2"><sup>2</sup></font></a></td></tr>
+./src/history/boro/Rockdale.html:20:1674:<td>Territory lost to <a title="Bloomfield.html#B3">Bloomfield Twp.</a> [q.v.]</td></tr>
+./src/history/boro/Rockdale.html:22:1814:<td>Boundaries redefined: parts lost to <a title="Bloomfield.html">Bloomfield Twp.</a> and <a href="Venango.html">Venango Twp.</a> and to creation of <a title="Athens.html">Athens Twp.</a>, <a href="Richmond.html">Richmond Twp.</a>, and <a href="Woodcock.html">Woodcock Twp.</a>; territory west of French Creek gained from <a href="Venango.html">Venango Twp.</a> <font size="-1"><a name="B3"  href="#N3"><sup>3</sup></font></a></td></tr>
+./src/history/boro/Royalton.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/SandyLake.html:11:448:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/SandyLake.html:17:812:<td>Created from parts of <a title="Neshannock.html">Neshannock Twp.</a> and <a title="Irwin.html">Irwin Twp.</a>, Mercer Co.<font size="-1"><a name="B1"  href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Richmond.html:11:446:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Pine.html:11:442:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/Pine.html:17:801:<td>Created from part of <a title="NShenango.html" name="B1">North Shenango Twp.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
+./src/history/boro/Pine.html:20:1417:<td>Western part lost to <a title="NShenango.html">North Shenango Twp.</a> [q.v.]</td></tr>
+./src/history/boro/SandyCreek.html:11:449:<font size="+1"><a title="townships.html">HISTORICAL TOWNSHIP BOUNDARIES</a></font>
+./src/history/boro/SandyCreek.html:25:1566:<td>Northwestern strip lost to <a title="Fairfield.html#B2">Fairfield Twp.</a> and <a title="Fallowfield.html#B2">Fallowfield Twp.</a> [q.v.]</td></tr>
+./src/history/1850/response.html:22:976:<br> &nbsp; &nbsp; It is impossible now to ascertain the motives which actuated the first settlers in emigrating to this county.&nbsp; The contest between claimants under the Connecticut and Pennsylvania titles to lands in Northumberland, seems to have led to the first visit of <a name="141"></a>David Mead.&nbsp; After much trouble and controversy, he lost his farm near Sunbury, and subsequently received indemnity from the commonwealth, by the grant of lands west of Alleghany.&nbsp; <a name="142"></a>Cornelius Van Horn was also involved in that controversy, and received a partial equivalent in money from the state for the losses he sustained.&nbsp; The greater part of the first settlers came from the Susquehanna River, probably in quest of better and cheaper lands.
+./src/history/1874/Cussewago.html:202:14323:was erected in 1857, at a cost of $660.&nbsp; The present pastor is <a title="58"></a>Rev.
+./src/topicidx/subjects.html:636:39073:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54" target="_blank">1852-1854</a>) &nbsp;1:62</dd>
+./src/topicidx/subjects.html:637:39179:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54" target="_blank">1852-1854</a>) &nbsp;2:81</dd>
+./src/census/1820US.html:24:1147:<td><a title="1820/68A.html#Oil Creek">Oil Creek Township</a>
+./src/census/1800tax/test.html:16:879:<i><a title="89.html">next page</i></a></font>
+./src/census/1870m/sh0.html:14:673:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./src/census/1870m/sh0.html:81:5041:<font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./src/census/1870m/sh09.html:45:3449:<br><font size="-1">[Certification of compliance signed by Ass't Marshal <a title="0"></a>E Norris, dated 29 Aug. 1870 � <i>see <a href="sh08.html">prior page</a> for entries</i>]</font>&nbsp;
+./src/census/mortidx/m-g.html:132:7791:<br><br>GREENLEE, (Dr.) <a href="../1880m/ED104.html#128">1880:104</a>, <a href="../1880m/ED105.html#128">1880:105</a>; Cora <a href="../1870m/sh43.html#24">1870:43</a>; D. R. <a href="../1880m/ED104.html#128">1880:104</a>, <a href="../1880m/ED104.html#128">1880:104</a>; Frank <a href="../1880m/ED116.html#128">1880:116</a>; Olive <a href="../1850m/665.html#186">1850:665</a>; Ralph <a href="../1870m/sh02.html#10">1870:02</a>; Sarah <a href="../1850m/629.html#34">1850:629</a>; Simeon <a href="../1850m/663.html#167">1850:663</a>; William C. <a title="../1880m/ED194.html#128">1880:104</a>
+./src/census/mortidx/m-g.html:156:9437:<br><br>GROUTEE, Eliza <a href="../1880m/ED105.html#128">1880:105</a>; Hugo <a title="../1880m/ED205.html#128">1880:105</a>; Madiline <a href="../1880m/ED105.html#128">1880:105</a>
+./src/census/mortidx/m-r.html:18:786:<br>RADACK, infant <a title="../1880m/ED.html#137">1880:122</a>
+./src/census/mortidx/m-r.html:112:5979:<br><br>ROSS, Edwina <a href="../1880m/ED104.html#128">1880:104</a>; John B. <a href="../1880m/ED100.html#307">1880:100</a>; Maggie <a title="../1880m/ED.html#128">1880:114</a>; Smith J. <a href="../1880m/ED100.html#309">1880:100</a>; Thomas <a href="../1860m/14.html#252">1860:14</a>
+./src/census/mortidx/m-m.html:171:8915:<br><br>MARSHALL, C. <a href="../1880m/ED113.html#128">1880:113</a>; David <a title="../1880m/ED1118.html#128">1880:118</a>; James <a href="../1880m/ED118.html#128">1880:118</a>; Kate <a href="../1880m/ED117.html#128">1880:117</a>; Mary <a href="../1880m/ED118.html#128">1880:118</a>; Robert <a href="../1860m/9.html#186">1860:9</a>
+./src/census/mortidx/m-o.html:35:1866:<br><br>OLSON, Allie <a href="../1880m/ED94.html#162">1880:94</a>; Blanche <a href="../1880m/ED94.html#157">1880:94</a>; Peter <a title="../1880m/ED161.html#161">1880:94</a>
+./src/census/mortidx/m-b.html:68:4483:<br><br>BARTHOLOMEW, Eliza <a title="../1880m/ED152.html#152">1880:93</a>; George <a href="../1870m/sh44.html#6">1870:44</a>; <i>see</i> BORTHALAMEW <a href="../1880m/ED125.html#128">1880:125</a>
+./src/census/mortidx/m-p.html:24:1096:<br><br>PALMER, Almeda <a href="../1880m/ED95.html#199">1880:95</a>; Frank Demancy <a href="../1870m/sh13.html#4">1870:13</a>; Perry <a href="../1850m/663.html#182">1850:663</a>; Phebe <a href="../1850m/663.html#181">1850:663</a>; Samuel <a title="../1880m/ED663.html#198">1880:95</a>
+./src/census/mortidx/m-p.html:42:2191:<br><br>PARSONS, (Dr.) <a href="../1880m/ED95.html#183">1880:95</a>, <a title="../1880m/ED.html#128">1880:105</a>; Anson <a href="../1880m/ED116.html#128">1880:116</a>, <a href="../1880m/ED116.html#128">1880:116</a>; Clara <a href="../1870m/sh21.html#7">1870:21</a>
+./src/census/mortidx/m-p.html:46:2629:<br><br>PAYNE, C. <a href="../1880m/ED88.html#42">1880:88</a>; Charles <a title="../1880m/ED.html#49">1880:88</a>
+./src/census/mortidx/m-p.html:76:3962:<br><br>PETERSON, A. <a href="../1880m/ED96.html#216">1880:96</a>; Alice Elda <a href="../1870m/sh17.html#11">1870:17</a>; Amanda <a title="../1880m/ED.html#128">1880:124</a>; Franklin <a href="../1870m/sh15.html#2">1870:15</a>; John Henry<a href="../1870m/sh17.html#12">1870:17</a>
+./src/census/mortidx/m-p.html:87:4819:<a title="../1880m/ED.html#128">1880:125</a>
+./src/census/mortidx/m-p.html:131:7918:<br><br>PRESTON, Sarah <a href="../1850m/649.html#103">1850:649</a><br><br>PRICE, Hattie <a href="../1880m/ED132.html#128">1880:132</a>; James <a title="../1880m/ED.html#128">1880:132</a>
+./src/census/mortidx/m-p.html:135:8225:<br><br>PROPER, (Dr.) <a href="../1880m/ED108.html#128">1880:108</a>, <a href="../1880m/ED122.html#163">1880:122</a>, <a title="../1880m/ED.html#128">1880:122</a>, <a href="../1880m/ED124.html#128">1880:124</a>, <a href="../1880m/ED125.html#128">1880:125</a>; Andrew H., Jr. <a title="../1880m/ED.html#128">1880:126</a>; J. L.
+./src/census/mortidx/m-h.html:214:11614:<br><br>HOPKINS, Gilbert M <a href="../1850m/679.html#246">1850:679</a>; John C. <a href="../1880m/ED129.html#128">1880:129</a>; Leroy <a href="../1880m/ED112.html#128">1880:112</a>; Mary <a href="../1880m/ED95.html#196">1880:95</a>; Mellville <a title="../1880m/ED200.html#200">1880:95</a>; Mertie M. <a href="../1880m/ED122.html#128">E.D.
+./src/census/censusidx/census-c.html:73:3689:<p>CARMAN, Frze <a href="../1820/51A.html">1820:51A</a>; James <a href="../1800PA/89.html#62">1800PA:89</a>, <a href="../1810/433.html">1810:433</a>; Reuben <a title="../1800PA/64.html#57">1800PA:89</a>; Ruben <a href="../1800/11.html">1800:11</a>; Stephen <a href="../1800PA/89.html#61">1800PA:89</a>; <i>see</i> CARMON
+./src/census/mort.html:15:677:<center><a title="#A">A</a>&nbsp; <a href="#B">B</a>&nbsp; <a href="#C">C</a>&nbsp; <a href="#D">D</a>&nbsp; 
+./src/census/mort.html:16:787:<a href="#E">E</a>&nbsp; <a href="#F">F</a>&nbsp; <a href="#G">G</a>&nbsp; <a href="#H">H</a>&nbsp; <a href="#I">I</a>&nbsp; <a href="#J">J</a>&nbsp; <a href="#K">K</a>&nbsp; <a href="#L">L</a>&nbsp; <a href="#M">M</a>&nbsp; <a href="#N">N</a>&nbsp; <a href="#O">O</a>&nbsp; <a href="#P">P</a>&nbsp; <a href="#Q">Q</a>&nbsp; <a href="#R">R</a>&nbsp; <a href="#S">S</a>&nbsp; <a title="#Tt">T</a>&nbsp; <a title="#U">U</a>&nbsp; <a href="#V">V</a>&nbsp; <a href="#W">W</a>&nbsp; <!--a href="#X"-->
+./src/census/1870m.sh11.html:9:283:<br><font size="+2"><a title="../../census.html">Census</a></font>
+./src/census/1870m.sh11.html:11:392:<font size="+1"><a title="../1870US-m.html">1870 U.S. CENSUS - Mortality Schedules</a></font>
+./src/census/1870m.sh11.html:12:486:<br><font size="+2">&nbsp;<a title="../mortidx.html"><img title="../../images/index.gif" border="0"></a>&nbsp;</font>
+./src/census/1870m.sh11.html:13:604:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./src/census/1870m.sh11.html:38:2909:<tr align="center"><td colspan="14"><font size="+1"><a title="../../places/$.html" name="$">$ TOWNSHIP</a></font>
+./src/census/1870m.sh11.html:80:4971:<font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./src/census/1798.htm:34:1140:<link rel=themeData title="1798_files/themedata.thmx">
+./src/census/1870m.sh1.html:9:283:<br><font size="+2"><a title="../../census.html">Census</a></font>
+./src/census/1870m.sh1.html:11:392:<font size="+1"><a title="../1870US-m.html">1870 U.S. CENSUS - Mortality Schedules</a></font>
+./src/census/1870m.sh1.html:12:486:<br><font size="+2">&nbsp;<a title="../mortidx.html"><img title="../../images/index.gif" border="0"></a>&nbsp;</font>
+./src/census/1870m.sh1.html:13:604:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
+./src/census/1870m.sh1.html:38:2908:<tr align="center"><td colspan="14"><font size="+1"><a title="../../places/$.html" name="$">$ TOWNSHIP</a></font>
+./src/census/1870m.sh1.html:80:4988:<font size="-1"><a title="sh#.html"><i>next page</i></a></font>
+./src/census/1798 table.htm:47:1716:<link rel=themeData title="1798%20table_files/themedata.thmx">
+./src/census/1850m/temp.html:33:2581:<tr align="center"><td colspan="12"><font size="+1"><a title="../../places/.html"> TOWNSHIP</a></font>
+./src/fairfield.html:11:446:    <font size="+1"><a title="./1899.html">1899</a></font>
+./src/ccg.html:9:310:<br><font size="-2">To</font> <font size="-2"><a title="subscribe.html">SUBSCRIBE</font></center>
+./src/ccg.html:11:517:newsletter issued by the <a title="society.html">Crawford County Genealogical Society</a>.&nbsp; 
+./src/ccg.html:21:1341:&nbsp; A <a title="contents/21a.html">table of contents</a> and every name <a title="contents/nameidx.html">
+./src/ccg.html:23:1622:Periodical Index</i> and in <i>Periodical Source Index</i> (PERSI).&nbsp; Certain <a title="backccg.html">back issues</a> 
+./src/ccg.html:24:1745:are available for purchase, and many genealogical <a title="deposit.html">libraries</a> carry CCG.
+
+
+These are the files that got changed:
+src/biography/1899.html
+src/biography/Rome.html
+src/biography/b.html
+src/biography/f.html
+src/biography/misc.html
+src/biography/s.html
+src/ccg.html
+src/census/1798 table.htm
+src/census/1798.htm
+src/census/1800tax/test.html
+src/census/1820US.html
+src/census/1850m/temp.html
+src/census/1870m.sh1.html
+src/census/1870m.sh11.html
+src/census/1870m/sh0.html
+src/census/1870m/sh09.html
+src/census/censusidx/census-c.html
+src/census/mort.html
+src/census/mortidx/m-b.html
+src/census/mortidx/m-g.html
+src/census/mortidx/m-h.html
+src/census/mortidx/m-m.html
+src/census/mortidx/m-o.html
+src/census/mortidx/m-p.html
+src/census/mortidx/m-r.html
+src/contents.html
+src/court/adopt/escheat.html
+src/court/adoptold.html
+src/court/bb/bb.html
+src/court/div/pad.html
+src/court/div/std.html
+src/court/div/stdalpha.html
+src/court/mw/idx template.html
+src/court/mw/idx.html
+src/court/mw/idxtemp.html
+src/court/statdiv.html
+src/court/tax/template.html
+src/fairfield.html
+src/history.html
+src/history/1850/response.html
+src/history/1869/11.html
+src/history/1869/13.html
+src/history/1869/130.html
+src/history/1869/21.html
+src/history/1869/idx.html
+src/history/1869/template.html
+src/history/1871/258.html
+src/history/1871/template.html
+src/history/1874/Cussewago.html
+src/history/1876/Athens.html
+src/history/1876/Summit.html
+src/history/1876/Townville.html
+src/history/1876/Tryonville.html
+src/history/1876/Turnersville.html
+src/history/1885/Beaver.html
+src/history/1885/Spring.html
+src/history/1885/guide.html
+src/history/1899/religion.html
+src/history/boro/PennLine.html
+src/history/boro/Pine.html
+src/history/boro/Pitt.html
+src/history/boro/Plum.html
+src/history/boro/Randolph.html
+src/history/boro/Richmond.html
+src/history/boro/Rockdale.html
+src/history/boro/Rome.html
+src/history/boro/Royalton.html
+src/history/boro/SShenango.html
+src/history/boro/Sadsbury.html
+src/history/boro/Salem.html
+src/history/boro/SandyCreek.html
+src/history/boro/SandyLake.html
+src/history/boro/Troy.html
+src/history/boro/WShenango.html
+src/history/boro/Wayne.html
+src/history/idx combined.html
+src/history/twp/Beaver.html
+src/history/twp/Cambridge.html
+src/indices/c.html
+src/indices/d.html
+src/indices/g.html
+src/military/1776/B.html
+src/military/1776/C.html
+src/military/1776/D.html
+src/military/1776/F.html
+src/military/1776/G.html
+src/military/1776/H.html
+src/military/1776/R.html
+src/military/1776/V.html
+src/military/1776/veterans.html
+src/military/Indian.html
+src/places/Meadville.html
+src/places/Springboro.html
+src/places/temp.html
+src/places/tempboro.html
+src/research.html
+src/tables.html
+src/topicidx/subjects.html
+src/townships.html
+	
+	
