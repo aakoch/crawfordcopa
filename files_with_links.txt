@@ -103,7 +103,7 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./dist/court/bb/index.html:334:10007:<br><font size="-1"><a title="#FN7ret" name="FN7"><sup>7</sup></a>&nbsp; </font>
 ./dist/court/bb/index.html:336:10093:<br><font size="-1"><a title="#FN8ret" name="FN8"><sup>8</sup></a>&nbsp; </font>
 ./dist/court/bb/index.html:338:10179:<br><font size="-1"><a title="#FN9ret" name="FN9"><sup>9</sup></a>&nbsp; </font>
-./dist/court/adopt/escheat/index.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197" target="_blank">S<font size="-1">ECT</font>. 2.</a> &#8230;
+./dist/court/adopt/escheat/index.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197">S<font size="-1">ECT</font>. 2.</a> &#8230;
 ./dist/court/adoptold/index.html:300:17753:<td><font size="-1"><a title="adopt/1856-85#78:89">Ethel Ellis</a></font></td></tr>
 ./dist/court/tax/Erie1801/index.html:35:1208:<link rel=themeData title="1801Erie_files/themedata.thmx">
 ./dist/court/tax/template/index.html:11:382:<font size="+1"><a title="../taxes.html">TAX DUPLICATES</a></font>
@@ -262,7 +262,7 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./dist/military/1776/B/index.html:359:91751:<li><a title="../../1820/64A.html">1820</a> U.S. census, Cussewago Twp., p. 64:&nbsp; John Burney, - - - - - 1 &#124; - - - 1 1 &#124; - - - -.
 ./dist/military/1776/veterans/index.html:13:549:<br><a title="idx.html"><img src="../../images/index.gif" align="center" valign="bottom"></a></center></a>
 ./dist/history/1899/religion/index.html:11:368:<font size="+1"><a title="../1899.html">1899 HISTORY</a></font>
-./dist/history/index.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up" target="_blank">193</a>-205</dd>
+./dist/history/index.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up">193</a>-205</dd>
 ./dist/history/twp/Cambridge/index.html:30:2771:<br><sup><a title="B2" name="N2">2</sup> </a>A petition for review filed 10 Nov. 1879 resulted in a new decree being issued on 13 Feb. 1882. &nbsp;
 ./dist/history/twp/Cambridge/index.html:32:2924:<br><sup><a title="B3" name="N3">3</sup> </a>Ct. QS Dk. 12:245 (#86 Aug. Session 1878) [includes metes and bounds description].
 ./dist/history/twp/Beaver/index.html:30:2854:<br><sup><a title="B2" name="N2" title="B2">2</sup> </a>Crawford Co. Court of Quarter Sessions.&nbsp; The court papers have been lost, and the information presented here is from a condensed report of the commission appointed to determine the new boundaries, printed in the <i>Crawford Messenger</i> of 26 Feb. 1829.
@@ -382,8 +382,8 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./dist/history/boro/WShenango/index.html:19:996:<td>Created from the southwestern part of <a href="SShenango.html">South Shenango Twp.</a> and the borough of <a title="boro/Turnersville.html">Turnersville.</a> <font size="-1"><a name="B1" href="#N1"><sup>1</sup></font></a></td></tr>
 ./dist/history/1850/response/index.html:22:976:<br> &nbsp; &nbsp; It is impossible now to ascertain the motives which actuated the first settlers in emigrating to this county.&nbsp; The contest between claimants under the Connecticut and Pennsylvania titles to lands in Northumberland, seems to have led to the first visit of <a name="141"></a>David Mead.&nbsp; After much trouble and controversy, he lost his farm near Sunbury, and subsequently received indemnity from the commonwealth, by the grant of lands west of Alleghany.&nbsp; <a name="142"></a>Cornelius Van Horn was also involved in that controversy, and received a partial equivalent in money from the state for the losses he sustained.&nbsp; The greater part of the first settlers came from the Susquehanna River, probably in quest of better and cheaper lands.
 ./dist/history/1874/Cussewago/index.html:202:14323:was erected in 1857, at a cost of $660.&nbsp; The present pastor is <a title="58"></a>Rev.
-./dist/topicidx/subjects/index.html:638:39056:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54" target="_blank">1852-1854</a>) &nbsp;1:62</dd>
-./dist/topicidx/subjects/index.html:639:39162:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54" target="_blank">1852-1854</a>) &nbsp;2:81</dd>
+./dist/topicidx/subjects/index.html:638:39056:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54">1852-1854</a>) &nbsp;1:62</dd>
+./dist/topicidx/subjects/index.html:639:39162:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54">1852-1854</a>) &nbsp;2:81</dd>
 ./dist/census/1820US/index.html:24:1147:<td><a title="1820/68A.html#Oil Creek">Oil Creek Township</a>
 ./dist/census/1800tax/test/index.html:16:879:<i><a title="89.html">next page</i></a></font>
 ./dist/census/1870m/sh09/index.html:45:3449:<br><font size="-1">[Certification of compliance signed by Ass't Marshal <a title="0"></a>E Norris, dated 29 Aug. 1870 � <i>see <a href="sh08.html">prior page</a> for entries</i>]</font>&nbsp;
@@ -494,7 +494,7 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./src/court/bb/bb.html:334:10007:<br><font size="-1"><a title="#FN7ret" name="FN7"><sup>7</sup></a>&nbsp; </font>
 ./src/court/bb/bb.html:336:10093:<br><font size="-1"><a title="#FN8ret" name="FN8"><sup>8</sup></a>&nbsp; </font>
 ./src/court/bb/bb.html:338:10179:<br><font size="-1"><a title="#FN9ret" name="FN9"><sup>9</sup></a>&nbsp; </font>
-./src/court/adopt/escheat.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197" target="_blank">S<font size="-1">ECT</font>. 2.</a> &#8230;
+./src/court/adopt/escheat.html:292:68694:<br> &nbsp; &nbsp; <a title="legit.#1825-197">S<font size="-1">ECT</font>. 2.</a> &#8230;
 ./src/court/statdiv.html:29:4604:<br> &nbsp; &nbsp; Divorce bills were generally referred to a committee on divorces,<font size="-1"><sup><a name="15"><a href="#N15">15</sup></a></font> but the committee papers apparently do not survive.&nbsp; Additional details, however, may be discoverable in the <i>Minutes of the &#133; General Assembly of Pennsylvania</i> or the <i>Legislative Journal</i> for the sessions when the bill was introduced and debated upon.&nbsp; Information added from the state Senate, House of Representative, and Legislative Journals (abbreviated Sen., H.R., and Leg. Journal, respectively), and references thereto, are rendered in the accompanying abstracts in italics.<font size="-1"><sup><a title="N16" name="16">16</sup></a></font>
 ./src/court/tax/template.html:11:382:<font size="+1"><a title="../taxes.html">TAX DUPLICATES</a></font>
 ./src/court/mw/idx template.html:74:2285:<p>LUSE, M. H. <a title="fst.html#*">1895FST</a>
@@ -680,7 +680,7 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./src/tables.html:42:2710:<br><a title="ahnentafels/A15.html">15</a>&nbsp;-&nbsp;<b>Patricia St. Clair Ostwald</b>
 ./src/tables.html:46:3039:<br><a title="ahnentafels/A19.html">19</a>&nbsp;-&nbsp;<b>Carol Diane McDill Theuriet</b>
 ./src/tables.html:47:3129:<br><a title="ahnentafels/A12.html">12</a>&nbsp;-&nbsp;<b>Ann S. White</b>
-./src/history.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up" target="_blank">193</a>-205</dd>
+./src/history.html:33:1282:    <dd>1899 Samuel P. Bates&#146; <i>Our County and Its History</i>, pp. <a title="http://archive.org/stream/ourcountryitspeo00bate#page/193/mode/1up">193</a>-205</dd>
 ./src/history/1899/religion.html:11:368:<font size="+1"><a title="../1899.html">1899 HISTORY</a></font>
 ./src/history/idx combined.html:24:842:    <a title="#A">A</a>&nbsp; <a href="#B">B</a>&nbsp; <a href="#C">C</a>&nbsp; <a href="#D">D</a>&nbsp;
 ./src/history/idx combined.html:361:30302:<p>MEAD, David <a title="1869/9.html#1">1869-70:9</a>, <a href="1869/10.html#2">1869-70:10-11</a>; <a href="1871/022.html#1">1871-72:22-23</a>, <a href="1871/022.html#18">1871-72:24</a>
@@ -801,8 +801,8 @@ find . -name "*.htm*" -exec sed "s/a title/a href/g" {} \;
 ./src/history/boro/SandyCreek.html:25:1566:<td>Northwestern strip lost to <a title="Fairfield.html#B2">Fairfield Twp.</a> and <a title="Fallowfield.html#B2">Fallowfield Twp.</a> [q.v.]</td></tr>
 ./src/history/1850/response.html:22:976:<br> &nbsp; &nbsp; It is impossible now to ascertain the motives which actuated the first settlers in emigrating to this county.&nbsp; The contest between claimants under the Connecticut and Pennsylvania titles to lands in Northumberland, seems to have led to the first visit of <a name="141"></a>David Mead.&nbsp; After much trouble and controversy, he lost his farm near Sunbury, and subsequently received indemnity from the commonwealth, by the grant of lands west of Alleghany.&nbsp; <a name="142"></a>Cornelius Van Horn was also involved in that controversy, and received a partial equivalent in money from the state for the losses he sustained.&nbsp; The greater part of the first settlers came from the Susquehanna River, probably in quest of better and cheaper lands.
 ./src/history/1874/Cussewago.html:202:14323:was erected in 1857, at a cost of $660.&nbsp; The present pastor is <a title="58"></a>Rev.
-./src/topicidx/subjects.html:636:39073:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54" target="_blank">1852-1854</a>) &nbsp;1:62</dd>
-./src/topicidx/subjects.html:637:39179:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54" target="_blank">1852-1854</a>) &nbsp;2:81</dd>
+./src/topicidx/subjects.html:636:39073:  <dd><i>See also</i> Deaths (<a title="../vital/d1852-54">1852-1854</a>) &nbsp;1:62</dd>
+./src/topicidx/subjects.html:637:39179:  <dd><i>See also</i> Marriages (<a title="../vital/m1852-54">1852-1854</a>) &nbsp;2:81</dd>
 ./src/census/1820US.html:24:1147:<td><a title="1820/68A.html#Oil Creek">Oil Creek Township</a>
 ./src/census/1800tax/test.html:16:879:<i><a title="89.html">next page</i></a></font>
 ./src/census/1870m/sh0.html:14:673:<br><font size="-1"><a title="sh$.html"><i>prior page</i></a></font> &nbsp; &#183; &nbsp; <b>$</b>th page &nbsp; &#183; &nbsp; <font size="-1"><a title="sh$.html"><i>next page</i></a></font>
